@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Okami Map</title>
+  <meta name="description" content="Map of treasure, clovers, etc. in Okami">
+  <meta name="author" content="Daniel Shepsis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <table>
+  <thead>
+    <tr>
+      <th>Map</th>
+      <th>Type</th>
+      <th>Contents</th>
+      <th>Image</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody id="tb">
+  </tbody>
+  </table>
+
+<script>
+const tb = getElementById('tb');
+
+function textEl(type, text) {
+  const el = document.createElement(type);
+  el.innerText = text;
+  return el;
+}
+
+function imageEl(src) {
+  const img = document.createElement("img");
+  img.src = src;
+  return img;
+}
+
+function datumToTR(datum) {
+  const tr = document.createElement('tr');
+  const {map, type, contents, image, notes} = datum;
+  const children = [textEl(map), textEl(type), textEl(contents), imageEl(image), textEl(notes)];
+  for (const c of children) {
+    tr.appendChild(c);
+  }
+  return tr;
+}
+
+(async ()=>{
+  const response = await fetch('./data.json');
+  const data = await response.json();
+  for (const datum of data) {
+    tb.appendChild(datumToTR(datum));
+  }
+})();
+</script>
+
+</body>
+</html>
