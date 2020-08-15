@@ -5,5 +5,12 @@
 		"contents": "Stray Bead",
 		"image": "./CaveOfNagi/sb01.png",
 		"notes": "Stray Bead #1"
+	},
+	{
+		"map": "Hana Valley (r103)",
+		"type": "Pot",
+		"contents": "Feedbag (Fish)",
+		"image": "./HanaValley/potFish.png",
+		"notes": ""
 	}
 ]
