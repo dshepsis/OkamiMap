@@ -13,6 +13,7 @@
 * {
   font: 20px/1.5 sans-serif;
   color: #222;
+  box-sizing: border-box;
 }
 html {
   background: #f8f8f8;
@@ -26,6 +27,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin: 0;
+  overflow: hidden;
 }
 #preview {
   display: block;
@@ -35,26 +37,37 @@ body {
   flex: 0 0 auto;
 }
 #table-cont {
-  flex: 1 0 auto;
+  flex: 1 1 auto;
+  overflow-y: scroll;
+  max-width: 100%;
 }
   
 table {
   border-collapse: collapse;
-}
-
-thead {
-  background: lightgreen;
+  table-layout: fixed;
+  width: 1500px;
+  max-width:100%;
 }
 
 td, th {
-  border: 1px solid gray;
-  padding: 5px;
+  padding: 5px 10px;
+  word-wrap:break-word
+}
+
+td + td {
+  border-left: 1px dashed #aaa;
 }
   
 th {
   font-weight: bold;
+  position: sticky;
+  top: 0;
+  background: #afc;
 }
 
+button {
+  margin-right: 5px;
+}
 </style>
 </head>
 
@@ -64,10 +77,10 @@ th {
     <table>
     <thead>
       <tr>
-        <th>Map</th>
-        <th>Type</th>
-        <th>Contents</th>
-        <th>Image</th>
+        <th style="width:25%">Map</th>
+        <th style="width:10%">Type</th>
+        <th style="width:15%">Contents</th>
+        <th style="width:12%">Image</th>
         <th>Notes</th>
       </tr>
     </thead>
@@ -82,12 +95,11 @@ const pvImg = document.getElementById('preview');
 /* Handle preview buttons with a single event, rather than having hundreds: */
 function tbOnClick(event) {
   const tgt = event.target;
-  if (tgt.class != 'pv') return;
+  if (tgt.className != 'pv') return;
   const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
   pvImg.src = imageSrc;
 }
 tb.addEventListener('click', tbOnClick);
-
 function tdEl(text) {
   const el = document.createElement('td');
   el.innerText = text;
@@ -101,7 +113,7 @@ function tdImageEl(src) {
     return td;
   }
   const pvButton = document.createElement('button');
-  pvButton.class = 'pv';
+  pvButton.className = 'pv';
   pvButton.innerText = "Preview";
   const link = document.createElement('a');
   link.innerText = "Link";
@@ -122,10 +134,15 @@ function datumToTR(datum) {
 }
 
 (async ()=>{
-  const response = await fetch('./data.json');
-  const data = await response.json();
-  for (const datum of data) {
-    tb.appendChild(datumToTR(datum));
+  let response;
+  try {
+    response = await fetch('./data.json');
+    const data = await response.json();
+    for (const datum of data) {
+      tb.appendChild(datumToTR(datum));
+    }
+  } catch (e) {
+    console.log(e);
   }
 })();
 </script>
