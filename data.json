@@ -1,9 +1,9 @@
 [
 	{
-		map: "Cave of Nagi (r101)";
-		type: "Chest";
-		contents: "Stray Bead";
-		image: "./CaveOfNagi/sb01.png";
-		notes: "Stray Bead #1";
+		"map": "Cave of Nagi (r101)",
+		"type": "Chest",
+		"contents": "Stray Bead",
+		"image": "./CaveOfNagi/sb01.png",
+		"notes": "Stray Bead #1"
 	}
 ]
