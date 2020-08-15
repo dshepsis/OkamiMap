@@ -96,6 +96,10 @@ function tdEl(text) {
 
 function tdImageEl(src) {
   const td = document.createElement('td');
+  if (src === undefined) {
+    td.innerText = "No image :(";
+    return td;
+  }
   const pvButton = document.createElement('button');
   pvButton.class = 'pv';
   pvButton.innerText = "Preview";
