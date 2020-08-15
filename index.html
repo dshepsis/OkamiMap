@@ -34,16 +34,18 @@ function tdEl(text) {
   return el;
 }
 
-function imageEl(src) {
+function tdImageEl(src) {
+  const td = document.createElement('td');
   const img = document.createElement('img');
   img.src = src;
+  td.appendChild(img);
   return img;
 }
 
 function datumToTR(datum) {
   const tr = document.createElement('tr');
   const {map, type, contents, image, notes} = datum;
-  const children = [tdEl(map), tdEl(type), tdEl(contents), imageEl(image), tdEl(notes)];
+  const children = [tdEl(map), tdEl(type), tdEl(contents), tdImageEl(image), tdEl(notes)];
   for (const c of children) {
     tr.appendChild(c);
   }
