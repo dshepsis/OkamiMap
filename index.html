@@ -28,14 +28,14 @@
 <script>
 const tb = document.getElementById('tb');
 
-function textEl(type, text) {
-  const el = document.createElement(type);
+function tdEl(text) {
+  const el = document.createElement('td);
   el.innerText = text;
   return el;
 }
 
 function imageEl(src) {
-  const img = document.createElement("img");
+  const img = document.createElement('img');
   img.src = src;
   return img;
 }
@@ -43,7 +43,7 @@ function imageEl(src) {
 function datumToTR(datum) {
   const tr = document.createElement('tr');
   const {map, type, contents, image, notes} = datum;
-  const children = [textEl(map), textEl(type), textEl(contents), imageEl(image), textEl(notes)];
+  const children = [tdEl(map), tdEl(type), tdEl(contents), imageEl(image), tdEl(notes)];
   for (const c of children) {
     tr.appendChild(c);
   }
