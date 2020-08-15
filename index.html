@@ -8,25 +8,82 @@
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<style>
+* {
+  font: 20px/1.5 sans-serif;
+  color: #222;
+}
+html {
+  background: #f8f8f8;
+}
+  
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#preview {
+  display: block;
+  width:100%;
+  max-height:30%;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+#table-cont {
+  flex: 1 0 auto;
+}
+  
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background: lightgreen;
+}
+
+td, th {
+  border: 1px solid gray;
+  padding: 5px;
+}
+  
+th {
+  font-weight: bold;
+}
+
+</style>
 </head>
 
 <body>
-  <table>
-  <thead>
-    <tr>
-      <th>Map</th>
-      <th>Type</th>
-      <th>Contents</th>
-      <th>Image</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody id="tb">
-  </tbody>
-  </table>
-
+  <img id="preview" alt="Preview Image" src="./CaveOfNagi/sb01.png" />
+  <div id="table-cont">
+    <table>
+    <thead>
+      <tr>
+        <th>Map</th>
+        <th>Type</th>
+        <th>Contents</th>
+        <th>Image</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody id="tb">
+    </tbody>
+    </table>
+  </div>
 <script>
 const tb = document.getElementById('tb');
+
+/* Handle preview buttons with a single event, rather than having hundreds: */
+function tbOnClick(event) {
+  const tgt = event.target;
+  if (tgt.class != 'pv') return;
+  const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
+  pv.src = imageSrc;
+}
+tb.addEventListener('click', tbOnClick);
 
 function tdEl(text) {
   const el = document.createElement('td');
@@ -36,10 +93,15 @@ function tdEl(text) {
 
 function tdImageEl(src) {
   const td = document.createElement('td');
-  const img = document.createElement('img');
-  img.src = src;
-  td.appendChild(img);
-  return img;
+  const pvButton = document.createElement('button');
+  pvButton.class = 'pv';
+  pvButton.innerText = "Preview";
+  const link = document.createElement('a');
+  link.innerText = "Link";
+  link.href = src;
+  td.appendChild(pvButton);
+  td.appendChild(link);
+  return td;
 }
 
 function datumToTR(datum) {
