@@ -43,8 +43,8 @@
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": "Under water",
-    "image": "./Kamiki/RabbitStatue_GlassBeads.png"
+    "notes": "",
+    "image": "./Kamiki/GlassBeads.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -66,7 +66,7 @@
     "type": "Chest",
     "contents": "Rabbit Statue",
     "terrain": "Underwater",
-    "notes": "Under water",
+    "notes": "",
     "image": "./Kamiki/RabbitStatue_GlassBeads.png"
   },
   {
@@ -81,7 +81,7 @@
     "type": "Chest",
     "contents": "Vase",
     "terrain": "Underwater",
-    "notes": "Under water",
+    "notes": "",
     "image": "./Kamiki/Vase.png"
   },
   {
@@ -90,7 +90,7 @@
     "contents": "Glass Beads",
     "terrain": "Underwater",
     "notes": "",
-    "image": "./Kamiki/GlassBeads.png"
+    "image": "./Kamiki/RabbitStatue_GlassBeads.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -221,6 +221,7 @@
     "map": "Hana Valley (r103)",
     "type": "Chest-Special",
     "contents": "Sun Fragment",
+    "terrain": "On Land",
     "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.",
     "image": "./HanaValley/SunFragment.png"
   },
