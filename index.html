@@ -96,10 +96,11 @@ footer {
     <table>
     <thead>
       <tr>
-        <th style="width:25%">Map</th>
-        <th style="width:10%">Type</th>
-        <th style="width:15%">Contents</th>
-        <th style="width:12%">Image</th>
+        <th style="width:25%;">Map</th>
+        <th style="width:10%;">Type</th>
+        <th style="width:8%;">Terrain</th>
+        <th style="width:15%;">Contents</th>
+        <th style="width:12%;">Image</th>
         <th>Notes</th>
       </tr>
     </thead>
@@ -174,8 +175,8 @@ function tdImageEl(src) {
 
 function datumToTR(datum) {
   const tr = document.createElement('tr');
-  const {map, type, contents, image, notes} = datum;
-  const children = [tdEl(map), tdEl(type), tdEl(contents), tdImageEl(image), tdEl(notes)];
+  const {map, type, terrain, contents, image, notes} = datum;
+  const children = [tdEl(map), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)];
   for (const c of children) {
     tr.appendChild(c);
   }
