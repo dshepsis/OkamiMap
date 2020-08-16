@@ -73,7 +73,7 @@ th {
   font-weight: bold;
   position: sticky;
   top: 0;
-  background: #afc;
+  background: #fca;
 }
 
 .pv {
@@ -92,7 +92,7 @@ footer {
 </head>
 
 <body>
-  <img id="preview" alt="Preview Image" src="./CaveOfNagi/sb01.png" />
+  <img id="preview" alt="Preview Image" src="./Kamiki/Chicken.png" />
   <div id="table-cont">
     <table>
     <thead>
@@ -197,7 +197,7 @@ function datumToTR(datum) {
 (async ()=>{
   let response;
   try {
-    response = await fetch('./data.json');
+    response = await fetch('./animalData.json');
     const data = await response.json();
     for (const datum of data) {
       tb.appendChild(datumToTR(datum));
