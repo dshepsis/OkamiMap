@@ -32,7 +32,7 @@ body {
 #preview {
   display: block;
   width:100%;
-  max-height:40%;
+  max-height:50%;
   object-fit: contain;
   flex: 0 0 auto;
   position: relative;
@@ -56,7 +56,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   width: 1500px;
-  max-width:100%;
+  max-width: 100%;
 }
 
 td, th {
@@ -78,6 +78,15 @@ th {
 .pv {
   margin-right: 5px;
 }
+
+footer {
+  flex: 0 0 auto;
+  background-color: #ccc;
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #aaa;
+}
 </style>
 </head>
 
@@ -95,31 +104,56 @@ th {
       </tr>
     </thead>
     <tbody id="tb">
-      <tr><td>Cave of Nagi (r101)</td><td>Chest</td><td>Stray Bead</td><td><button class="pv">Preview</button><a href="./CaveOfNagi/sb01.png">Link</a></td><td>Stray bead #1</td></tr><tr><td>Hana Valley (r103)</td><td>Pot</td><td>Feedbag (Seeds)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Pot</td><td>Feedbag (Fish)</td><td><button class="pv">Preview</button><a href="./HanaValley/potFish.png">Link</a></td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Stray Bead</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Coral Fragment</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Traveler's Charm</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>"Travel Guide: Digging Tips"</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Incense Burner</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Stray Bead</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Vengeance Slip</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Exorcism Slip S</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Traveler's Charm</td><td>No image :(</td><td></td></tr>
     </tbody>
     </table>
   </div>
+  <footer>
+    <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
+    | Credits to WhatAboutClyde for decompressing and parsing the game files.
+    | Site by Auride
+  </footer>
 <script>
 const tb = document.getElementById('tb');
 const pvImg = document.getElementById('preview');
 
 /* Handle preview buttons with a single event, rather than having hundreds: */
-function tbOnClick(event) {
-  const tgt = event.target;
-  if (tgt.className != 'pv') return;
-  const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
-  pvImg.src = imageSrc;
-  /* When an image is loading, put overlay on preview image: */
-  pvImg.classList.add('loading');
-}
-tb.addEventListener('click', tbOnClick);
-function tdEl(text) {
-  const el = document.createElement('td');
-  el.innerText = text;
-  return el;
-}
-/* When preview image loading finishes, remove overlay: */
-pvImg.addEventListener('load', ()=>pvImg.classList.remove('loading'));
+(()=>{
+  let activeButton = null;
+  let activeButtonText;
+  function tbOnClick(event) {
+    const tgt = event.target;
+    if (tgt.className != 'pv') return;
+    const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
+    pvImg.src = imageSrc;
+    /* When an image is loading, put overlay on preview image: */
+    pvImg.classList.add('loading');
+
+    /* Change the pressed button's text to "Loading": */
+    if (activeButton !== null) {
+      activeButton.innerText = activeButtonText;
+      activeButton.removeAttribute('disabled');
+    }
+    activeButtonText = tgt.innerText;
+    tgt.innerText = "Loading";
+    tgt.setAttribute('disabled', '');
+    activeButton = tgt;
+  }
+  tb.addEventListener('click', tbOnClick);
+  function tdEl(text) {
+    const el = document.createElement('td');
+    el.innerText = text;
+    return el;
+  }
+  /* When preview image loading finishes, remove overlay: */
+  function onLoad() {
+    pvImg.classList.remove('loading');
+    if (activeButton === null) return;
+    activeButton.innerText = activeButtonText;
+    activeButton.removeAttribute('disabled');
+    activeButton = null;
+  }
+  pvImg.addEventListener('load', onLoad);
+})();
 
 function tdImageEl(src) {
   const td = document.createElement('td');
@@ -160,6 +194,7 @@ function datumToTR(datum) {
     console.log(e);
   }
 })();
+
 </script>
 
 </body>
