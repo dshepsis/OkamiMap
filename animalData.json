@@ -81,7 +81,7 @@
   },
   {
     "map": "Hana Valley (r103)",
-    "bestiary": "Boar",
+    "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar (1), Boar Piglet (2)",
@@ -98,7 +98,7 @@
   },
   {
     "map": "City Checkpoint (r105)",
-    "bestiary": "Boar",
+    "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar Piglet (2)",
@@ -370,7 +370,7 @@
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
-    "bestiary": "Boar",
+    "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar (1), Boar Piglet (14)",
@@ -538,7 +538,7 @@
   },
   {
     "map": "Yoshpet (r310)",
-    "bestiary": "Boar",
+    "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar (2), Boar Piglet (1)",
@@ -558,35 +558,39 @@
     "availability": "Always",
     "praise": 0,
     "types": "Hare (4)",
-    "notes": ""
+    "notes": "After clearing a devil gate",
+    "image": "./ShinshuField/HareA.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Hare (5)",
-    "notes": ""
+    "notes": "After clearing a devil gate",
+    "image": "./ShinshuField/HareB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Hare (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/HareD.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Hare (5)",
-    "notes": ""
+    "notes": "After clearing a devil gate",
+    "image": "./ShinshuField/HareE.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
-    "bestiary": "Boar",
+    "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar Piglet (5)",
@@ -594,27 +598,30 @@
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
-    "bestiary": "Boar",
+    "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 15,
     "types": "Boar (2), Boar Piglet (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/BoarA_TravelGuideFeeding.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Pig",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Pig (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Pig.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/HareC.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -628,9 +635,10 @@
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Horse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Horse (2)",
-    "notes": ""
+    "notes": "After clearing mermaid spring devil gate",
+    "image": "./ShinshuField/Horse.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -786,7 +794,7 @@
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
-    "bestiary": "Boar",
+    "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar Piglet (2)",
@@ -922,7 +930,7 @@
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
-    "bestiary": "Boar",
+    "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar Piglet (1)",
@@ -978,7 +986,7 @@
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
-    "bestiary": "Boar",
+    "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar Piglet (1)",

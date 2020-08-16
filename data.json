@@ -3445,105 +3445,159 @@
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotMeatA.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotHerbsA.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Wooden Bear",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/WoodenBear.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/TravelersCharm.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotHerbsB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsA.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Vase",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Vase.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #5",
+    "image": "./ShinshuField/sb05.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsC.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Coral Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After Blooming cursed patch and Cherry Bombing ground",
+    "image": "./ShinshuField/CoralFragment.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotFishA.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsD.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #6",
+    "image": "./ShinshuField/sb06.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
+    "notes": "After clearing Devil Gate",
+    "image": "./ShinshuField/VengeanceSlip.png"
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "type": "Pot",
+    "contents": "Feedbag (Seeds)",
+    "terrain": "On Land",
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsE.png"
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "type": "Chest",
+    "contents": "Stray Bead",
+    "terrain": "Buried",
+    "notes": "Stray Bead #7",
+    "image": "./ShinshuField/sb07.png"
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "type": "Pot",
+    "contents": "Feedbag (Herbs)",
+    "terrain": "On Land",
+    "notes": "",
+    "image": "./ShinshuField/PotHerbsC.png"
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "type": "Pot",
+    "contents": "Feedbag (Seeds)",
+    "terrain": "On Land",
     "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "type": "Pot",
+    "contents": "Feedbag (Herbs)",
+    "terrain": "On Land",
+    "notes": "",
+    "image": "./ShinshuField/PotHerbsD.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3557,70 +3611,40 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
-  },
-  {
-    "map": "Shinshu Field (Healed) (rf02)",
-    "type": "Pot",
-    "contents": "Feedbag (Herbs)",
-    "terrain": "On Land",
-    "notes": ""
-  },
-  {
-    "map": "Shinshu Field (Healed) (rf02)",
-    "type": "Pot",
-    "contents": "Feedbag (Seeds)",
-    "terrain": "On Land",
-    "notes": ""
-  },
-  {
-    "map": "Shinshu Field (Healed) (rf02)",
-    "type": "Pot",
-    "contents": "Feedbag (Herbs)",
-    "terrain": "On Land",
-    "notes": ""
-  },
-  {
-    "map": "Shinshu Field (Healed) (rf02)",
-    "type": "Pot",
-    "contents": "Feedbag (Seeds)",
-    "terrain": "On Land",
-    "notes": ""
-  },
-  {
-    "map": "Shinshu Field (Healed) (rf02)",
-    "type": "Chest",
-    "contents": "Stray Bead",
-    "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #8",
+    "image": "./ShinshuField/sb08.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Rat Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After Cherry Bomb tutorial",
+    "image": "./ShinshuField/RatStatue.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Requires Cherry Bomb",
+    "image": "./ShinshuField/ExorcismSlipS.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Clover5A.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Clover5B.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3655,7 +3679,8 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Clover30A.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3669,35 +3694,40 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Fleeing Battle\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/TravelGuideFleeingBattle.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "\"Travel Guide: Feeding\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/BoarA_TravelGuideFeeding.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Crystal.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Clover30B.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "White Porcelain Pot",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/WhitePorcelainPot.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3732,14 +3762,16 @@
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Pearl.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Chest",
     "contents": "\"Travel Guide: Legend of Orochi\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/TravelGuideLegendofOrochi.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -5447,7 +5479,8 @@
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/KutaniPottery.png"
   },
   {
     "map": "Shinshu Field (Past) (rf20)",
