@@ -31,7 +31,7 @@
     "map": "Hana Valley (r103)",
     "type": "Chest",
     "contents": "Stray Bead",
-    "notes": "Buried",
+    "notes": "Buried, Stray Bead #11",
 		"image": "./HanaValley/sb11.png"
   },
   {
@@ -915,7 +915,7 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Stray Bead",
-    "notes": "",
+    "notes": "Stray Bead #02",
     "image": "./Kamiki/sb02.png"
   },
   {
