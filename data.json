@@ -10,7 +10,8 @@
     "map": "Hana Valley (r103)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
-    "notes": ""
+    "notes": "",
+		"image": "./HanaValley/potSeeds.png"
   },
   {
     "map": "Hana Valley (r103)",
@@ -23,43 +24,57 @@
     "map": "Hana Valley (r103)",
     "type": "Clover",
     "contents": "Praise (5)",
-    "notes": ""
+    "notes": "",
+		"image": "./HanaValley/clover5A.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Chest",
     "contents": "Stray Bead",
-    "notes": ""
+    "notes": "Buried",
+		"image": "./HanaValley/sb11.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Chest",
     "contents": "Coral Fragment",
-    "notes": ""
+    "notes": "Buried",
+		"image": "./HanaValley/CoralFragment.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Clover",
     "contents": "Praise (5)",
-    "notes": ""
+    "notes": "Must restore island by beating 2nd campfire fight",
+		"image": "./HanaValley/Clover5B.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Clover",
     "contents": "Praise (5)",
-    "notes": ""
+    "notes": "",
+		"image": "./HanaValley/Clover5C.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Chest",
     "contents": "Traveler's Charm",
-    "notes": ""
+    "notes": "",
+		"image": "./HanaValley/TravelersCharm.png"
   },
   {
     "map": "Hana Valley (r103)",
     "type": "Chest",
     "contents": "\"Travel Guide: Digging Tips\"",
-    "notes": ""
+    "notes": "Must restore island by beating 2nd campfire fight",
+		"image": "./HanaValley/DiggingTips.png"
+  },
+  {
+    "map": "Hana Valley (r103)",
+    "type": "Chest-Special",
+    "contents": "Sun Fragment",
+    "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.",
+		"image": "./HanaValley/SunFragment.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
@@ -887,7 +902,8 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Traveler's Charm",
-    "notes": ""
+    "notes": "Buried",
+    "image": "./Kamiki/TravelersCharm.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
@@ -899,19 +915,22 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Stray Bead",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/sb02.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
-    "notes": ""
+    "notes": "",
+    "image":"./Kamiki/ExorcismSlipS.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Glass Beads",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/RabbitStatue_GlassBeads.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
@@ -923,13 +942,15 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
-    "notes": ""
+    "notes": "Buried",
+    "image": "./Kamiki/DragonflyBeadA.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Rabbit Statue",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/RabbitStatue_GlassBeads.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
@@ -941,19 +962,22 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Vase",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/Vase.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Glass Beads",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/GlassBeads.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Sun Fragment",
-    "notes": ""
+    "notes": "Normally requires Water Lily. Can be obtained early via Slope Storage.",
+    "image": "./Kamiki/SunFragment.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
@@ -965,7 +989,8 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/DragonflyBeadB.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
@@ -983,13 +1008,15 @@
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Wooden Bear",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/WoodenBear.png"
   },
   {
     "map": "Kamiki Village (Post-Full Moon) (r112)",
     "type": "Chest",
     "contents": "Feedbag (Seeds)",
-    "notes": ""
+    "notes": "Triggers tutorial when collected",
+    "image": "./Kamiki/FeedbagSeeds.png"
   },
   {
     "map": "Ryoshima Coast Spider Queen Grotto (r113)",
@@ -1271,13 +1298,14 @@
     "map": "River of the Heavens (r122)",
     "type": "Chest",
     "contents": "Holy Bone S",
-    "notes": ""
+    "notes": "",
+    "image": "./RiverOfTheHeavens/HolyBoneS.png"
   },
   {
     "map": "River of the Heavens (r122)",
     "type": "Chest",
     "contents": "Astral Pouch",
-    "notes": ""
+    "notes": "./RiverOfTheHeavens/AstralPouch.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
