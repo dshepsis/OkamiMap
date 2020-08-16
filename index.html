@@ -139,11 +139,6 @@ const pvImg = document.getElementById('preview');
     activeButton = tgt;
   }
   tb.addEventListener('click', tbOnClick);
-  function tdEl(text) {
-    const el = document.createElement('td');
-    el.innerText = text;
-    return el;
-  }
   /* When preview image loading finishes, remove overlay: */
   function onLoad() {
     pvImg.classList.remove('loading');
@@ -155,6 +150,11 @@ const pvImg = document.getElementById('preview');
   pvImg.addEventListener('load', onLoad);
 })();
 
+function tdEl(text) {
+    const el = document.createElement('td');
+    el.innerText = text;
+    return el;
+}
 function tdImageEl(src) {
   const td = document.createElement('td');
   if (src === undefined) {
