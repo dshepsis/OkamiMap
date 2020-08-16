@@ -35,7 +35,17 @@ body {
   max-height:40%;
   object-fit: contain;
   flex: 0 0 auto;
+  position: relative;
+  opacity: 1;
+  filter: none;
+  transition-property: opacity filter;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
 }
+#preview.loading {
+  opacity: 0.5;
+}
+
 #table-cont {
   flex: 1 1 auto;
   overflow-y: scroll;
@@ -85,6 +95,7 @@ th {
       </tr>
     </thead>
     <tbody id="tb">
+      <tr><td>Cave of Nagi (r101)</td><td>Chest</td><td>Stray Bead</td><td><button class="pv">Preview</button><a href="./CaveOfNagi/sb01.png">Link</a></td><td>Stray bead #1</td></tr><tr><td>Hana Valley (r103)</td><td>Pot</td><td>Feedbag (Seeds)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Pot</td><td>Feedbag (Fish)</td><td><button class="pv">Preview</button><a href="./HanaValley/potFish.png">Link</a></td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Stray Bead</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Coral Fragment</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>Traveler's Charm</td><td>No image :(</td><td></td></tr><tr><td>Hana Valley (r103)</td><td>Chest</td><td>"Travel Guide: Digging Tips"</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Incense Burner</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Stray Bead</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Vengeance Slip</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Exorcism Slip S</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Clover</td><td>Praise (5)</td><td>No image :(</td><td></td></tr><tr><td>Tsuta Ruins (r104)</td><td>Bloom Pod</td><td>Traveler's Charm</td><td>No image :(</td><td></td></tr>
     </tbody>
     </table>
   </div>
@@ -98,6 +109,8 @@ function tbOnClick(event) {
   if (tgt.className != 'pv') return;
   const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
   pvImg.src = imageSrc;
+  /* When an image is loading, put overlay on preview image: */
+  pvImg.classList.add('loading');
 }
 tb.addEventListener('click', tbOnClick);
 function tdEl(text) {
@@ -105,6 +118,8 @@ function tdEl(text) {
   el.innerText = text;
   return el;
 }
+/* When preview image loading finishes, remove overlay: */
+pvImg.addEventListener('load', ()=>pvImg.classList.remove('loading'));
 
 function tdImageEl(src) {
   const td = document.createElement('td');
