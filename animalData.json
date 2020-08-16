@@ -1,0 +1,1267 @@
+[
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "None",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Hawk (8)",
+    "notes": ""
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Chicken",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Chicken (4)",
+    "notes": "",
+    "image": "./Kamiki/Chicken.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": "",
+    "image": "./Kamiki/Hare.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hayabusa / Chu (2)",
+    "notes": "",
+    "image": "./Kamiki/DogHayabusa.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (4)",
+    "notes": "",
+    "image": "./Kamiki/SparrowC.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (5)",
+    "notes": "",
+    "image": "./Kamiki/SparrowA.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (3)",
+    "notes": "",
+    "image": "./Kamiki/SparrowB.png"
+  },
+  {
+    "map": "Kamiki Village (r102)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (3)",
+    "notes": "",
+    "image": "./Kamiki/SparrowD.png"
+  },
+  {
+    "map": "Hana Valley (r103)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (3)",
+    "notes": "",
+    "image": "./HanaValley/Monkey.png"
+  },
+  {
+    "map": "Hana Valley (r103)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar (1), Boar Piglet (2)",
+    "notes": "",
+    "image": "./HanaValley/Boar.png"
+  },
+  {
+    "map": "City Checkpoint (r105)",
+    "bestiary": "Nightingale",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Nightingale (3)",
+    "notes": ""
+  },
+  {
+    "map": "City Checkpoint (r105)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar Piglet (2)",
+    "notes": ""
+  },
+  {
+    "map": "City Checkpoint (r105)",
+    "bestiary": "Raccoon",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Raccoon (2)",
+    "notes": ""
+  },
+  {
+    "map": "City Checkpoint (r105)",
+    "bestiary": "Nightingale",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Nightingale (2)",
+    "notes": ""
+  },
+  {
+    "map": "City Checkpoint (r105)",
+    "bestiary": "Horse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Horse (2)",
+    "notes": ""
+  },
+  {
+    "map": "Gale Shrine (r107)",
+    "bestiary": "None",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Hawk (6)",
+    "notes": ""
+  },
+  {
+    "map": "Gale Shrine (r107)",
+    "bestiary": "Mouse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Mouse (4)",
+    "notes": ""
+  },
+  {
+    "map": "Gale Shrine (r107)",
+    "bestiary": "Mouse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Mouse (7)",
+    "notes": ""
+  },
+  {
+    "map": "Gale Shrine (r107)",
+    "bestiary": "Mouse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Mouse (8)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "None",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Hawk (5)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Chi (1)",
+    "notes": "Listed in group 0 internally"
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Ko (1)",
+    "notes": "Listed in group 0 internally"
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Rei (1)",
+    "notes": "Listed in group 0 internally"
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Shin (1)",
+    "notes": "Listed in group 0 internally"
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Tei (1)",
+    "notes": "Listed in group 0 internally"
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (5)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Raccoon",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Raccoon (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (5)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Chicken",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Chicken (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Chicken",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Chicken (4)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Pig",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Pig (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Chicken",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Chicken (4)",
+    "notes": ""
+  },
+  {
+    "map": "Kusa Village (r108)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (3)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Take / Gi (5)",
+    "notes": "Not listed in files"
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (5)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (5)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (4)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (4)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Tiger",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Tiger (2)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Tiger",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Tiger (2)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Mouse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Mouse (3)",
+    "notes": ""
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Mouse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Mouse (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass - Moley's Treasure Trove (r114)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (16)",
+    "notes": ""
+  },
+  {
+    "map": "Dragon Palace Grotto Under Stairs (r11c)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar (1), Boar Piglet (14)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (14), Hare (Patchwork) (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Catcall Tower (r20a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Owl (3)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (2)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (3)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Crane",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Crane (3)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (4)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (3)",
+    "notes": ""
+  },
+  {
+    "map": "Wep'keer (r301)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamiki Village (Past) (r302)",
+    "bestiary": "100 Year Old Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "100 Year Old Dog (1)",
+    "notes": ""
+  },
+  {
+    "map": "Yoshpet (r310)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (3)",
+    "notes": ""
+  },
+  {
+    "map": "Yoshpet (r310)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "Yoshpet (r310)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar (2), Boar Piglet (1)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "None",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Hawk (6)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (4)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (5)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (4)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (5)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar Piglet (5)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar (2), Boar Piglet (3)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Pig",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Pig (3)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (4)",
+    "notes": ""
+  },
+  {
+    "map": "Shinshu Field (Healed) (rf02)",
+    "bestiary": "Horse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Horse (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Ume / Jin (1)",
+    "notes": "Not listed in files"
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Nightingale",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Nightingale (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (2)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (3)",
+    "notes": ""
+  },
+  {
+    "map": "Agata Forest (Healed) (rf04)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "Moon Cave Entrance (rf06)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Crow (6)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bat (4)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Horse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Horse (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Sparrow (3)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar Piglet (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Tiger",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Tiger (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (3)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (3)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Dog (1)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Dog (1)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Deer",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Deer (4)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Horse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Horse (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (2)",
+    "notes": ""
+  },
+  {
+    "map": "Taka Pass (Healed) (rf08)",
+    "bestiary": "Nightingale",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Nightingale (8)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bat (3), Crow (5), Seagull (9)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Cow",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cow (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (1)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (4)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Dog (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar Piglet (1)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (4)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Horse",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Horse (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (4)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (4)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (2)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (Patchwork) (1)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Boar",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Boar Piglet (1)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Cow",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cow (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (3)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Nightingale",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Nightingale (4)",
+    "notes": ""
+  },
+  {
+    "map": "Ryoshima Coast (Healed) (rf0a)",
+    "bestiary": "Pig",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Pig (1)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "None",
+    "availability": "Day",
+    "praise": 0,
+    "types": "Seagull (6)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (3)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (4)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Cow",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cow (3)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Dog",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Dog (3)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Pig",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Pig (5)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (4)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Tiger",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Tiger (3)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (3)",
+    "notes": ""
+  },
+  {
+    "map": "North Ryoshima Coast (rf0c)",
+    "bestiary": "Cat",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Cat (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bat (4), Owl (4)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Crane",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Crane (4)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Fox",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Fox (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Crane",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Crane (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Healed) (rf12)",
+    "bestiary": "Hare",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Hare (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "None",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Owl (2)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Sheep",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Sheep (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (5)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Monkey",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Monkey (3)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Bear",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Bear (1)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Crane",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Crane (4)",
+    "notes": ""
+  },
+  {
+    "map": "Kamui (Ezofuji) (rf13)",
+    "bestiary": "Raccoon",
+    "availability": "Always",
+    "praise": 0,
+    "types": "Raccoon (3)",
+    "notes": ""
+  }
+]
