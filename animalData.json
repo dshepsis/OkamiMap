@@ -592,9 +592,10 @@
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 15,
     "types": "Boar Piglet (5)",
-    "notes": ""
+    "notes": "After Blooming cursed patch",
+    "image": "./ShinshuField/BoarB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -627,9 +628,10 @@
     "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 4,
     "types": "Sparrow (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/Sparrow.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -652,81 +654,91 @@
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Hare (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/HareB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 3,
     "types": "Sparrow (3)",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./Agata/SparrowA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Monkey (3)",
-    "notes": ""
+    "notes": "After clearing devil gate",
+    "image": "./Agata/MonkeyA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Deer (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Hare (2)",
-    "notes": ""
+    "notes": "After Blooming a cursed patch",
+    "image": "./Agata/HareC.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Nightingale",
     "availability": "Day",
-    "praise": 0,
+    "praise": 3,
     "types": "Nightingale (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/Nightingale.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Deer (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerE.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Deer (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerC.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Deer (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerD_TravelGuideEnhancingWeapons.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Deer (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -740,17 +752,19 @@
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 3,
     "types": "Sparrow (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/SparrowB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/HareA_DevoutBeads.png"
   },
   {
     "map": "Moon Cave Entrance (rf06)",

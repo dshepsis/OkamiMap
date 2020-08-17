@@ -74,7 +74,8 @@
     "type": "Chest",
     "contents": "Coral Fragment",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Inside Mr. Orange's House",
+    "image": "./Kamiki/CoralFragment.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -105,7 +106,8 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kamiki/Clover5A.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -986,7 +988,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #12",
+    "image": "./Agata/sb12.png"
   },
   {
     "map": "Calcified Cavern (r10e)",
@@ -3589,7 +3592,8 @@
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsF.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3604,7 +3608,8 @@
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsG.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3734,28 +3739,32 @@
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotSeedsH.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotFishB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotMeatB.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/PotHerbsE.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3785,77 +3794,88 @@
     "type": "Bloom Pod",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/HolyBoneS.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/GlassBeads.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/LacquerwareSetB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/SteelFistSake.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Wooden Bear",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/WoodenBear.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/ExorcismSlipS.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/InkfinityStone.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/TravelersCharm.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Coral Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/CoralFragment.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotHerbsA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotSeedsA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -3869,35 +3889,40 @@
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotSeedsB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotHerbsB.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Bloom Pod",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After Blooming cursed patch inside tree near mermaid spring",
+    "image": "./Agata/IncenseBurner.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Devout Beads",
     "terrain": "Required Pickup",
-    "notes": "Chest can be skipped, but Ammy is frozen upon opening the chest and the item flies to her."
+    "notes": "Chest can be skipped, but Ammy is frozen upon opening the chest and the item flies to her.",
+    "image": "./Agata/HareA_DevoutBeads.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #13",
+    "image": "./Agata/sb13.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -3925,7 +3950,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Stray Bead #16",
+    "image": "./Agata/sb16.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -3946,49 +3972,56 @@
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/LacquerwareSet.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotHerbsC.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/PotHerbsD.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/Clover5A.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DragonflyBead.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #14",
+    "image": "./Agata/sb14.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Steel Soul sake",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/SteelSoulSake.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -4058,14 +4091,16 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Battle Tips\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/TravelGuideBattleTips.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "\"Travel Guide: Enhancing Weapons\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/DeerD_TravelGuideEnhancingWeapons.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
