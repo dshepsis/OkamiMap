@@ -232,203 +232,232 @@
     "type": "Bloom Pod",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1st Floor, 3rd room",
+    "image": "Tsuta/IncenseBurner.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #18, 2nd Floor, Blockhead room",
+    "image": "Tsuta/sb18.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1st floor, double Bud Ogre room",
+    "image": "Tsuta/VengeanceSlip.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/Clover5A.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/ExorcismSlipSA.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/Clover5B.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Floor 1, 2nd room",
+    "image": "Tsuta/Clover5C.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Floor 1, 3rd room, above the entrance door",
+    "image": "Tsuta/Clover5D.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/TravelersCharm.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/SteelSoulSake.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "2nd Floor, double bud ogre room",
+    "image": "Tsuta/Clover5E.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/Clover5F.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1st floor, 3rd room",
+    "image": "Tsuta/SteelFistSake.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2nd Floor, after Blockhead room",
+    "image": "Tsuta/ExorcismSlipSB.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/Clover5G.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #19, Triple Gate Room, behind Cherry Bomb-able wall behind waterfall",
+    "image": "Tsuta/sb19.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Backtrack to Bud Ogre room after getting Vine.",
+    "image": "Tsuta/Clover5H.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "\"Travel Guide: Enhancing Divinity\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/TravelGuideEnhancingDivinity.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Top of Blockhead room with Vine",
+    "image": "Tsuta/Clover5IJ_GoldenPeach.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Top of Blockhead room with Vine",
+    "image": "Tsuta/Clover5IJ_GoldenPeach.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Top of Blockhead room with Vine",
+    "image": "Tsuta/Clover5IJ_GoldenPeach.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "\"Travel Guide: Godhood Tips\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/TravelGuideGodhoodTips.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/HolyBoneSB.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Triple Gate Room",
+    "image": "Tsuta/LacquerwareSet.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Triple Gate Room",
+    "image": "Tsuta/HolyBoneSA.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #20. Backtrack to Bud Ogre room with Vine.",
+    "image": "Tsuta/sb20.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "Vase",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "Tsuta/Vase.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "Tsuta Ruins Map",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Triple Gate Room, on ledge with poison pots",
+    "image": "Tsuta/TsutaRuinsMap.png"
   },
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2nd Floor, after Blockhead room on the ledge to the right of the door",
+    "image": "Tsuta/BullHorn.png"
   },
   {
     "map": "City Checkpoint (r105)",
