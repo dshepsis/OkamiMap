@@ -220,73 +220,82 @@
     "map": "Kusa Village (r108)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 5,
     "types": "Sparrow (5)",
-    "notes": ""
+    "notes": "Along the path to Mr. Bamboo's house.",
+    "image": "./Kusa/SparrowA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Monkey (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/MonkeyA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Raccoon",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Raccoon (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Raccoon.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 5,
     "types": "Sparrow (5)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/SparrowB.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Chicken (2)",
-    "notes": ""
+    "notes": "Requires Galestorm",
+    "image": "./Kusa/sb29_ChickenB.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Chicken (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/ChickenA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Pig",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Pig (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Pig.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Chicken (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/ChickenC.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Monkey (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/MonkeyB.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
@@ -806,113 +815,127 @@
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Deer (2)",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./Taka/DeerC.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Horse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Horse (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/HorseA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 3,
     "types": "Sparrow (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Sparrow.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Boar Piglet (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/BoarPiglet.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Fox",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Fox (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/FoxA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Tiger",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Tiger (2)",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./Taka/Tiger.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Deer (3)",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./Taka/DeerA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Monkey (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Monkey.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 3,
     "types": "Dog (1)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/DogA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 3,
     "types": "Dog (1)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/DogB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
-    "praise": 0,
+    "praise": 16,
     "types": "Deer (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/DeerB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Horse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Horse (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/HorseB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Fox",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Fox (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/FoxB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Nightingale",
     "availability": "Day",
-    "praise": 0,
+    "praise": 8,
     "types": "Nightingale (8)",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Nightingale.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",

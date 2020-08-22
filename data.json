@@ -765,154 +765,176 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Clover5A.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Clover5B.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Blockhead cave",
+    "image": "./Kusa/BullHorn_Clover5DE.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Gale Shrine Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Requires Galestorm",
+    "image": "./Kusa/SunFragment.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Clover5C.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Rei's cave",
+    "image": "./Kusa/PotMeatA_PotHerbsA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/PotMeatA_PotHerbsA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Inside Blockhead cave",
+    "image": "./Kusa/BullHorn_Clover5DE.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/PotMeatB.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Gale Shrine Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/GlassBeads.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Gale Shrine Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #29. Requires Galestorm.",
+    "image": "./Kusa/sb29_ChickenB.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/PotSeedsA.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #27",
+    "image": "./Kusa/sb27.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/PotSeedsB.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #29. Inside Mr. Bamboo's house.",
+    "image": "./Kusa/sb28.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Inside Blockhead cave",
+    "image": "./Kusa/BullHorn_Clover5DE.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/PotFish.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/IncenseBurner.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "One-eyed Doll",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Inn",
+    "image": "./Kusa/ExorcismSlipS.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/Clover5F.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/DragonflyBead.png"
   },
   {
     "map": "Kusa Village (r108)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./Kusa/LacquerwareSet.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
@@ -4184,196 +4206,224 @@
     "type": "Chest",
     "contents": "Tiger Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Vine from above",
+    "image": "./Taka/TigerStatue.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/GlassBeadsB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Use Waterspout pillar to reach it.",
+    "image": "./Taka/Clover5A.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Requires Vine and Galestorm",
+    "image": "./Taka/GoldenPeach.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotHerbsA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotHerbsB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Flaming Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #25",
+    "image": "./Taka/sb25.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotFish.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Flaming Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Crystal.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotHerbsC.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotSeedsA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotSeedsB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Clover5B.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #22",
+    "image": "./Taka/sb22.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotHerbsD.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Wooden Horse",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "In the wooden horse, not the pots",
+    "image": "./Taka/HorseMeat.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/HolyBoneSA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Reach with several Vines",
+    "image": "./Taka/Clover5CDE.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Reach with several Vines",
+    "image": "./Taka/Clover5CDE.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Reach with several Vines",
+    "image": "./Taka/Clover5CDE.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/GlassBeadsA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #23",
+    "image": "./Taka/sb23.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/HolyBoneSB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/PotSeedsC.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/IncenseBurner.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/VengeanceSlip.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/LacquerwareSetA.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #24. Under leaf pile.",
+    "image": "./Taka/sb24.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
@@ -4395,35 +4445,40 @@
     "type": "Chest",
     "contents": "Vase",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/Vase.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/LacquerwareSetB.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Coral Fragment",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/CoralFragment.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Taka/Pearl.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Stray Bead #21. The chest is hidden, but you can see the bubbles.",
+    "image": "./Taka/sb21.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
