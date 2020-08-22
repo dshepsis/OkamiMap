@@ -20,15 +20,16 @@
     "type": "Chest",
     "contents": "Inkfinity Stone",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Water Lily",
+    "image": "./Kamiki/InkfinityStone.png"
   },
   {
     "map": "Kamiki Village (r102)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "Stray Bead #02",
-    "image": "./Kamiki/sb02.png"
+    "notes": "Stray Bead #3. Requires Water Lily.",
+    "image": "./Kamiki/sb03.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -51,7 +52,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #2",
+    "image": "./Kamiki/sb02.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -122,14 +124,16 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "With Vine",
+    "image": "./Kamiki/Clover5B.png"
   },
   {
     "map": "Kamiki Village (r102)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #4",
+    "image": "./Sasa/sb04.png"
   },
   {
     "map": "Kamiki Village (r102)",
@@ -569,168 +573,192 @@
     "type": "Gale Shrine Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/SunFragment.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Flaming Chest",
     "contents": "Gale Shrine Map",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/GaleShrineMap.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Flaming Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #34",
+    "image": "./GaleShrine/sb34.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotSeedsA.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotSeedsB.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotSeedsC.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotHerbs.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotSeedsD.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/PotSeedsE.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Flaming Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/Pearl.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Flaming Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/LacquerwareSet.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/SteelSoulSake.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Flaming Chest",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/InkfinityStone.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Wooden Bear",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/WoodenBear.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/ExorcismSlipS.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #33. Under Cherry Bomb elevator, Southwest side.",
+    "image": "./GaleShrine/sb33.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Under Cherry Bomb elevator, North side",
+    "image": "./GaleShrine/HolyBoneS.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Rabbit Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Under Cherry Bomb elevator, East side",
+    "image": "./GaleShrine/RabbitStatue.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Gale Shrine Chest",
     "contents": "\"Travel Guide: Brush Tips\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/TravelGuideBrushTips.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Rightmost chest in the image",
+    "image": "./GaleShrine/BullHorn_DragonflyBead_HolyBoneS.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Middle chest in the image",
+    "image": "./GaleShrine/BullHorn_DragonflyBead_HolyBoneS.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Leftmost chest in the image",
+    "image": "./GaleShrine/BullHorn_DragonflyBead_HolyBoneS.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under Cherry Bomb elevator, Southeast side",
+    "image": "./GaleShrine/Clover5A.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under Cherry Bomb elevator, West side",
+    "image": "./GaleShrine/Clover5B.png"
   },
   {
     "map": "Kusa Village (r108)",
@@ -891,105 +919,120 @@
     "type": "Sasa Chest",
     "contents": "Vase",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 4th chest on West side.",
+    "image": "./Sasa/Vase.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Dragonfly Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 2nd chest on West side.",
+    "image": "./Sasa/DragonflyBead.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Coral Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 5th chest on East side.",
+    "image": "./Sasa/CoralFragment.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Wooden Bear",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 3rd chest on East side.",
+    "image": "./Sasa/WoodenBear.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 1st chest on East side.",
+    "image": "./Sasa/GlassBeads.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 4th chest on East side.",
+    "image": "./Sasa/HolyBoneS.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 2nd chest on East side.",
+    "image": "./Sasa/TravelersCharm.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 5th chest on West side.",
+    "image": "./Sasa/ExorcismSlipS.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 3rd chest on West side.",
+    "image": "./Sasa/SteelFistSake.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Jamba's room, 1st chest on West side.",
+    "image": "./Sasa/SteelSoulSake.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "After Waterspout tutorial",
+    "image": "./Sasa/Clover5A.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #30",
+    "image": "./Sasa/sb30.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Lacquerware Set",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/LacquerwareSet.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Incense Burner",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/IncenseBurner.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "One-eyed Doll",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inn interior, North-West room on second floor. Dot the empty eye.",
+    "image": "./Sasa/sb31.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
@@ -1003,14 +1046,16 @@
     "type": "Sasa Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #32",
+    "image": "./Sasa/sb32.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
     "contents": "Golden Peach",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/GoldenPeach.png"
   },
   {
     "map": "Agata Forest - Madame Fawn's (r10a)",
@@ -3987,14 +4032,16 @@
     "type": "Free-standing",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Agata/sb15.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Free-standing",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "With Vine",
+    "image": "./Kamiki/BullHornA.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -4106,7 +4153,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Ink Bullet Tips\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After completing log bridge minigame",
+    "image": "./Agata/TravelGuideInkBulletTips.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -4339,7 +4387,8 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Taka/Clover30.png"
   },
   {
     "map": "Taka Pass (Healed) (rf08)",

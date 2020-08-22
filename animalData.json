@@ -140,25 +140,28 @@
     "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Mouse (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/MouseB.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 7,
     "types": "Mouse (7)",
-    "notes": ""
+    "notes": "",
+    "image": "./GaleShrine/MouseC.png"
   },
   {
     "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Mouse (8)",
-    "notes": ""
+    "notes": "Under Cherry Bomb elevator",
+    "image": "./GaleShrine/MouseA.png"
   },
   {
     "map": "Kusa Village (r108)",
@@ -174,39 +177,44 @@
     "availability": "Always",
     "praise": 0,
     "types": "Chi (1)",
-    "notes": "Listed in group 0 internally"
+    "notes": "Listed in group 0 internally. Found near Mr. Bamboo's house.",
+    "image": "./Kusa/Chi.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Ko (1)",
-    "notes": "Listed in group 0 internally"
+    "notes": "Listed in group 0 internally. In upper-level cave reachable via Vine.",
+    "image": "./Kusa/Ko.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Rei (1)",
-    "notes": "Listed in group 0 internally"
+    "notes": "Listed in group 0 internally. Found in cave behind Cherry Bomb wall.",
+    "image": "./Kusa/Rei.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Shin (1)",
-    "notes": "Listed in group 0 internally"
+    "notes": "Listed in group 0 internally. In flower bed after Blooming cursed patch.",
+    "image": "./Kusa/Shin.png"
   },
   {
     "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Tei (1)",
-    "notes": "Listed in group 0 internally"
+    "notes": "Listed in group 0 internally",
+    "image": "./Kusa/Tei.png"
   },
   {
     "map": "Kusa Village (r108)",
@@ -284,9 +292,19 @@
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Take / Gi (5)",
-    "notes": "Not listed in files"
+    "notes": "Not listed in files",
+    "image": "./Sasa/Take.png"
+  },
+  {
+    "map": "Sasa Sanctuary (r109)",
+    "bestiary": "Sparrow",
+    "availability": "Day",
+    "praise": 5,
+    "types": "Sparrow (5)",
+    "notes": "",
+    "image": "./Sasa/SparrowA.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
@@ -294,71 +312,71 @@
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (5)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/SparrowB.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
-    "types": "Sparrow (5)",
-    "notes": ""
-  },
-  {
-    "map": "Sasa Sanctuary (r109)",
-    "bestiary": "Sparrow",
-    "availability": "Day",
-    "praise": 0,
+    "praise": 4,
     "types": "Sparrow (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/SparrowC.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
-    "praise": 0,
+    "praise": 4,
     "types": "Sparrow (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/SparrowD.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/Hare.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Tiger",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Tiger (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/TigerA.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Tiger",
     "availability": "Always",
-    "praise": 0,
+    "praise": 10,
     "types": "Tiger (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/TigerB.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Mouse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Mouse (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Sasa/MouseA.png"
   },
   {
     "map": "Sasa Sanctuary (r109)",
     "bestiary": "Mouse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Mouse (2)",
-    "notes": ""
+    "notes": "Inn interior, South-West room 2nd floor.",
+    "image": "./Sasa/MouseB.png"
   },
   {
     "map": "Taka Pass - Moley's Treasure Trove (r114)",
@@ -648,7 +666,8 @@
     "availability": "Always",
     "praise": 0,
     "types": "Ume / Jin (1)",
-    "notes": "Not listed in files"
+    "notes": "Not listed in files. Found at fishing spot after going to Taka, and in Kamui after Blooming the Kamui Guardian Sapling.",
+    "image": "./Agata/Ume.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -744,9 +763,10 @@
     "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 4,
     "types": "Hare (2)",
-    "notes": ""
+    "notes": "After completing the log bridge minigame",
+    "image": "./Agata/HareD.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
