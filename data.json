@@ -468,14 +468,16 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/Clover5A.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #39",
+    "image": "./CityCheckpoint/sb39.png"
   },
   {
     "map": "City Checkpoint (r105)",
@@ -496,35 +498,40 @@
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/PotHerbs.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/BullHorn.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "\"Travel Guide: Mother Tree\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/TravelGuideMotherTree.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #36",
+    "image": "./CityCheckpoint/sb36.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/ExorcismSlipS.png"
   },
   {
     "map": "City Checkpoint (r105)",
@@ -538,28 +545,32 @@
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "After Blooming all 4 cursed patches on the Ryoshima Side",
+    "image": "./CityCheckpoint/Clover10.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Flaming Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #37",
+    "image": "./CityCheckpoint/sb37.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #38. After Blooming all 4 cursed patches on the Ryoshima Side.",
+    "image": "./CityCheckpoint/sb38.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/PotMeat.png"
   },
   {
     "map": "City Checkpoint (r105)",
@@ -1124,169 +1135,192 @@
     "type": "Chest",
     "contents": "Ogre Liver",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F",
+    "image": "./MoonCave/OgreLiver.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Black Demon Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "4F",
+    "image": "./MoonCave/BlackDemonHorn.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Lips of Ice",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F",
+    "image": "./MoonCave/LipsOfIce.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Eyeball of Fire",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F",
+    "image": "./MoonCave/EyeballOfFire.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "B2F, behind ice block, Chery Bomb-able wall in elevator room",
+    "image": "./MoonCave/Clover5A.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2F, on ledge reachable by jumping down from 3F",
+    "image": "./MoonCave/Crystal.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "1F, after collecting 2 ingredients",
+    "image": "./MoonCave/Clover30.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, after collecting 3 ingredients",
+    "image": "./MoonCave/GoldenPeach.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, after collecting all ingredients",
+    "image": "./MoonCave/SteelFistSake.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Moon Cave Map",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, in Sand Room",
+    "image": "./MoonCave/MoonCaveMap.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Bloom Pod",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, to the side in the Vine cave on the way to the Ogre Liver",
+    "image": "./MoonCave/VengenceSlip.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": "Floor 1, in the kitchen",
-    "image": "./MoonCave/ExorcismSlipMA.png"
+    "notes": "1F, in the kitchen",
+    "image": "./MoonCave/ExorcismSlipM.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F",
+    "image": "./MoonCave/IncenseBurner.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "B1F, on ledge",
+    "image": "./MoonCave/ExorcismSlipS.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Godly Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "B1F, in room behind ice",
+    "image": "./MoonCave/GodlyCharm.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "B2F on ledge in room with 4 eye switches",
+    "image": "./MoonCave/HolyBoneS.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, inside hidden cave reachable by falling into pit marked by a clover in the Sand Room",
+    "image": "./MoonCave/Pearl.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, in room behind ice in Eyeball of Fire room",
+    "image": "./MoonCave/ExorcismSlipL.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, in room behind ice in Eyeball of Fire room",
+    "image": "./MoonCave/BullHorn.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, in room behind ice in Eyeball of Fire room",
+    "image": "./MoonCave/SteelFistSake.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Holy Bone M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "4F, at the end of Black Demon Horn tunnel",
+    "image": "./MoonCave/HolyBoneM.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Frozen Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "4F, at the end of Black Demon Horn tunnel",
+    "image": "./MoonCave/LacquerwareSet.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "3F, in Sand Room, near exit",
+    "image": "./MoonCave/Clover5A.png"
   },
   {
     "map": "Moon Cavern (r110)",
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "3F, in Sand Room, near entrance",
+    "image": "./MoonCave/Clover5B.png"
   },
   {
     "map": "Ryoshima Coast Bandit Spider Grotto (r113)",

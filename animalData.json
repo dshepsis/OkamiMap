@@ -92,41 +92,46 @@
     "map": "City Checkpoint (r105)",
     "bestiary": "Nightingale",
     "availability": "Day",
-    "praise": 0,
+    "praise": 3,
     "types": "Nightingale (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/NightingaleA.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Boar Piglet (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/BoarPiglet.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "bestiary": "Raccoon",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Raccoon (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/Raccoon.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "bestiary": "Nightingale",
     "availability": "Day",
-    "praise": 0,
+    "praise": 2,
     "types": "Nightingale (2)",
-    "notes": ""
+    "notes": "After Blooming all 4 cursed patches on the Ryoshima side",
+    "image": "./CityCheckpoint/NightingaleB.png"
   },
   {
     "map": "City Checkpoint (r105)",
     "bestiary": "Horse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Horse (2)",
-    "notes": ""
+    "notes": "After Blooming all 4 cursed patches on the Ryoshima Side",
+    "image": "./CityCheckpoint/Horse.png"
   },
   {
     "map": "Gale Shrine (r107)",
