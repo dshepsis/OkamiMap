@@ -1092,28 +1092,32 @@
     "type": "Free-standing",
     "contents": "Thunder Brew",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./CalcifiedCavern/ThunderBrew.png"
   },
   {
     "map": "Calcified Cavern (r10e)",
     "type": "Chest",
     "contents": "Mask",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./CalcifiedCavern/Mask.png"
   },
   {
     "map": "Calcified Cavern (r10e)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./CalcifiedCavern/HolyBoneS.png"
   },
   {
     "map": "Calcified Cavern (r10e)",
     "type": "Frozen Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Must return after learning Inferno",
+    "image": "./CalcifiedCavern/ExorcismSlipS.png"
   },
   {
     "map": "Moon Cavern (r110)",
@@ -1197,7 +1201,8 @@
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Floor 1, in the kitchen",
+    "image": "./MoonCave/ExorcismSlipMA.png"
   },
   {
     "map": "Moon Cavern (r110)",
@@ -3773,7 +3778,8 @@
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Reach using Waterspout pillar",
+    "image": "./Shinshu/GoldenPeach.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -3883,7 +3889,8 @@
     "type": "Chest",
     "contents": "Godly Charm",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under burning leaf pile",
+    "image": "./Shinshu/GodlyCharm.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -4025,21 +4032,24 @@
     "type": "Flaming Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Leftmost chest",
+    "image": "./Agata/BullHornB_sb17_HolyBoneM.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Flaming Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #17, middle chest",
+    "image": "./Agata/BullHornB_sb17_HolyBoneM.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Flaming Chest",
     "contents": "Holy Bone M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Rightmost chest",
+    "image": "./Agata/BullHornB_sb17_HolyBoneM.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -4147,21 +4157,24 @@
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Agata/ExorcismSlipM.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Agata/Pearl.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
     "contents": "Holy Bone M",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under leaf pile",
+    "image": "./Agata/HolyBoneM.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
