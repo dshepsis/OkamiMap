@@ -1706,35 +1706,39 @@
     "contents": "Crystal",
     "terrain": "Buried",
     "notes": "",
-    "image": "./Sei-anAristocratic/Crystal.png"
+    "image": "./Sei-anAristocratic/CrystalA.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #54",
+    "image": "./Sei-anAristocratic/sb54.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Sheep Statue",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/SheepStatue.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Southwest house",
+    "image": "./Sei-anAristocratic/PearlB.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Gale Shrine Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside the West treasure room of Himiko's Palace",
+    "image": "./Sei-anAristocratic/CrystalD.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1748,14 +1752,16 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Northern Land\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside the East treasure room of Himiko's Palace",
+    "image": "./Sei-anAristocratic/TravelGuideNorthernLand.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside the East treasure room of Himiko's Palace",
+    "image": "./Sei-anAristocratic/BullHorn.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1810,49 +1816,56 @@
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/Clover10A.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/SteelFistSake.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/CrystalC.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/InkfinityStone.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/GoldenPeach.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Exorcism Slip L",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/ExorcismSlipLA.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/Clover10B.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1875,49 +1888,56 @@
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/LacquerwareSet.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Stray Bead #53",
+    "image": "./Sei-anAristocratic/sb53.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/Clover10C.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside the East treasure room of Himiko's Palace",
+    "image": "./Sei-anAristocratic/PearlC.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/Clover10D.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Holy Bone M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/HolyBoneM.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "One-eyed Doll",
     "contents": "Godly Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside the West treasure room of Himiko's Palace",
+    "image": "./Sei-anAristocratic/GodlyCharm.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -1940,7 +1960,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Inferno Tech\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After learning Fireburst",
+    "image": "./Sei-anCommoners/TravelGuideInfernoTech.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -1995,7 +2016,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #47. Inside Mr. Flower's house.",
+    "image": "./Sei-anCommoners/sb47.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -2066,84 +2088,96 @@
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building.",
+    "image": "./Sei-anCommoners/GlassBeads.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building, left chest.",
+    "image": "./Sei-anCommoners/HolyBoneSB_IncenseBurnerB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building, left chest.",
+    "image": "./Sei-anCommoners/CrystalC_ExorcismSlipSB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building, right chest.",
+    "image": "./Sei-anCommoners/CrystalC_ExorcismSlipSB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building.",
+    "image": "./Sei-anCommoners/CrystalD.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building, right chest.",
+    "image": "./Sei-anCommoners/HolyBoneSB_IncenseBurnerB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building.",
+    "image": "./Sei-anCommoners/SunFragment.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight. Inside Southwest building.",
+    "image": "./Sei-anCommoners/PearlA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight",
+    "image": "./Sei-anCommoners/TravelersCharm.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "After defeating Blight",
+    "image": "./Sei-anCommoners/BullHornB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "After defeating Blight",
+    "image": "./Sei-anCommoners/CrystalB.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Horse Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Blight",
+    "image": "./Sei-anCommoners/HorseStatue.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -2458,42 +2492,48 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #59",
+    "image": "./ImperialPalaceCourtyard/sb59.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalaceCourtyard/BullHorn.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalaceCourtyard/Pearl.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalaceCourtyard/LacquerwareSet.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalaceCourtyard/Crystal.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
     "type": "Chest",
     "contents": "Rooster Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalaceCourtyard/RoosterStatue.png"
   },
   {
     "map": "Imperial Palace (r207)",
@@ -2908,7 +2948,8 @@
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "After defeating Blight.",
+    "image": "./Sei-anCommoners/CrystalE.png"
   },
   {
     "map": "Oni Island Entry (r20d)",
