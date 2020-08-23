@@ -2191,14 +2191,16 @@
     "type": "Gale Shrine Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #55",
+    "image": "./HimikosPalace/sb55.png"
   },
   {
     "map": "Himiko's Palace (r202)",
     "type": "Free-standing",
     "contents": "\"Travel Guide: Holy Artifacts\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./HimikosPalace/TravelGuideHolyArtifacts.png"
   },
   {
     "map": "Dragon Palace (r203)",
