@@ -484,7 +484,8 @@
     "type": "Chest",
     "contents": "Dragon Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Chained Vine from above",
+    "image": "./CityCheckpoint/DragonStatue.png"
   },
   {
     "map": "City Checkpoint (r105)",
@@ -1327,7 +1328,8 @@
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Bandit Spider",
+    "image": "./Ryoshima/SunFragment.png"
   },
   {
     "map": "Ryoshima Coast Bandit Spider Grotto (r113)",
@@ -1679,28 +1681,32 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #51",
+    "image": "./Sei-anAristocratic/sb51.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Exorcism Slip L",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/ExorcismSlipLA.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/ExorcismSlipS.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/Crystal.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1756,42 +1762,48 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Land of the Gods\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/TravelGuideLandOfTheGods.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/ExorcismSlipM.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/CrystalB.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/VengeanceSlip.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/PearlA.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Southeast house",
+    "image": "./Sei-anAristocratic/HolyBoneS.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1847,14 +1859,16 @@
     "type": "Chest",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Northeast house",
+    "image": "./Sei-anAristocratic/SteelSoulSake.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anAristocratic/IncenseBurner.png"
   },
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
@@ -1910,14 +1924,16 @@
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/IncenseBurnerA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/ExorcismSlipSA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -1931,42 +1947,48 @@
     "type": "Chest",
     "contents": "Mermaid Coin",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/MermaidCoin.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/LacquerwareSet.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/BullHornA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Steel Fist Sake",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/SteelFistSake.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/VengeanceSlip.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "Stray Bead #46",
+    "image": "./Sei-anCommoners/sb46.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -1978,58 +2000,66 @@
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/SteelSoulSake.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/ExorcismSlipM.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Inkfinity Stone",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/InkfinityStone.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Vase",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Near Ryoshima entrance",
+    "image": "./Sei-anCommoners/Vase.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/CrystalA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Coral Fragment",
     "terrain": "In Canal",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/CoralFragment.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/ExorcismSlipL.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Sei-anCommoners/HolyBoneSA.png"
   },
   {
     "map": "Sei'an Commoner's Quarter (r201)",
@@ -2316,91 +2346,104 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Celestial Envoy\"",
     "terrain": "Tidal",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/TravelGuideCelestialEnvoy.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Holy Bone M",
     "terrain": "Tidal",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/HolyBoneM.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Tidal",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/BullHorn.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/Clover10.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Behind wall destroyed with cannon",
+    "image": "./SunkenShip/SunFragment.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #57. In hall on the way to the seaweed monster room",
+    "image": "./SunkenShip/sb57.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/Crystal.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Lucky Mallet",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/LuckyMallet.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #58",
+    "image": "./SunkenShip/sb58.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/LacquerwareSet.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/HolyBoneS.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Monkey Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/MonkeyStatue.png"
   },
   {
     "map": "Sunken Ship (r205)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Behind wall destroyed with cannon",
+    "image": "./SunkenShip/Pearl.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
@@ -2456,7 +2499,8 @@
     "type": "Locked Box",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Forced to collect during tutorial",
+    "image": "./SunkenShip/HolyBoneS.png"
   },
   {
     "map": "Imperial Palace (r207)",
@@ -4532,14 +4576,16 @@
     "type": "Chest",
     "contents": "Vase",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Vase.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Clover10A.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4553,7 +4599,8 @@
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Clover10B.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4574,42 +4621,48 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #43. Requires Digging Champ.",
+    "image": "./Ryoshima/sb43.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/PotHerbsB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/PotSeeds_PotHerbsA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/PotSeeds_PotHerbsA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/PotHerbsC.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/PotMeat.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4623,14 +4676,16 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #41",
+    "image": "./Ryoshima/sb41.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/GoldenPeach.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4644,7 +4699,8 @@
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Digging Champ",
+    "image": "./Ryoshima/Clover20.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4672,42 +4728,48 @@
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CrystalC.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/ExorcismSlipSA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CatB_DragonflyBeadA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Clover10C.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CrystalA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/SteelFistSake.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
@@ -4889,28 +4951,32 @@
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CrystalB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/VengeanceSlipA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Clover10D.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Ankoku Temple",
+    "image": "./Ryoshima/IncenseBurner.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",

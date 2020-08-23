@@ -954,137 +954,154 @@
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cow",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Cow (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./CityCheckpoint/CowA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CatA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Fox",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Fox (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/FoxA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Dog (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Dog.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Fox",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Fox (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/FoxB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 3,
     "types": "Boar Piglet (1)",
-    "notes": ""
+    "notes": "After Bloooming cursed patch",
+    "image": "./Ryoshima/BoarPigletA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Monkey (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/MonkeyA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Horse",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Horse (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Horse.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Hare (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/HareA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Hare (4)",
-    "notes": ""
+    "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
+    "image": "./Ryoshima/HareB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Monkey",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Monkey (2)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/MonkeyB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Hare (Patchwork) (1)",
-    "notes": ""
+    "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
+    "image": "./Ryoshima/Inaba.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 3,
     "types": "Boar Piglet (1)",
-    "notes": ""
+    "notes": "After Bloooming cursed patch",
+    "image": "./Ryoshima/BoarPigletB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cow",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Cow (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CowB.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Cat (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/CatB_DragonflyBeadA.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Nightingale",
     "availability": "Day",
-    "praise": 0,
+    "praise": 4,
     "types": "Nightingale (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./Ryoshima/Nightingale.png"
   },
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Pig",
     "availability": "Always",
-    "praise": 0,
+    "praise": 3,
     "types": "Pig (1)",
-    "notes": ""
+    "notes": "After Bloooming cursed patch",
+    "image": "./Ryoshima/Pig.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
