@@ -2450,7 +2450,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Veil of Mist Tech\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After buying Fog Pot",
+    "image": "./ImperialPalaceCourtyard/TravelGuideVeilOfMistTech.png"
   },
   {
     "map": "Imperial Palace Entry (r206)",
@@ -2500,112 +2501,127 @@
     "contents": "Holy Bone S",
     "terrain": "On Land",
     "notes": "Forced to collect during tutorial",
-    "image": "./SunkenShip/HolyBoneS.png"
+    "image": "./ImperialPalace/HolyBoneS.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Behind Chery Bomb-able wall",
+    "image": "./ImperialPalace/ExorcismSlipS.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On ledge reachable with platform spider",
+    "image": "./ImperialPalace/Clover20A.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/Clover20B.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/Clover20C.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Imperial Palace Map",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "North side of rafters area",
+    "image": "./ImperialPalace/ImperialPalaceMap.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Locked Box",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/ExorcismSlipM.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Locked Box",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/VengeanceSlip.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Behind Cherry Bomb-able wall on ledge reachable by jumping off a guard's foot",
+    "image": "./ImperialPalace/GoldenPeach.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Locked Box",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/SteelFistSake.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./SunkenShip/TravelersCharm.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/Pearl.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "South side of rafters area",
+    "image": "./ImperialPalace/BullHorn.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "West side of rafters area",
+    "image": "./ImperialPalace/Crystal.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Locked Box",
     "contents": "Godly Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/GodlyCharm.png"
   },
   {
     "map": "Imperial Palace (r207)",
     "type": "Locked Box",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./ImperialPalace/InkfinityStone.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
