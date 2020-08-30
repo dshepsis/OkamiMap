@@ -228,7 +228,7 @@
     "type": "Chest-Special",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.","dragon p([^}]|\n)*?
+    "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.",
     "image": "./HanaValley/SunFragment.png"
   },
   {
