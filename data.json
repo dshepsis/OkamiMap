@@ -2184,7 +2184,8 @@
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Blossom's house (North of the Kimono Shop) behind unmarked Cherry Bomb-able wall",
+    "image": "./Sei-anCommoners/PearlB.png"
   },
   {
     "map": "Himiko's Palace (r202)",
@@ -3916,7 +3917,7 @@
     "contents": "Golden Peach",
     "terrain": "On Land",
     "notes": "Reach using Waterspout pillar",
-    "image": "./Shinshu/GoldenPeach.png"
+    "image": "./ShinshuField/GoldenPeach.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -4027,7 +4028,7 @@
     "contents": "Godly Charm",
     "terrain": "Buried",
     "notes": "Under burning leaf pile",
-    "image": "./Shinshu/GodlyCharm.png"
+    "image": "./ShinshuField/GodlyCharm.png"
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
