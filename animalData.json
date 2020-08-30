@@ -421,65 +421,73 @@
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/CatA.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10A_CatB.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10B_CatC.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10C_CatD.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "First cloud platform",
+    "image": "./Catcall/CatE.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Second cloud platform",
+    "image": "./Catcall/CatF.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Third cloud platform",
+    "image": "./Catcall/TravelersCharm_CatG.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 2,
     "types": "Cat (1)",
-    "notes": ""
+    "notes": "Top of tower. Triggers Catwallk cutscene when fed.",
+    "image": "./Catcall/CatH.png"
   },
   {
     "map": "Wep'keer (r301)",
@@ -1170,9 +1178,10 @@
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Tiger",
     "availability": "Always",
-    "praise": 0,
+    "praise": 15,
     "types": "Tiger (3)",
-    "notes": ""
+    "notes": "On Watcher's Cape. Requires Catwalk.",
+    "image": "./NorthRyo/Tiger.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -1187,9 +1196,10 @@
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Cat (3)",
-    "notes": ""
+    "notes": "On Catcall Island",
+    "image": "./NorthRyo/CatC.png"
   },
   {
     "map": "Kamui (Healed) (rf12)",

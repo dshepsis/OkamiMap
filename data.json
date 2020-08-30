@@ -2861,105 +2861,121 @@
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Top of tower",
+    "image": "./Catcall/IncenseBurner.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #67. On platform above fourth cloud platform.",
+    "image": "./Catcall/sb67.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Top of tower. Reachable after obtaining Catwalk.",
+    "image": "./Catcall/SunFragment.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Mermaid Coin",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Top of tower",
+    "image": "./Catcall/MermaidCoin.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Cat Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Fifth cloud platform",
+    "image": "./Catcall/CatStatue.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #68. Top of tower. Chest appears if you climb the tower without touching a cloud platform, or if you climb the tower a second time.",
+    "image": "./Catcall/sb68.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Fourth cloud platform",
+    "image": "./Catcall/LacquerwareSet.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On stone platform above third cloud platform",
+    "image": "./Catcall/HolyBoneS.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Third cloud platform",
+    "image": "./Catcall/TravelersCharm_CatG.png.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray bead #69. Ground level on top of pillar, reachable with Catwalk.",
+    "nice": true,
+    "image": "./Catcall/sb69.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Ground level on top of pillar, reachable with Catwalk.",
+    "image": "./Catcall/Crystal.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Chest",
     "contents": "\"Travel Guide: Mark of Kabegami\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/TravelGuideMarkOfKabegami.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10A_CatB.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10B_CatC.png"
   },
   {
     "map": "Catcall Tower (r20a)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Ground level",
+    "image": "./Catcall/Clover10C_CatD.png"
   },
   {
     "map": "Sei'an Commoner's Quarter - Kimono Shop (r20c)",
@@ -5058,7 +5074,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Galestorm Tech\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside Umi's restaurant. Chest appears after obtaining Whirlwind, which requires fishing for the Marlin on the West-most island in the sea of North Ryoshima Coast.",
+    "image": "./Ryoshima/TravelGuideGalestormTech.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5089,7 +5106,8 @@
     "type": "Chest",
     "contents": "Dog Statue",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On Watcher's Cape. Requires Catwalk.",
+    "image": "./NorthRyo/DogStatue.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5175,7 +5193,8 @@
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On Guardian Sapling island",
+    "image": "./NorthRyo/PearlC.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5190,35 +5209,40 @@
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "In cave near Mermaid Spring reachable with Catwalk. Middle chest.",
+    "image": "./NorthRyo/LacquerwareSet_VengeanceSlipB_ExorcismSlipL.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "In cave near Mermaid Spring reachable with Catwalk. Right chest.",
+    "image": "./NorthRyo/LacquerwareSet_VengeanceSlipB_ExorcismSlipL.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "In cave near Mermaid Spring reachable with Catwalk. Left chest.",
+    "image": "./NorthRyo/LacquerwareSet_VengeanceSlipB_ExorcismSlipL.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/BullHornD.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On Guardian Sapling island",
+    "image": "./NorthRyo/Clover10N.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5297,21 +5321,24 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #64. Rocky Area. Requires Mist Warp.",
+    "image": "./NorthRyo/sb64_Clover10OP.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Rocky Area. Requires Mist Warp.",
+    "image": "./NorthRyo/sb64_Clover10OP.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Rocky Area. Requires Mist Warp.",
+    "image": "./NorthRyo/sb64_Clover10OP.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5430,7 +5457,8 @@
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Watcher's Cape. Requires Catwalk.",
+    "image": "./NorthRyo/PotMeatB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5485,14 +5513,16 @@
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Watcher's Cape. Requires Catwalk.",
+    "image": "./NorthRyo/PotFishC.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/PearlD.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5563,7 +5593,8 @@
     "type": "Clover",
     "contents": "Praise (40)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Under iron rock. Requires Power Slash 2.",
+    "image": "./NorthRyo/Clover40B.png"
   },
   {
     "map": "Kamui (Healed) (rf12)",
