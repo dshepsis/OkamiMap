@@ -1413,56 +1413,64 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Power Slash 2\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After paying at least 60,000 Yen to unlock Power Slash 2",
+    "image": "./NorthRyo/TravelGuidePowerSlash2.png"
   },
   {
     "map": "North Ryoshima Coast - Power Slash 2 Grotto (r116)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10HIJ.png"
   },
   {
     "map": "North Ryoshima Coast - Power Slash 2 Grotto (r116)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10HIJ.png"
   },
   {
     "map": "North Ryoshima Coast - Power Slash 2 Grotto (r116)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10HIJ.png"
   },
   {
     "map": "North Ryoshima Coast - Cherry Bomb 2 Grotto (r117)",
     "type": "Chest",
     "contents": "\"Travel Guide: Cherry Bomb 2\"",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After paying at least 120,000 Yen to unlock Cherry Bomb 2",
+    "image": "./NorthRyo/TravelGuideCherryBomb2.png"
   },
   {
     "map": "North Ryoshima Coast - Cherry Bomb 2 Grotto (r117)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10KLM.png"
   },
   {
     "map": "North Ryoshima Coast - Cherry Bomb 2 Grotto (r117)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10KLM.png"
   },
   {
     "map": "North Ryoshima Coast - Cherry Bomb 2 Grotto (r117)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10KLM.png"
   },
   {
     "map": "Kamui (Ezofuji) - Power Slash 3 Grotto (r118)",
@@ -1539,7 +1547,8 @@
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After defeating Bandit Spider",
+    "image": "./NorthRyo/SunFragment.png"
   },
   {
     "map": "North Ryoshima Coast Bandit Spider Grotto (r11a)",
@@ -1609,42 +1618,48 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #63. Requires Digging Champ to enter grotto. Middle chest.",
+    "image": "./NorthRyo/BoarStatue_sb63_GoldenPeachA.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "type": "Chest",
-    "contents": "Pig Statue",
+    "contents": "Boar Statue",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto. Left chest.",
+    "image": "./NorthRyo/BoarStatue_sb63_GoldenPeachA.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto. Right chest.",
+    "image": "./NorthRyo/BoarStatue_sb63_GoldenPeachA.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto",
+    "image": "./NorthRyo/Clover10B.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto",
+    "image": "./NorthRyo/Clover10C.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto",
+    "image": "./NorthRyo/Clover10D.png"
   },
   {
     "map": "River of the Heavens (r122)",
@@ -5050,21 +5065,24 @@
     "type": "Clover",
     "contents": "Praise (40)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On Power Slash 2 island",
+    "image": "./NorthRyo/Clover40A.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #60",
+    "image": "./NorthRyo/sb60.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/Clover10E.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5078,49 +5096,56 @@
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Requires Digging Champ",
+    "image": "./NorthRyo/Clover20A.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CrystalA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/BullHornA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On island North of Catcall Island",
+    "image": "./NorthRyo/PearlB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Clover10A.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CrystalB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Flaming Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Cherry Bomb 2 island",
+    "image": "./NorthRyo/CrystalE.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5134,14 +5159,16 @@
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On island north of Bandit Spider island",
+    "image": "./NorthRyo/Clover10F.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On PS2 island",
+    "image": "./NorthRyo/Clover10G.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5155,7 +5182,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #61",
+    "image": "./NorthRyo/sb61.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5197,63 +5225,72 @@
     "type": "Chest",
     "contents": "Holy Bone M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/HolyBoneM.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On Bandit Spider Island",
+    "image": "./NorthRyo/GoldenPeachB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Exorcism Slip S",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/ExorcismSlipS.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Incense Burner",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/IncenseBurner.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Inkfinity Stone",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/InkfinityStone.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Coral Fragment",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CoralFragmentA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Vengeance Slip",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/VengeanceSlipA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Steel Soul sake",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/SteelSoulSake.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Vase",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Vase.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5281,98 +5318,112 @@
     "type": "Chest",
     "contents": "Mermaid Coin",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/MermaidCoin.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/GlassBeads.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/ExorcismSlipM.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Wooden Bear",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/WoodenBear.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CatB_PotHerbsA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On island North of Catcall Island",
+    "image": "./NorthRyo/CrystalF.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clover",
     "contents": "Praise (20)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/Clover20B.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/PotSeedsA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/PotFishA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Meat)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Power Slash 2 island",
+    "image": "./NorthRyo/PotSeedsC_PotHerbsC_PotMeatA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/PotHerbsB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Power Slash 2 island",
+    "image": "./NorthRyo/PotSeedsC_PotHerbsC_PotMeatA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/TravelersCharm.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Herbs)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On Power Slash 2 island",
+    "image": "./NorthRyo/PotSeedsC_PotHerbsC_PotMeatA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5386,42 +5437,48 @@
     "type": "Clam Shell",
     "contents": "Holy Bone S",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/HolyBoneS.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Dragonfly Bead",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/DragonflyBead.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Steel Fist Sake",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/SteelFistSake.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Seeds)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/PotFishB_PotSeedsB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Pot",
     "contents": "Feedbag (Fish)",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "On West-most island",
+    "image": "./NorthRyo/PotFishB_PotSeedsB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "Stray Bead #62. On West-most island",
+    "image": "./NorthRyo/sb62.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -5442,56 +5499,64 @@
     "type": "Clam Shell",
     "contents": "Coral Fragment",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CoralFragmentB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Bull Horn",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "North of Bandit Spider island",
+    "image": "./NorthRyo/BullHornB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Pearl",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/PearlA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Bull Horn",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "North of Guardian Sapling",
+    "image": "./NorthRyo/BullHornC.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Crystal",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Between Power Slash 2 and Cherry Bomb 2 islands",
+    "image": "./NorthRyo/CrystalD.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Coral Fragment",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "Between Power Slash 2 and Cherry Bomb 2 islands",
+    "image": "./NorthRyo/CoralFragmentC.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Crystal",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CrystalC.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
     "contents": "Godly Charm",
     "terrain": "Underwater",
-    "notes": ""
+    "notes": "North of Catcall Island",
+    "image": "./NorthRyo/GodlyCharm.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",

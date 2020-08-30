@@ -412,9 +412,10 @@
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 30,
     "types": "Hare (14), Hare (Patchwork) (1)",
-    "notes": ""
+    "notes": "Requires Digging Champ to enter grotto",
+    "image": "./NorthRyo/HareA.png"
   },
   {
     "map": "Catcall Tower (r20a)",
@@ -1115,49 +1116,55 @@
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Hare",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "After clearing Devil Gate",
+    "image": "./NorthRyo/HareB.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 8,
     "types": "Cat (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CatB_PotHerbsA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cow",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Cow (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Cow.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Dog",
     "availability": "Always",
-    "praise": 0,
+    "praise": 9,
     "types": "Dog (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Dog.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Pig",
     "availability": "Always",
-    "praise": 0,
+    "praise": 15,
     "types": "Pig (5)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Pig.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Fox",
     "availability": "Always",
-    "praise": 0,
+    "praise": 12,
     "types": "Fox (4)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/Fox.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
@@ -1171,9 +1178,10 @@
     "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
-    "praise": 0,
+    "praise": 6,
     "types": "Cat (3)",
-    "notes": ""
+    "notes": "",
+    "image": "./NorthRyo/CatA.png"
   },
   {
     "map": "North Ryoshima Coast (rf0c)",
