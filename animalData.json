@@ -404,9 +404,10 @@
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
-    "praise": 0,
+    "praise": 45,
     "types": "Boar (1), Boar Piglet (14)",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",

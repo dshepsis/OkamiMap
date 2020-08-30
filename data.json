@@ -228,7 +228,7 @@
     "type": "Chest-Special",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.",
+    "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.","dragon p([^}]|\n)*?
     "image": "./HanaValley/SunFragment.png"
   },
   {
@@ -1576,42 +1576,48 @@
     "type": "Chest",
     "contents": "Godly Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Left chest",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #70. Middle chest",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Right chest",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
   },
   {
     "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
@@ -2223,175 +2229,208 @@
     "type": "Chest",
     "contents": "Treasure Box",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Chest appears after clearing Inside the Dragon and blooming the rocky patch where its entrance previously was.",
+    "image": "./DragonPalace/TreasureBox.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside East room within the palace",
+    "image": "./DragonPalace/ExorcismSlipS.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #71. Reachable by using Rejuvenation on a broken pillar.",
+    "image": "./DragonPalace/sb71.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Left clam closer to the building",
+    "image":"./DragonPalace/HolyBoneS_Pearl_DragonflyBead.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Left clam farther from the building",
+    "image":"./DragonPalace/HolyBoneS_Pearl_DragonflyBead.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Dragonfly Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Right clam",
+    "image":"./DragonPalace/HolyBoneS_Pearl_DragonflyBead.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Stray Bead #72",
+    "image": "./DragonPalace/sb72.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/GlassBeads.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/InkfinityStone.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/BullHorn.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clam Shell",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/VengeanceSlip.png"
   },
   {
     "map": "Dragon Palace (r203)",
     "type": "Clover",
     "contents": "Praise (10)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./DragonPalace/Clover10D.png"
+  },
+  {
+    "map": "Dragon Palace (r203)",
+    "type": "Chest-Special",
+    "contents": "\"Travel Guide: Waterspout Tech 1\"",
+    "terrain": "On Land",
+    "notes": "Chest spawns after receiving the Fountain brush technique. This chest isn't listed in the parsed files.",
+    "image": "./DragonPalace/TravelGuideWaterspoutTech1.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Right clam",
+    "image": "./InsideTheDragon/CrystalA_HolyBoneS.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/ExorcismSlipS.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/VengeanceSlip.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/InkfinityStone.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Left clam",
+    "image": "./InsideTheDragon/CrystalA_HolyBoneS.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/ExorcismSlipM.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/SteelFistSake.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/SteelSoulSake.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Inside cavity in the ceiling reached with a Waterspout pillar",
+    "image": "./InsideTheDragon/CrystalB.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/PearlA.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Bull Horn",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/BullHorn.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Pearl",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/PearlB.png"
   },
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
     "contents": "Incense Burner",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./InsideTheDragon/IncenseBurner.png"
   },
   {
     "map": "Sunken Ship (r205)",
@@ -2686,175 +2725,200 @@
     "type": "Electric Chest",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, right chest, after depositing electric key",
+    "image": "./Oni/BullHornB_InkfinityStone.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Electric Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, left chest, after depositing electric key",
+    "image": "./Oni/BullHornB_InkfinityStone.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "Floor 1, before 1st Tobi race",
+    "image": "./Oni/BullHornA.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, after \"Passage of Saws\"",
+    "image": "./Oni/LacquerwareSetA.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2F, after Demonic Wheels",
+    "image": "./Oni/ExorcismSlipM.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, East path",
+    "image": "./Oni/ExorcismSlipS.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Dragonfly Bead",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, West path",
+    "image": "./Oni/DragonflyBead.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Traveler's Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/TravelersCharm.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Incense Burner",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, East path",
+    "image": "./Oni/IncenseBurner.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, West path",
+    "image": "./Oni/SteelFistSake.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Wooden Bear",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, East path",
+    "image": "./Oni/WoodenBear.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Holy Bone M",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/HolyBoneM.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Vase",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/Vase.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Steel Soul sake",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/SteelSoulSake.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Glass Beads",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/GlassBeads.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, in sliding door maze, middle path",
+    "image": "./Oni/VengeanceSlipA.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2F, Labyrinth of Torment",
+    "image": "./Oni/PearlB.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "B2F, after 2nd Tobi race",
+    "image": "./Oni/CrystalB.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Holy Bone S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, at foot of statue destroyed with electricity",
+    "image": "./Oni/HolyBoneS_CrystalC.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, at foot of statue destroyed with electricity",
+    "image": "./Oni/HolyBoneS_CrystalC.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Coral Fragment",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2F, after Guardian fight Tobi race",
+    "image": "./Oni/CoralFragment.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Electric Chest",
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, after going back inside after obtaining Thunderstorm",
+    "image": "./Oni/ExorcismSlipLA.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "1F, through electric door",
+    "image": "./Oni/PearlC.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "2F, Labyrinth of Torment",
+    "image": "./Oni/GoldenPeachB.png"
   },
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
     "contents": "Godly Charm",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "3F, before going outside to get Thunderstorm",
+    "image": "./Oni/GodlyCharm.png"
   },
   {
     "map": "Catcall Tower (r20a)",
@@ -2990,105 +3054,120 @@
     "type": "Chest",
     "contents": "Golden Peach",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Oni/GoldenPeachA.png"
   },
   {
     "map": "Oni Island Entry (r20d)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Oni/PearlA.png"
   },
   {
     "map": "Oni Island Entry (r20d)",
     "type": "Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Oni/CrystalA.png"
   },
   {
     "map": "Oni Island Entry (r20d)",
     "type": "Chest",
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "",
+    "image": "./Oni/ExorcismSlipSA.png"
   },
   {
     "map": "Oni Island Entry (r20d)",
     "type": "Clover",
     "contents": "Praise (50)",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "3F, outside, after obtaining Thunderstorm",
+    "image": "./Oni/Clover50.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "5F",
+    "image": "./Oni/VengeanceSlipB.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "7F",
+    "image": "./Oni/PearlF.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "7F",
+    "image": "./Oni/CrystalE.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Oni Island Map",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "4F",
+    "image": "./Oni/OniIslandMap.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Crystal",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "7F",
+    "image": "./Oni/CrystalD.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Bull Horn",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "5F, before Tobi race",
+    "image": "./Oni/BullHornC.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Electric Chest",
     "contents": "Lacquerware Set",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "5F",
+    "image": "./Oni/LacquerwareSetB.png"
   },
   {
     "map": "Upper Oni Island (After Platforming) (r20e)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "4F",
+    "image": "./Oni/PearlE.png"
   },
   {
     "map": "Oni Island Platforming (r20f)",
     "type": "Chest",
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "To the left of the electric key",
+    "image": "./Oni/ExorcismSlipL.png"
   },
   {
     "map": "Oni Island Platforming (r20f)",
     "type": "Chest",
     "contents": "Pearl",
     "terrain": "On Land",
-    "notes": ""
+    "notes": "After climbing with Vine above the electric key",
+    "image": "./Oni/PearlD.png"
   },
   {
     "map": "Wep'keer (r301)",
