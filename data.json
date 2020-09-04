@@ -306,7 +306,7 @@
   {
     "map": "Tsuta Ruins (r104)",
     "type": "Bloom Pod",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "",
     "image": "Tsuta/SteelSoulSake.png"
@@ -671,7 +671,7 @@
   {
     "map": "Gale Shrine (r107)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "",
     "image": "./GaleShrine/SteelSoulSake.png"
@@ -1023,7 +1023,7 @@
   {
     "map": "Sasa Sanctuary (r109)",
     "type": "Sasa Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "Jamba's room, 1st chest on West side.",
     "image": "./Sasa/SteelSoulSake.png"
@@ -1891,7 +1891,7 @@
   {
     "map": "Sei'an Aristocratic Quarter (r200)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "Inside Northeast house",
     "image": "./Sei-anAristocratic/SteelSoulSake.png"
@@ -2387,7 +2387,7 @@
   {
     "map": "Inside the Dragon (r204)",
     "type": "Clam Shell",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "",
     "image": "./InsideTheDragon/SteelSoulSake.png"
@@ -2827,7 +2827,7 @@
   {
     "map": "Lower Oni Island (Before Platforming) (r208)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "1F, in sliding door maze, middle path",
     "image": "./Oni/SteelSoulSake.png"
@@ -3592,7 +3592,7 @@
   {
     "map": "Yoshpet (r310)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": ""
   },
@@ -3753,7 +3753,7 @@
   {
     "map": "Yami Arena (r312)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": ""
   },
@@ -4375,7 +4375,7 @@
   {
     "map": "Agata Forest (Healed) (rf04)",
     "type": "Chest",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "Buried",
     "notes": "",
     "image": "./Agata/SteelSoulSake.png"
@@ -4959,7 +4959,7 @@
   {
     "map": "Ryoshima Coast (Healed) (rf0a)",
     "type": "Clam Shell",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "Underwater",
     "notes": ""
   },
@@ -5383,7 +5383,7 @@
   {
     "map": "North Ryoshima Coast (rf0c)",
     "type": "Clam Shell",
-    "contents": "Steel Soul sake",
+    "contents": "Steel Soul Sake",
     "terrain": "Underwater",
     "notes": "",
     "image": "./NorthRyo/SteelSoulSake.png"
