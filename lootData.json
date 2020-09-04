@@ -257,7 +257,8 @@
     "contents": "Sun Fragment",
     "terrain": "On Land",
     "notes": "Chest spawns after blooming all sakura in Hana. This chest isn't listed in the parsed files.",
-    "image": "./HanaValley/SunFragment.png"
+    "image": "./HanaValley/SunFragment.png",
+    "mapID": 259
   },
   {
     "type": "Bloom Pod",
@@ -2619,7 +2620,8 @@
     "contents": "\"Travel Guide: Waterspout Tech 1\"",
     "terrain": "On Land",
     "notes": "Chest spawns after receiving the Fountain brush technique. This chest isn't listed in the parsed files.",
-    "image": "./DragonPalace/TravelGuideWaterspoutTech1.png"
+    "image": "./DragonPalace/TravelGuideWaterspoutTech1.png",
+    "mapID": 515
   },
   {
     "type": "Clam Shell",
@@ -4864,7 +4866,7 @@
     "type": "Free-standing",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #15",
     "image": "./Agata/sb15.png",
     "mapID": 3844,
     "coords": [-881, 355, 5380]

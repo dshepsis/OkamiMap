@@ -184,7 +184,18 @@ function tdImageEl(src) {
 function lootToTR(loot, mapIDMap) {
   const tr = document.createElement('tr');
   const {mapID, type, terrain, contents, image, notes} = loot;
-  const mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`
+  let mapStr;
+  if (mapID === undefined) {
+    console.error(`Loot ${contents} in ${type} found with no Map ID.`);
+    mapStr = "Unknown map";
+  } else if (mapIDMap[mapID] === undefined) {
+    console.error(
+      `Loot ${contents} in ${type} found with invalid Map ID ${mapID}.`
+    );
+    mapStr = `Unknown map (r${mapID.toString(16)})`;
+  } else {
+    mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`;
+  }
   const children = [
     tdEl(mapStr), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)
   ];
