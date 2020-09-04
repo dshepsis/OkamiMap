@@ -161,7 +161,7 @@ Frozen Chest: Lacquerware Set (On Land) (1263, 1030, -1335)
 Clover: Praise (5) (Buried) (880, 587, 640)
 Clover: Praise (5) (Buried) (-880, 426, 1280)
 *** Orochi Arena (r111) ***
-*** Kamiki Village (Post-Full Moon) (r112) ***
+*** Kamiki Village (r102) ***
 Chest: Traveler's Charm (Buried) (1200, -179, 320)
 Chest: Inkfinity Stone (Buried) (2840, -414, 200)
 Chest: Stray Bead (Buried) (2740, -409, 220)

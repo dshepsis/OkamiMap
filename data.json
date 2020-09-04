@@ -4042,7 +4042,8 @@
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "Buried",
-    "notes": ""
+    "notes": "",
+    "image": "./ShinshuField/KutaniPottery.png"
   },
   {
     "map": "Shinshu Field (Healed) (rf02)",
@@ -5995,8 +5996,7 @@
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "Buried",
-    "notes": "",
-    "image": "./ShinshuField/KutaniPottery.png"
+    "notes": ""
   },
   {
     "map": "Shinshu Field (Past) (rf20)",

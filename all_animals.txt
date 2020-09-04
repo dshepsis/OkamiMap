@@ -1,0 +1,227 @@
+*** Cave of Nagi (r101) ***
+*** Kamiki Village (r102) ***
+Group 0 (8): Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (-185, -279, 711)
+Group 3 (4): Chicken (A), Chicken (A), Chicken (A), Chicken (A) (558, -462, 2238)
+Group 4 (3): Hare (A), Hare (A), Hare (A) (2065, -413, 2522)
+Group 5 (2): Hayabusa / Chu (D), Hayabusa / Chu (N) (3978, -10002, -49)
+Group 6 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (1115, -180, 416)
+Group 7 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (940, 102, 1321)
+Group 8 (3): Sparrow (D), Sparrow (D), Sparrow (D) (698, -466, 1722)
+Group 9 (3): Sparrow (D), Sparrow (D), Sparrow (D) (2742, -474, 1771)
+*** Hana Valley (r103) ***
+Group 1 (3): Monkey (A), Monkey (A), Monkey (A) (144, 28, -1111)
+Group 2 (3): Boar Piglet (A), Boar Piglet (A), Boar (A) (-1923, 429, -3292)
+*** Tsuta Ruins (r104) ***
+*** City Checkpoint (r105) ***
+Group 27 (3): Nightingale (D), Nightingale (D), Nightingale (D) (-75, 2, -383)
+Group 28 (2): Boar Piglet (A), Boar Piglet (A) (-292, -544, 2589)
+Group 29 (2): Raccoon (A), Raccoon (A) (293, -566, 3828)
+Group 30 (2): Nightingale (D), Nightingale (D) (-3272, 0, -637)
+Group 31 (2): Horse (A), Horse (A) (-3386, 0, 857)
+*** Spider Queen Arena (r106) ***
+*** Gale Shrine (r107) ***
+Group 0 (6): Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (638, 2281, -538)
+Group 76 (4): Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-1006, 200, -1303)
+Group 77 (7): Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-2774, 200, -1333)
+Group 78 (8): Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-213, -329, -23)
+*** Kusa Village (r108) ***
+Group 0 (10): Chi (N), Ko (N), Rei (N), Shin (N), Tei (N), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (-3987, 977, 1631)
+Group 57 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (-2073, 301, 2339)
+Group 58 (2): Monkey (A), Monkey (A) (-1646, 702, 1405)
+Group 59 (2): Raccoon (A), Raccoon (A) (-540, -2, 2128)
+Group 60 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (-54, -275, 1360)
+Group 62 (2): Chicken (A), Chicken (A) (902, 639, 1643)
+Group 63 (4): Chicken (A), Chicken (A), Chicken (A), Chicken (A) (438, 462, 2431)
+Group 64 (2): Pig (A), Pig (A) (601, 47, 1736)
+Group 65 (4): Chicken (A), Chicken (A), Chicken (A), Chicken (A) (-1664, 301, 2641)
+Group 66 (3): Monkey (A), Monkey (A), Monkey (A) (-4642, 712, 1663)
+*** Sasa Sanctuary (r109) ***
+Group 67 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (-5, 74, -1490)
+Group 68 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (528, 77, -1365)
+Group 69 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (989, 241, -3488)
+Group 70 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (2009, 383, -3555)
+Group 71 (3): Hare (A), Hare (A), Hare (A) (2177, 543, -5999)
+Group 72 (2): Tiger (A), Tiger (A) (1655, 546, -5466)
+Group 73 (2): Tiger (A), Tiger (A) (2052, 544, -5056)
+Group 74 (3): Mouse (A), Mouse (A), Mouse (A) (214, -13471, -1615)
+Group 75 (2): Mouse (A), Mouse (A) (-1229, -15478, -1361)
+*** Agata Forest - Madame Fawn's (r10a) ***
+*** Digging Game (r10b) ***
+*** Dojo Learning Room (r10c) ***
+*** Crimson Helm Arena (r10d) ***
+*** Calcified Cavern (r10e) ***
+*** Moon Cavern (r110) ***
+*** Orochi Arena (r111) ***
+*** Ryoshima Coast Bandit Spider Grotto (r113) ***
+*** Taka Pass - Moley's Treasure Trove (r114) ***
+Group 160 (16): Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A) (-17, 65, -363)
+*** Kamui - Cherry Bomb 3 Grotto (r115) ***
+*** North Ryoshima Coast - Power Slash 2 Grotto (r116) ***
+*** North Ryoshima Coast - Cherry Bomb 2 Grotto (r117) ***
+*** Kamui (Ezofuji) - Power Slash 3 Grotto (r118) ***
+*** Kamui - Blockhead Grotto (r119) ***
+*** North Ryoshima Coast Bandit Spider Grotto (r11a) ***
+*** Kamui Bandit Spider Grotto (r11b) ***
+*** Dragon Palace Grotto Under Stairs (r11c) ***
+Group 161 (15): Boar (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A) (-43, 99, -462)
+*** North Ryoshima Coast Grotto Near Yoichi (r11d) ***
+Group 162 (15): Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Inaba (Hare) (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A) (-83, 87, -424)
+*** Sei'an Aristocratic Quarter (r200) ***
+*** Sei'an Commoner's Quarter (r201) ***
+*** Himiko's Palace (r202) ***
+*** Dragon Palace (r203) ***
+*** Inside the Dragon (r204) ***
+*** Sunken Ship (r205) ***
+*** Imperial Palace Entry (r206) ***
+*** Imperial Palace (r207) ***
+*** Lower Oni Island (Before Platforming) (r208) ***
+*** Ninetails Arena (r209) ***
+*** Catcall Tower (r20a) ***
+Group 130 (1): Cat (A) (-4, 4, -620)
+Group 131 (1): Cat (A) (358, 4, -134)
+Group 132 (1): Cat (A) (163, 4, 477)
+Group 133 (1): Cat (A) (-292, 4, -123)
+Group 134 (1): Cat (A) (1, 1582, 378)
+Group 135 (1): Cat (A) (325, 2836, 187)
+Group 136 (1): Cat (A) (380, 4093, -220)
+Group 144 (1): Cat (A) (0, 10485, 668)
+*** Inside the Emperor (r20b) ***
+*** Sei'an Commoner's Quarter - Kimono Shop (r20c) ***
+*** Oni Island Entry (r20d) ***
+*** Upper Oni Island (After Platforming) (r20e) ***
+*** Oni Island Platforming (r20f) ***
+*** Wep'keer (r301) ***
+Group 0 (3): Owl (A), Owl (A), Owl (A) (515, 828, -2531)
+Group 123 (2): Bear (A), Bear (A) (-8, 625, -1647)
+Group 124 (3): Sheep (A), Sheep (A), Sheep (A) (-618, 336, -466)
+Group 125 (3): Hare (A), Hare (A), Hare (A) (398, 0, -112)
+Group 126 (3): Crane (A), Crane (A), Crane (A) (847, 112, -622)
+Group 128 (4): Sheep (A), Sheep (A), Sheep (A), Sheep (A) (1456, 12, -1599)
+Group 129 (3): Sheep (A), Sheep (A), Sheep (A) (-335, 350, -1224)
+Group 145 (1): Bear (A) (849, 12, -1301)
+*** Kamiki Village (Past) (r302) ***
+Group 146 (1): 100 Year Old Dog (A) (1083, -475, 1898)
+*** Wawku Shrine (r303) ***
+*** Nechku Arena (r304) ***
+*** Ponc'tan (r305) ***
+*** Moon Cave Entry (Past) (r306) ***
+*** Ark of Yamato (r307) ***
+*** Spider Queen Arena (Ark) (r308) ***
+*** Orochi Arena (Ark) (r309) ***
+*** Blight Arena (Ark) (r30a) ***
+*** Ninetails Arena (Ark) (r30b) ***
+*** Crimson Helm Arena (Ark) (r30c) ***
+*** Ponc'tan - Mrs. Seal's Home (r30d) ***
+*** Yoshpet (r310) ***
+Group 120 (3): Deer (A), Deer (A), Deer (A) (-1024, 792, -15575)
+Group 121 (3): Hare (A), Hare (A), Hare (A) (-783, 792, -15658)
+Group 122 (3): Boar (A), Boar (A), Boar Piglet (A) (-792, 798, -15838)
+*** Inner Yoshpet (r311) ***
+*** Yami Arena (r312) ***
+*** Wep'keer Square (r313) ***
+*** Lechku and Nechku Arena (r314) ***
+*** Shinshu Field (Cursed) (rf01) ***
+*** Shinshu Field (Healed) (rf02) ***
+Group 0 (6): Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (1983, 785, 357)
+Group 10 (4): Hare (A), Hare (A), Hare (A), Hare (A) (1207, 89, -1371)
+Group 11 (5): Hare (A), Hare (A), Hare (A), Hare (A), Hare (A) (192, 141, -3857)
+Group 12 (4): Hare (A), Hare (A), Hare (A), Hare (A) (1062, 681, -4770)
+Group 13 (5): Hare (A), Hare (A), Hare (A), Hare (A), Hare (A) (3933, 705, -1871)
+Group 14 (5): Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A) (-384, -45, -1358)
+Group 37 (5): Boar (A), Boar (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A) (371, 481, 1514)
+Group 38 (3): Pig (A), Pig (A), Pig (A) (-684, 229, 523)
+Group 39 (3): Hare (A), Hare (A), Hare (A) (2124, 472, -963)
+Group 40 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (3938, 38, 484)
+Group 41 (2): Horse (A), Horse (A) (487, 341, 675)
+*** Agata Forest (Cursed) (rf03) ***
+Group 0 (1): Monkey (A) (59, 28, 77)
+*** Agata Forest (Healed) (rf04) ***
+Group 20 (2): Hare (A), Hare (A) (14, 99, 6024)
+Group 21 (3): Sparrow (D), Sparrow (D), Sparrow (D) (105, -62, 7322)
+Group 22 (3): Monkey (A), Monkey (A), Monkey (A) (-1319, 97, 5768)
+Group 24 (3): Deer (A), Deer (A), Deer (A) (-1859, 680, 3152)
+Group 25 (2): Hare (A), Hare (A) (-2252, 192, 8633)
+Group 26 (3): Nightingale (D), Nightingale (D), Nightingale (D) (-630, 99, 6378)
+Group 42 (2): Deer (A), Deer (A) (752, -7, 7402)
+Group 43 (2): Deer (A), Deer (A) (621, -12, 6892)
+Group 44 (2): Deer (A), Deer (A) (-440, -62, 7198)
+Group 45 (3): Deer (A), Deer (A), Deer (A) (-1424, -11, 6961)
+Group 46 (2): Hare (A), Hare (A) (-2481, 112, 3296)
+Group 47 (3): Sparrow (D), Sparrow (D), Sparrow (D) (-2133, 139, 6453)
+Group 48 (3): Hare (A), Hare (A), Hare (A) (65, 69, 3037)
+*** Moon Cave Entrance (rf06) ***
+Group 0 (6): Crow (A), Crow (A), Crow (A), Crow (A), Crow (A), Crow (A) (1991, 18834, 6530)
+*** Taka Pass (Cursed) (rf07) ***
+*** Taka Pass (Healed) (rf08) ***
+Group 0 (4): Bat (A), Bat (A), Bat (A), Bat (A) (350, 909, 2993)
+Group 32 (2): Deer (A), Deer (A) (-4346, 781, 4176)
+Group 33 (2): Horse (A), Horse (A) (-2500, 870, 4676)
+Group 34 (3): Sparrow (D), Sparrow (D), Sparrow (D) (-5324, 796, 2619)
+Group 35 (2): Boar Piglet (A), Boar Piglet (A) (-3084, 603, 2795)
+Group 36 (2): Fox (A), Fox (A) (-7794, 1008, 2702)
+Group 49 (2): Tiger (A), Tiger (A) (-1745, 570, 1449)
+Group 50 (3): Deer (A), Deer (A), Deer (A) (-7595, 1032, 3432)
+Group 51 (3): Monkey (A), Monkey (A), Monkey (A) (-4978, 1355, 5728)
+Group 52 (1): Dog (A) (-2414, 596, 2905)
+Group 53 (1): Dog (A) (-2907, 561, 3653)
+Group 54 (4): Deer (A), Deer (A), Deer (A), Deer (A) (-396, 1273, 2677)
+Group 55 (2): Horse (A), Horse (A) (-6292, 838, 3118)
+Group 56 (2): Fox (A), Fox (A) (623, 725, 4225)
+Group 90 (8): Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D) (-787, 1029, 519)
+*** Ryoshima Coast (Cursed) (rf09) ***
+*** Ryoshima Coast (Healed) (rf0a) ***
+Group 0 (17): Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Crow (A), Crow (A), Crow (A), Crow (A), Crow (A), Bat (A), Bat (A), Bat (A) (3311, 553, -582)
+Group 79 (3): Cow (A), Cow (A), Cow (A) (2526, 471, -821)
+Group 80 (1): Cat (A) (2080, 985, -225)
+Group 81 (4): Fox (A), Fox (A), Fox (A), Fox (A) (2094, 480, 1547)
+Group 82 (3): Dog (A), Dog (A), Dog (A) (3107, 410, 1833)
+Group 83 (3): Fox (A), Fox (A), Fox (A) (1274, 395, 2491)
+Group 84 (1): Boar Piglet (A) (-1278, 239, 2290)
+Group 85 (4): Monkey (A), Monkey (A), Monkey (A), Monkey (A) (71, 141, 1539)
+Group 86 (3): Horse (A), Horse (A), Horse (A) (-2322, 431, -1130)
+Group 87 (4): Hare (A), Hare (A), Hare (A), Hare (A) (-1708, 540, 647)
+Group 88 (4): Hare (A), Hare (A), Hare (A), Hare (A) (1004, 400, 1253)
+Group 89 (2): Monkey (A), Monkey (A) (-3075, 255, 3609)
+Group 100 (1): Inaba (Hare) (A) (-1560, 538, 622)
+Group 137 (1): Boar Piglet (A) (-1444, 198, 2516)
+Group 138 (3): Cow (A), Cow (A), Cow (A) (-808, 406, -459)
+Group 139 (3): Cat (A), Cat (A), Cat (A) (-4300, 339, 1715)
+Group 140 (4): Nightingale (D), Nightingale (D), Nightingale (D), Nightingale (D) (2513, 922, -1165)
+Group 141 (1): Pig (A) (-1638, 202, 2267)
+*** North Ryoshima Coast (rf0c) ***
+Group 0 (6): Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D), Seagull (D) (-4, 111, -2018)
+Group 91 (3): Hare (A), Hare (A), Hare (A) (4660, -200, -3610)
+Group 92 (4): Cat (A), Cat (A), Cat (A), Cat (A) (632, -334, -5110)
+Group 93 (3): Cow (A), Cow (A), Cow (A) (3664, -135, -4231)
+Group 94 (3): Dog (A), Dog (A), Dog (A) (2249, -273, -3749)
+Group 95 (5): Pig (A), Pig (A), Pig (A), Pig (A), Pig (A) (2680, -322, -5015)
+Group 96 (4): Fox (A), Fox (A), Fox (A), Fox (A) (316, -328, -4121)
+Group 97 (3): Tiger (A), Tiger (A), Tiger (A) (-356, 24, -3695)
+Group 98 (3): Cat (A), Cat (A), Cat (A) (-1038, -330, -2645)
+Group 99 (3): Cat (A), Cat (A), Cat (A) (10859, -180, -4348)
+*** Kamui (Cursed) (rf11) ***
+*** Kamui (Healed) (rf12) ***
+Group 0 (8): Bat (A), Bat (A), Bat (A), Bat (A), Owl (A), Owl (A), Owl (A), Owl (A) (215, 176, -5551)
+Group 101 (2): Bear (A), Bear (A) (-358, -20, -559)
+Group 102 (3): Bear (A), Bear (A), Bear (A) (-1421, -149, -3382)
+Group 103 (3): Sheep (A), Sheep (A), Sheep (A) (-540, -60, -2076)
+Group 104 (4): Crane (A), Crane (A), Crane (A), Crane (A) (1751, -79, -1900)
+Group 105 (3): Fox (A), Fox (A), Fox (A) (881, -14, -1566)
+Group 106 (3): Sheep (A), Sheep (A), Sheep (A) (-1742, -122, -4633)
+Group 107 (1): Bear (A) (-267, -57, -3394)
+Group 108 (2): Bear (A), Bear (A) (43, -102, -5815)
+Group 109 (3): Crane (A), Crane (A), Crane (A) (-830, -47, -6717)
+Group 110 (1): Bear (A) (-2339, -92, -6827)
+Group 111 (1): Bear (A) (-3570, -89, -6663)
+Group 112 (2): Hare (A), Hare (A) (-1131, -149, -5565)
+*** Kamui (Ezofuji) (rf13) ***
+Group 0 (2): Owl (A), Owl (A) (-589, 137, -234)
+Group 113 (1): Bear (A) (1586, -42, -254)
+Group 114 (3): Sheep (A), Sheep (A), Sheep (A) (610, 248, -4028)
+Group 115 (5): Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A) (2606, 395, -2812)
+Group 116 (3): Monkey (A), Monkey (A), Monkey (A) (-2766, 378, -3602)
+Group 117 (1): Bear (A) (-2583, 591, -2715)
+Group 118 (4): Crane (A), Crane (A), Crane (A), Crane (A) (-2048, -42, -1109)
+Group 119 (3): Raccoon (A), Raccoon (A), Raccoon (A) (-1998, 221, -393)
+*** Shinshu Field (Past) (rf20) ***
+*** Moon Cave Entrance (Past) (rf21) ***
