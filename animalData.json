@@ -343,7 +343,8 @@
     "praise": 10,
     "types": "Take / Gi (5)",
     "notes": "Not listed in files",
-    "image": "./Sasa/Take.png"
+    "image": "./Sasa/Take.png",
+    "mapID": 265
   },
   {
     "bestiary": "Sparrow",
@@ -768,7 +769,8 @@
     "praise": 0,
     "types": "Ume / Jin (1)",
     "notes": "Not listed in files. Found at fishing spot after going to Taka, and in Kamui after Blooming the Kamui Guardian Sapling.",
-    "image": "./Agata/Ume.png"
+    "image": "./Agata/Ume.png",
+    "mapID": 3844
   },
   {
     "bestiary": "Hare",
