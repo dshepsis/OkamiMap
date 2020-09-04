@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Okami Map</title>
+  <title>Okami Map - Animals</title>
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -182,9 +182,21 @@ function tdImageEl(src) {
   return td;
 }
 
-function datumToTR(datum) {
+function animalToTR(datum) {
   const tr = document.createElement('tr');
-  const {map, bestiary, availability, praise, types, image, notes} = datum;
+  const {mapID, bestiary, availability, praise, types, image, notes} = datum;
+  let mapStr;
+  if (mapID === undefined) {
+    console.error(`Loot ${contents} in ${type} found with no Map ID.`);
+    mapStr = "Unknown map";
+  } else if (mapIDMap[mapID] === undefined) {
+    console.error(
+      `Loot ${contents} in ${type} found with invalid Map ID ${mapID}.`
+    );
+    mapStr = `Unknown map (r${mapID.toString(16)})`;
+  } else {
+    mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`;
+  }
   const children = [
     tdEl(map),
     tdEl(bestiary),
@@ -200,17 +212,23 @@ function datumToTR(datum) {
   return tr;
 }
 
-let data;
+/* Fetch multiple JSON files in parallel */
+async function paraFetchJSON(...URLs) {
+  const requests = URLs.map(u=>
+    fetch(u).then(r=>r.json())
+  );
+  return Promise.all(requests);
+}
+
+let animalData;
+let mapIDMap;
 (async ()=>{
   let response;
-  try {
-    response = await fetch('./animalData.json');
-    data = await response.json();
-    for (const datum of data) {
-      tb.appendChild(datumToTR(datum));
-    }
-  } catch (e) {
-    console.log(e);
+  [animalData, mapIDMap] = await paraFetchJSON(
+    './animalData.json', './mapIDMap.json'
+  );
+  for (const animal of animalData) {
+    tb.appendChild(animalToTR(animal, mapIDMap));
   }
 })();
 

@@ -1,29 +1,22 @@
-const aniTxt =
-`*** Cave of Nagi (r101) ***
-*** Kamiki Village (r102) ***
-Group 0 (8): Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D)
-Group 3 (4): Chicken (A), Chicken (A), Chicken (A), Chicken (A)
-Group 4 (3): Hare (A), Hare (A), Hare (A)
-Group 5 (2): Hayabusa / Chu (D), Hayabusa / Chu (N)
-Group 6 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D)
-Group 7 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D)
-Group 8 (3): Sparrow (D), Sparrow (D), Sparrow (D)
-Group 9 (3): Sparrow (D), Sparrow (D), Sparrow (D)
-*** Hana Valley (r103) ***
-Group 1 (3): Monkey (A), Monkey (A), Monkey (A)
-Group 2 (3): Boar Piglet (A), Boar Piglet (A), Boar (A)`;
+let mapID = NaN; //Just in case
+let mapName;
+const mapMap = Object.create(null);
 
-let map = "Null map"; //Just in case
-const dataArr = [];
-for (const line of aniTxt.split('\n')) {
-  const mapMatch = /\*\*\* ([^*]+) \*\*\*/.exec(line);
+for (const line of c.split('\n')) {
+  const mapMatch = /\*\*\* (.+?) \(r([\da-f]+)\) \*\*\*/.exec(line);
   if (mapMatch !== null) {
-    map = mapMatch[1];
+    mapName = mapMatch[1];
+    mapID = parseInt(mapMatch[2], 16);
+    if (mapMap[mapID] !== undefined) {
+      console.error (`Already have a map with ID ${mapID}. Old name was ${mapMap[mapID]}, new name is ${mapName}.`);
+    }
+    mapMap[mapID] = mapName;
     continue;
   }
-  const aniMatch = /^Group \d+ \((\d+)\): (.+)$/.exec(line);
+
+  const aniMatch = /^Group \d+ \((\d+)\): (.+?) \((-?\d+), (-?\d+), (-?\d+)\)$/.exec(line);
   if (aniMatch !== null) {
-    const [, count, aniList] = aniMatch;
+    const [, count, aniList, x, y, z] = aniMatch;
     let day = false;
     let night = false;
     let firstAnimal = false;
@@ -42,23 +35,35 @@ for (const line of aniTxt.split('\n')) {
     const availability = ["None", "Day", "Night", "Always"][day + 2 * night];
     
     let types = "";
-    console.log(typeCounts);
+    // console.log(typeCounts);
     for (const type of Object.keys(typeCounts).sort()) {
       if (types !== "") types += ", ";
       types += `${type} (${typeCounts[type]})`;
     }
 
-    dataArr.push({
-      map,
-      bestiary: firstAnimal,
-      availability,
-      praise: 0,
-      types,
-      notes: ""
+    //Merge with existing data:
+    const mapStr = `${mapName} (r${mapID.toString(16)})`;
+    const existingItem = data.find(e=>{
+      return (
+        e.map === mapStr &&
+        e.types === types &&
+        !("mapID" in e)
+      );
     });
+    if (existingItem === undefined) {
+      console.error(`Could not find an animal with map ${mapStr} and types ${types}.`);
+      continue;
+    }
+    delete existingItem.map;
+    existingItem.mapID = mapID;
+    existingItem.coords = [+x, +y, +z]
     continue;
   }
   console.error(`Found a weird line: "${line}"`);
 }
 
-copy(JSON.stringify(dataArr, null, 2));
+const sd = JSON.stringify(data, null, 2);
+copy(sd.replace(
+  /("coords":)\s+\[\s+(-?\d+),\s+(-?\d+),\s+(-?\d+)\s+\]/g,
+  '$1 [$2, $3, $4]'
+));

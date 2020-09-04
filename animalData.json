@@ -1,306 +1,340 @@
 [
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "None",
     "availability": "Day",
     "praise": 0,
     "types": "Hawk (8)",
-    "notes": ""
+    "notes": "",
+    "mapID": 258,
+    "coords": [-185, -279, 711]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Chicken",
     "availability": "Always",
     "praise": 0,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kamiki/Chicken.png"
+    "image": "./Kamiki/Chicken.png",
+    "mapID": 258,
+    "coords": [558, -462, 2238]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 0,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Kamiki/Hare.png"
+    "image": "./Kamiki/Hare.png",
+    "mapID": 258,
+    "coords": [2065, -413, 2522]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 0,
     "types": "Hayabusa / Chu (2)",
     "notes": "",
-    "image": "./Kamiki/DogHayabusa.png"
+    "image": "./Kamiki/DogHayabusa.png",
+    "mapID": 258,
+    "coords": [3978, -10002, -49]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Kamiki/SparrowC.png"
+    "image": "./Kamiki/SparrowC.png",
+    "mapID": 258,
+    "coords": [1115, -180, 416]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Kamiki/SparrowA.png"
+    "image": "./Kamiki/SparrowA.png",
+    "mapID": 258,
+    "coords": [940, 102, 1321]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Kamiki/SparrowB.png"
+    "image": "./Kamiki/SparrowB.png",
+    "mapID": 258,
+    "coords": [698, -466, 1722]
   },
   {
-    "map": "Kamiki Village (r102)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Kamiki/SparrowD.png"
+    "image": "./Kamiki/SparrowD.png",
+    "mapID": 258,
+    "coords": [2742, -474, 1771]
   },
   {
-    "map": "Hana Valley (r103)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 0,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./HanaValley/Monkey.png"
+    "image": "./HanaValley/Monkey.png",
+    "mapID": 259,
+    "coords": [144, 28, -1111]
   },
   {
-    "map": "Hana Valley (r103)",
     "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar (1), Boar Piglet (2)",
     "notes": "",
-    "image": "./HanaValley/Boar.png"
+    "image": "./HanaValley/Boar.png",
+    "mapID": 259,
+    "coords": [-1923, 429, -3292]
   },
   {
-    "map": "City Checkpoint (r105)",
     "bestiary": "Nightingale",
     "availability": "Day",
     "praise": 3,
     "types": "Nightingale (3)",
     "notes": "",
-    "image": "./CityCheckpoint/NightingaleA.png"
+    "image": "./CityCheckpoint/NightingaleA.png",
+    "mapID": 261,
+    "coords": [-75, 2, -383]
   },
   {
-    "map": "City Checkpoint (r105)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 6,
     "types": "Boar Piglet (2)",
     "notes": "",
-    "image": "./CityCheckpoint/BoarPiglet.png"
+    "image": "./CityCheckpoint/BoarPiglet.png",
+    "mapID": 261,
+    "coords": [-292, -544, 2589]
   },
   {
-    "map": "City Checkpoint (r105)",
     "bestiary": "Raccoon",
     "availability": "Always",
     "praise": 6,
     "types": "Raccoon (2)",
     "notes": "",
-    "image": "./CityCheckpoint/Raccoon.png"
+    "image": "./CityCheckpoint/Raccoon.png",
+    "mapID": 261,
+    "coords": [293, -566, 3828]
   },
   {
-    "map": "City Checkpoint (r105)",
     "bestiary": "Nightingale",
     "availability": "Day",
     "praise": 2,
     "types": "Nightingale (2)",
     "notes": "After Blooming all 4 cursed patches on the Ryoshima side",
-    "image": "./CityCheckpoint/NightingaleB.png"
+    "image": "./CityCheckpoint/NightingaleB.png",
+    "mapID": 261,
+    "coords": [-3272, 0, -637]
   },
   {
-    "map": "City Checkpoint (r105)",
     "bestiary": "Horse",
     "availability": "Always",
     "praise": 8,
     "types": "Horse (2)",
     "notes": "After Blooming all 4 cursed patches on the Ryoshima Side",
-    "image": "./CityCheckpoint/Horse.png"
+    "image": "./CityCheckpoint/Horse.png",
+    "mapID": 261,
+    "coords": [-3386, 0, 857]
   },
   {
-    "map": "Gale Shrine (r107)",
     "bestiary": "None",
     "availability": "Day",
     "praise": 0,
     "types": "Hawk (6)",
-    "notes": ""
+    "notes": "",
+    "mapID": 263,
+    "coords": [638, 2281, -538]
   },
   {
-    "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
     "praise": 4,
     "types": "Mouse (4)",
     "notes": "",
-    "image": "./GaleShrine/MouseB.png"
+    "image": "./GaleShrine/MouseB.png",
+    "mapID": 263,
+    "coords": [-1006, 200, -1303]
   },
   {
-    "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
     "praise": 7,
     "types": "Mouse (7)",
     "notes": "",
-    "image": "./GaleShrine/MouseC.png"
+    "image": "./GaleShrine/MouseC.png",
+    "mapID": 263,
+    "coords": [-2774, 200, -1333]
   },
   {
-    "map": "Gale Shrine (r107)",
     "bestiary": "Mouse",
     "availability": "Always",
     "praise": 8,
     "types": "Mouse (8)",
     "notes": "Under Cherry Bomb elevator",
-    "image": "./GaleShrine/MouseA.png"
+    "image": "./GaleShrine/MouseA.png",
+    "mapID": 263,
+    "coords": [-213, -329, -23]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "None",
     "availability": "Day",
     "praise": 0,
     "types": "Hawk (5)",
-    "notes": ""
+    "notes": "",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 0,
     "types": "Chi (1)",
     "notes": "Listed in group 0 internally. Found near Mr. Bamboo's house.",
-    "image": "./Kusa/Chi.png"
+    "image": "./Kusa/Chi.png",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 10,
     "types": "Ko (1)",
     "notes": "Listed in group 0 internally. In upper-level cave reachable via Vine.",
-    "image": "./Kusa/Ko.png"
+    "image": "./Kusa/Ko.png",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 10,
     "types": "Rei (1)",
     "notes": "Listed in group 0 internally. Found in cave behind Cherry Bomb wall.",
-    "image": "./Kusa/Rei.png"
+    "image": "./Kusa/Rei.png",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 10,
     "types": "Shin (1)",
     "notes": "Listed in group 0 internally. In flower bed after Blooming cursed patch.",
-    "image": "./Kusa/Shin.png"
+    "image": "./Kusa/Shin.png",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 10,
     "types": "Tei (1)",
     "notes": "Listed in group 0 internally",
-    "image": "./Kusa/Tei.png"
+    "image": "./Kusa/Tei.png",
+    "mapID": 264,
+    "coords": [-3987, 977, 1631]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "Along the path to Mr. Bamboo's house.",
-    "image": "./Kusa/SparrowA.png"
+    "image": "./Kusa/SparrowA.png",
+    "mapID": 264,
+    "coords": [-2073, 301, 2339]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 6,
     "types": "Monkey (2)",
     "notes": "",
-    "image": "./Kusa/MonkeyA.png"
+    "image": "./Kusa/MonkeyA.png",
+    "mapID": 264,
+    "coords": [-1646, 702, 1405]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Raccoon",
     "availability": "Always",
     "praise": 6,
     "types": "Raccoon (2)",
     "notes": "",
-    "image": "./Kusa/Raccoon.png"
+    "image": "./Kusa/Raccoon.png",
+    "mapID": 264,
+    "coords": [-540, -2, 2128]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Kusa/SparrowB.png"
+    "image": "./Kusa/SparrowB.png",
+    "mapID": 264,
+    "coords": [-54, -275, 1360]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
     "praise": 4,
     "types": "Chicken (2)",
     "notes": "Requires Galestorm",
-    "image": "./Kusa/sb29_ChickenB.png"
+    "image": "./Kusa/sb29_ChickenB.png",
+    "mapID": 264,
+    "coords": [902, 639, 1643]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
     "praise": 8,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kusa/ChickenA.png"
+    "image": "./Kusa/ChickenA.png",
+    "mapID": 264,
+    "coords": [438, 462, 2431]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Pig",
     "availability": "Always",
     "praise": 6,
     "types": "Pig (2)",
     "notes": "",
-    "image": "./Kusa/Pig.png"
+    "image": "./Kusa/Pig.png",
+    "mapID": 264,
+    "coords": [601, 47, 1736]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Chicken",
     "availability": "Always",
     "praise": 8,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kusa/ChickenC.png"
+    "image": "./Kusa/ChickenC.png",
+    "mapID": 264,
+    "coords": [-1664, 301, 2641]
   },
   {
-    "map": "Kusa Village (r108)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./Kusa/MonkeyB.png"
+    "image": "./Kusa/MonkeyB.png",
+    "mapID": 264,
+    "coords": [-4642, 712, 1663]
   },
   {
     "map": "Sasa Sanctuary (r109)",
@@ -312,377 +346,420 @@
     "image": "./Sasa/Take.png"
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Sasa/SparrowA.png"
+    "image": "./Sasa/SparrowA.png",
+    "mapID": 265,
+    "coords": [-5, 74, -1490]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 0,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Sasa/SparrowB.png"
+    "image": "./Sasa/SparrowB.png",
+    "mapID": 265,
+    "coords": [528, 77, -1365]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Sasa/SparrowC.png"
+    "image": "./Sasa/SparrowC.png",
+    "mapID": 265,
+    "coords": [989, 241, -3488]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Sasa/SparrowD.png"
+    "image": "./Sasa/SparrowD.png",
+    "mapID": 265,
+    "coords": [2009, 383, -3555]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Sasa/Hare.png"
+    "image": "./Sasa/Hare.png",
+    "mapID": 265,
+    "coords": [2177, 543, -5999]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Tiger",
     "availability": "Always",
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "",
-    "image": "./Sasa/TigerA.png"
+    "image": "./Sasa/TigerA.png",
+    "mapID": 265,
+    "coords": [1655, 546, -5466]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Tiger",
     "availability": "Always",
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "",
-    "image": "./Sasa/TigerB.png"
+    "image": "./Sasa/TigerB.png",
+    "mapID": 265,
+    "coords": [2052, 544, -5056]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Mouse",
     "availability": "Always",
     "praise": 4,
     "types": "Mouse (3)",
     "notes": "",
-    "image": "./Sasa/MouseA.png"
+    "image": "./Sasa/MouseA.png",
+    "mapID": 265,
+    "coords": [214, -13471, -1615]
   },
   {
-    "map": "Sasa Sanctuary (r109)",
     "bestiary": "Mouse",
     "availability": "Always",
     "praise": 2,
     "types": "Mouse (2)",
     "notes": "Inn interior, South-West room 2nd floor.",
-    "image": "./Sasa/MouseB.png"
+    "image": "./Sasa/MouseB.png",
+    "mapID": 265,
+    "coords": [-1229, -15478, -1361]
   },
   {
-    "map": "Taka Pass - Moley's Treasure Trove (r114)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 0,
     "types": "Monkey (16)",
-    "notes": ""
+    "notes": "",
+    "mapID": 276,
+    "coords": [-17, 65, -363]
   },
   {
-    "map": "Dragon Palace Grotto Under Stairs (r11c)",
     "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 45,
     "types": "Boar (1), Boar Piglet (14)",
     "notes": "",
-    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png"
+    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png",
+    "mapID": 284,
+    "coords": [-43, 99, -462]
   },
   {
-    "map": "North Ryoshima Coast Grotto Near Yoichi (r11d)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 30,
     "types": "Hare (14), Hare (Patchwork) (1)",
     "notes": "Requires Digging Champ to enter grotto",
-    "image": "./NorthRyo/HareA.png"
+    "image": "./NorthRyo/HareA.png",
+    "mapID": 285,
+    "coords": [-83, 87, -424]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/CatA.png"
+    "image": "./Catcall/CatA.png",
+    "mapID": 522,
+    "coords": [-4, 4, -620]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10A_CatB.png"
+    "image": "./Catcall/Clover10A_CatB.png",
+    "mapID": 522,
+    "coords": [358, 4, -134]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10B_CatC.png"
+    "image": "./Catcall/Clover10B_CatC.png",
+    "mapID": 522,
+    "coords": [163, 4, 477]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10C_CatD.png"
+    "image": "./Catcall/Clover10C_CatD.png",
+    "mapID": 522,
+    "coords": [-292, 4, -123]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "First cloud platform",
-    "image": "./Catcall/CatE.png"
+    "image": "./Catcall/CatE.png",
+    "mapID": 522,
+    "coords": [1, 1582, 378]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Second cloud platform",
-    "image": "./Catcall/CatF.png"
+    "image": "./Catcall/CatF.png",
+    "mapID": 522,
+    "coords": [325, 2836, 187]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Third cloud platform",
-    "image": "./Catcall/TravelersCharm_CatG.png"
+    "image": "./Catcall/TravelersCharm_CatG.png",
+    "mapID": 522,
+    "coords": [380, 4093, -220]
   },
   {
-    "map": "Catcall Tower (r20a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Top of tower. Triggers Catwallk cutscene when fed.",
-    "image": "./Catcall/CatH.png"
+    "image": "./Catcall/CatH.png",
+    "mapID": 522,
+    "coords": [0, 10485, 668]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Owl (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [515, 828, -2531]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (2)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [-8, 625, -1647]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [-618, 336, -466]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 0,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [398, 0, -112]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Crane",
     "availability": "Always",
     "praise": 0,
     "types": "Crane (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [847, 112, -622]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (4)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [1456, 12, -1599]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [-335, 350, -1224]
   },
   {
-    "map": "Wep'keer (r301)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 769,
+    "coords": [849, 12, -1301]
   },
   {
-    "map": "Kamiki Village (Past) (r302)",
     "bestiary": "100 Year Old Dog",
     "availability": "Always",
     "praise": 0,
     "types": "100 Year Old Dog (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 770,
+    "coords": [1083, -475, 1898]
   },
   {
-    "map": "Yoshpet (r310)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 0,
     "types": "Deer (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 784,
+    "coords": [-1024, 792, -15575]
   },
   {
-    "map": "Yoshpet (r310)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 0,
     "types": "Hare (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 784,
+    "coords": [-783, 792, -15658]
   },
   {
-    "map": "Yoshpet (r310)",
     "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 0,
     "types": "Boar (2), Boar Piglet (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 784,
+    "coords": [-792, 798, -15838]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "None",
     "availability": "Day",
     "praise": 0,
     "types": "Hawk (6)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3842,
+    "coords": [1983, 785, 357]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 0,
     "types": "Hare (4)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareA.png"
+    "image": "./ShinshuField/HareA.png",
+    "mapID": 3842,
+    "coords": [1207, 89, -1371]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 10,
     "types": "Hare (5)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareB.png"
+    "image": "./ShinshuField/HareB.png",
+    "mapID": 3842,
+    "coords": [192, 141, -3857]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 8,
     "types": "Hare (4)",
     "notes": "",
-    "image": "./ShinshuField/HareD.png"
+    "image": "./ShinshuField/HareD.png",
+    "mapID": 3842,
+    "coords": [1062, 681, -4770]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 10,
     "types": "Hare (5)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareE.png"
+    "image": "./ShinshuField/HareE.png",
+    "mapID": 3842,
+    "coords": [3933, 705, -1871]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 15,
     "types": "Boar Piglet (5)",
     "notes": "After Blooming cursed patch",
-    "image": "./ShinshuField/BoarB.png"
+    "image": "./ShinshuField/BoarB.png",
+    "mapID": 3842,
+    "coords": [-384, -45, -1358]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Boar, Boar Piglet",
     "availability": "Always",
     "praise": 15,
     "types": "Boar (2), Boar Piglet (3)",
     "notes": "",
-    "image": "./ShinshuField/BoarA_TravelGuideFeeding.png"
+    "image": "./ShinshuField/BoarA_TravelGuideFeeding.png",
+    "mapID": 3842,
+    "coords": [371, 481, 1514]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Pig",
     "availability": "Always",
     "praise": 9,
     "types": "Pig (3)",
     "notes": "",
-    "image": "./ShinshuField/Pig.png"
+    "image": "./ShinshuField/Pig.png",
+    "mapID": 3842,
+    "coords": [-684, 229, 523]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./ShinshuField/HareC.png"
+    "image": "./ShinshuField/HareC.png",
+    "mapID": 3842,
+    "coords": [2124, 472, -963]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./ShinshuField/Sparrow.png"
+    "image": "./ShinshuField/Sparrow.png",
+    "mapID": 3842,
+    "coords": [3938, 38, 484]
   },
   {
-    "map": "Shinshu Field (Healed) (rf02)",
     "bestiary": "Horse",
     "availability": "Always",
     "praise": 8,
     "types": "Horse (2)",
     "notes": "After clearing mermaid spring devil gate",
-    "image": "./ShinshuField/Horse.png"
+    "image": "./ShinshuField/Horse.png",
+    "mapID": 3842,
+    "coords": [487, 341, 675]
   },
   {
     "map": "Agata Forest (Healed) (rf04)",
@@ -694,680 +771,758 @@
     "image": "./Agata/Ume.png"
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 4,
     "types": "Hare (2)",
     "notes": "",
-    "image": "./Agata/HareB.png"
+    "image": "./Agata/HareB.png",
+    "mapID": 3844,
+    "coords": [14, 99, 6024]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./Agata/SparrowA.png"
+    "image": "./Agata/SparrowA.png",
+    "mapID": 3844,
+    "coords": [105, -62, 7322]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "After clearing devil gate",
-    "image": "./Agata/MonkeyA.png"
+    "image": "./Agata/MonkeyA.png",
+    "mapID": 3844,
+    "coords": [-1319, 97, 5768]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 12,
     "types": "Deer (3)",
     "notes": "",
-    "image": "./Agata/DeerA.png"
+    "image": "./Agata/DeerA.png",
+    "mapID": 3844,
+    "coords": [-1859, 680, 3152]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 4,
     "types": "Hare (2)",
     "notes": "After Blooming a cursed patch",
-    "image": "./Agata/HareC.png"
+    "image": "./Agata/HareC.png",
+    "mapID": 3844,
+    "coords": [-2252, 192, 8633]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Nightingale",
     "availability": "Day",
     "praise": 3,
     "types": "Nightingale (3)",
     "notes": "",
-    "image": "./Agata/Nightingale.png"
+    "image": "./Agata/Nightingale.png",
+    "mapID": 3844,
+    "coords": [-630, 99, 6378]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerE.png"
+    "image": "./Agata/DeerE.png",
+    "mapID": 3844,
+    "coords": [752, -7, 7402]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerC.png"
+    "image": "./Agata/DeerC.png",
+    "mapID": 3844,
+    "coords": [621, -12, 6892]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerD_TravelGuideEnhancingWeapons.png"
+    "image": "./Agata/DeerD_TravelGuideEnhancingWeapons.png",
+    "mapID": 3844,
+    "coords": [-440, -62, 7198]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 12,
     "types": "Deer (3)",
     "notes": "",
-    "image": "./Agata/DeerB.png"
+    "image": "./Agata/DeerB.png",
+    "mapID": 3844,
+    "coords": [-1424, -11, 6961]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 4,
     "types": "Hare (2)",
     "notes": "After completing the log bridge minigame",
-    "image": "./Agata/HareD.png"
+    "image": "./Agata/HareD.png",
+    "mapID": 3844,
+    "coords": [-2481, 112, 3296]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Agata/SparrowB.png"
+    "image": "./Agata/SparrowB.png",
+    "mapID": 3844,
+    "coords": [-2133, 139, 6453]
   },
   {
-    "map": "Agata Forest (Healed) (rf04)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Agata/HareA_DevoutBeads.png"
+    "image": "./Agata/HareA_DevoutBeads.png",
+    "mapID": 3844,
+    "coords": [65, 69, 3037]
   },
   {
-    "map": "Moon Cave Entrance (rf06)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Crow (6)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3846,
+    "coords": [1991, 18834, 6530]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Bat (4)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3848,
+    "coords": [350, 909, 2993]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 8,
     "types": "Deer (2)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/DeerC.png"
+    "image": "./Taka/DeerC.png",
+    "mapID": 3848,
+    "coords": [-4346, 781, 4176]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Horse",
     "availability": "Always",
     "praise": 8,
     "types": "Horse (2)",
     "notes": "",
-    "image": "./Taka/HorseA.png"
+    "image": "./Taka/HorseA.png",
+    "mapID": 3848,
+    "coords": [-2500, 870, 4676]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Sparrow",
     "availability": "Day",
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Taka/Sparrow.png"
+    "image": "./Taka/Sparrow.png",
+    "mapID": 3848,
+    "coords": [-5324, 796, 2619]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 6,
     "types": "Boar Piglet (2)",
     "notes": "",
-    "image": "./Taka/BoarPiglet.png"
+    "image": "./Taka/BoarPiglet.png",
+    "mapID": 3848,
+    "coords": [-3084, 603, 2795]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 6,
     "types": "Fox (2)",
     "notes": "",
-    "image": "./Taka/FoxA.png"
+    "image": "./Taka/FoxA.png",
+    "mapID": 3848,
+    "coords": [-7794, 1008, 2702]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Tiger",
     "availability": "Always",
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/Tiger.png"
+    "image": "./Taka/Tiger.png",
+    "mapID": 3848,
+    "coords": [-1745, 570, 1449]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 12,
     "types": "Deer (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/DeerA.png"
+    "image": "./Taka/DeerA.png",
+    "mapID": 3848,
+    "coords": [-7595, 1032, 3432]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./Taka/Monkey.png"
+    "image": "./Taka/Monkey.png",
+    "mapID": 3848,
+    "coords": [-4978, 1355, 5728]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 3,
     "types": "Dog (1)",
     "notes": "",
-    "image": "./Taka/DogA.png"
+    "image": "./Taka/DogA.png",
+    "mapID": 3848,
+    "coords": [-2414, 596, 2905]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 3,
     "types": "Dog (1)",
     "notes": "",
-    "image": "./Taka/DogB.png"
+    "image": "./Taka/DogB.png",
+    "mapID": 3848,
+    "coords": [-2907, 561, 3653]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Deer",
     "availability": "Always",
     "praise": 16,
     "types": "Deer (4)",
     "notes": "",
-    "image": "./Taka/DeerB.png"
+    "image": "./Taka/DeerB.png",
+    "mapID": 3848,
+    "coords": [-396, 1273, 2677]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Horse",
     "availability": "Always",
     "praise": 8,
     "types": "Horse (2)",
     "notes": "",
-    "image": "./Taka/HorseB.png"
+    "image": "./Taka/HorseB.png",
+    "mapID": 3848,
+    "coords": [-6292, 838, 3118]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 6,
     "types": "Fox (2)",
     "notes": "",
-    "image": "./Taka/FoxB.png"
+    "image": "./Taka/FoxB.png",
+    "mapID": 3848,
+    "coords": [623, 725, 4225]
   },
   {
-    "map": "Taka Pass (Healed) (rf08)",
     "bestiary": "Nightingale",
     "availability": "Day",
     "praise": 8,
     "types": "Nightingale (8)",
     "notes": "",
-    "image": "./Taka/Nightingale.png"
+    "image": "./Taka/Nightingale.png",
+    "mapID": 3848,
+    "coords": [-787, 1029, 519]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Bat (3), Crow (5), Seagull (9)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3850,
+    "coords": [3311, 553, -582]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cow",
     "availability": "Always",
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./CityCheckpoint/CowA.png"
+    "image": "./CityCheckpoint/CowA.png",
+    "mapID": 3850,
+    "coords": [2526, 471, -821]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 2,
     "types": "Cat (1)",
     "notes": "",
-    "image": "./Ryoshima/CatA.png"
+    "image": "./Ryoshima/CatA.png",
+    "mapID": 3850,
+    "coords": [2080, 985, -225]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 12,
     "types": "Fox (4)",
     "notes": "",
-    "image": "./Ryoshima/FoxA.png"
+    "image": "./Ryoshima/FoxA.png",
+    "mapID": 3850,
+    "coords": [2094, 480, 1547]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 9,
     "types": "Dog (3)",
     "notes": "",
-    "image": "./Ryoshima/Dog.png"
+    "image": "./Ryoshima/Dog.png",
+    "mapID": 3850,
+    "coords": [3107, 410, 1833]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 9,
     "types": "Fox (3)",
     "notes": "",
-    "image": "./Ryoshima/FoxB.png"
+    "image": "./Ryoshima/FoxB.png",
+    "mapID": 3850,
+    "coords": [1274, 395, 2491]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 3,
     "types": "Boar Piglet (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/BoarPigletA.png"
+    "image": "./Ryoshima/BoarPigletA.png",
+    "mapID": 3850,
+    "coords": [-1278, 239, 2290]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 12,
     "types": "Monkey (4)",
     "notes": "",
-    "image": "./Ryoshima/MonkeyA.png"
+    "image": "./Ryoshima/MonkeyA.png",
+    "mapID": 3850,
+    "coords": [71, 141, 1539]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Horse",
     "availability": "Always",
     "praise": 12,
     "types": "Horse (3)",
     "notes": "",
-    "image": "./Ryoshima/Horse.png"
+    "image": "./Ryoshima/Horse.png",
+    "mapID": 3850,
+    "coords": [-2322, 431, -1130]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 8,
     "types": "Hare (4)",
     "notes": "",
-    "image": "./Ryoshima/HareA.png"
+    "image": "./Ryoshima/HareA.png",
+    "mapID": 3850,
+    "coords": [-1708, 540, 647]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 8,
     "types": "Hare (4)",
     "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
-    "image": "./Ryoshima/HareB.png"
+    "image": "./Ryoshima/HareB.png",
+    "mapID": 3850,
+    "coords": [1004, 400, 1253]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 6,
     "types": "Monkey (2)",
     "notes": "",
-    "image": "./Ryoshima/MonkeyB.png"
+    "image": "./Ryoshima/MonkeyB.png",
+    "mapID": 3850,
+    "coords": [-3075, 255, 3609]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 2,
     "types": "Hare (Patchwork) (1)",
     "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
-    "image": "./Ryoshima/Inaba.png"
+    "image": "./Ryoshima/Inaba.png",
+    "mapID": 3850,
+    "coords": [-1560, 538, 622]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Boar Piglet",
     "availability": "Always",
     "praise": 3,
     "types": "Boar Piglet (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/BoarPigletB.png"
+    "image": "./Ryoshima/BoarPigletB.png",
+    "mapID": 3850,
+    "coords": [-1444, 198, 2516]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cow",
     "availability": "Always",
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./Ryoshima/CowB.png"
+    "image": "./Ryoshima/CowB.png",
+    "mapID": 3850,
+    "coords": [-808, 406, -459]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 6,
     "types": "Cat (3)",
     "notes": "",
-    "image": "./Ryoshima/CatB_DragonflyBeadA.png"
+    "image": "./Ryoshima/CatB_DragonflyBeadA.png",
+    "mapID": 3850,
+    "coords": [-4300, 339, 1715]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Nightingale",
     "availability": "Day",
     "praise": 4,
     "types": "Nightingale (4)",
     "notes": "",
-    "image": "./Ryoshima/Nightingale.png"
+    "image": "./Ryoshima/Nightingale.png",
+    "mapID": 3850,
+    "coords": [2513, 922, -1165]
   },
   {
-    "map": "Ryoshima Coast (Healed) (rf0a)",
     "bestiary": "Pig",
     "availability": "Always",
     "praise": 3,
     "types": "Pig (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/Pig.png"
+    "image": "./Ryoshima/Pig.png",
+    "mapID": 3850,
+    "coords": [-1638, 202, 2267]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "None",
     "availability": "Day",
     "praise": 0,
     "types": "Seagull (6)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3852,
+    "coords": [-4, 111, -2018]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 6,
     "types": "Hare (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./NorthRyo/HareB.png"
+    "image": "./NorthRyo/HareB.png",
+    "mapID": 3852,
+    "coords": [4660, -200, -3610]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 8,
     "types": "Cat (4)",
     "notes": "",
-    "image": "./NorthRyo/CatB_PotHerbsA.png"
+    "image": "./NorthRyo/CatB_PotHerbsA.png",
+    "mapID": 3852,
+    "coords": [632, -334, -5110]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cow",
     "availability": "Always",
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./NorthRyo/Cow.png"
+    "image": "./NorthRyo/Cow.png",
+    "mapID": 3852,
+    "coords": [3664, -135, -4231]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Dog",
     "availability": "Always",
     "praise": 9,
     "types": "Dog (3)",
     "notes": "",
-    "image": "./NorthRyo/Dog.png"
+    "image": "./NorthRyo/Dog.png",
+    "mapID": 3852,
+    "coords": [2249, -273, -3749]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Pig",
     "availability": "Always",
     "praise": 15,
     "types": "Pig (5)",
     "notes": "",
-    "image": "./NorthRyo/Pig.png"
+    "image": "./NorthRyo/Pig.png",
+    "mapID": 3852,
+    "coords": [2680, -322, -5015]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 12,
     "types": "Fox (4)",
     "notes": "",
-    "image": "./NorthRyo/Fox.png"
+    "image": "./NorthRyo/Fox.png",
+    "mapID": 3852,
+    "coords": [316, -328, -4121]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Tiger",
     "availability": "Always",
     "praise": 15,
     "types": "Tiger (3)",
     "notes": "On Watcher's Cape. Requires Catwalk.",
-    "image": "./NorthRyo/Tiger.png"
+    "image": "./NorthRyo/Tiger.png",
+    "mapID": 3852,
+    "coords": [-356, 24, -3695]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 6,
     "types": "Cat (3)",
     "notes": "",
-    "image": "./NorthRyo/CatA.png"
+    "image": "./NorthRyo/CatA.png",
+    "mapID": 3852,
+    "coords": [-1038, -330, -2645]
   },
   {
-    "map": "North Ryoshima Coast (rf0c)",
     "bestiary": "Cat",
     "availability": "Always",
     "praise": 6,
     "types": "Cat (3)",
     "notes": "On Catcall Island",
-    "image": "./NorthRyo/CatC.png"
+    "image": "./NorthRyo/CatC.png",
+    "mapID": 3852,
+    "coords": [10859, -180, -4348]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Bat (4), Owl (4)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [215, 176, -5551]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (2)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-358, -20, -559]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-1421, -149, -3382]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-540, -60, -2076]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Crane",
     "availability": "Always",
     "praise": 0,
     "types": "Crane (4)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [1751, -79, -1900]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Fox",
     "availability": "Always",
     "praise": 0,
     "types": "Fox (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [881, -14, -1566]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-1742, -122, -4633]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-267, -57, -3394]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (2)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [43, -102, -5815]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Crane",
     "availability": "Always",
     "praise": 0,
     "types": "Crane (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-830, -47, -6717]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-2339, -92, -6827]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-3570, -89, -6663]
   },
   {
-    "map": "Kamui (Healed) (rf12)",
     "bestiary": "Hare",
     "availability": "Always",
     "praise": 0,
     "types": "Hare (2)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3858,
+    "coords": [-1131, -149, -5565]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "None",
     "availability": "Always",
     "praise": 0,
     "types": "Owl (2)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [-589, 137, -234]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [1586, -42, -254]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Sheep",
     "availability": "Always",
     "praise": 0,
     "types": "Sheep (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [610, 248, -4028]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 0,
     "types": "Monkey (5)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [2606, 395, -2812]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Monkey",
     "availability": "Always",
     "praise": 0,
     "types": "Monkey (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [-2766, 378, -3602]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Bear",
     "availability": "Always",
     "praise": 0,
     "types": "Bear (1)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [-2583, 591, -2715]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Crane",
     "availability": "Always",
     "praise": 0,
     "types": "Crane (4)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [-2048, -42, -1109]
   },
   {
-    "map": "Kamui (Ezofuji) (rf13)",
     "bestiary": "Raccoon",
     "availability": "Always",
     "praise": 0,
     "types": "Raccoon (3)",
-    "notes": ""
+    "notes": "",
+    "mapID": 3859,
+    "coords": [-1998, 221, -393]
   }
 ]

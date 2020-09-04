@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Okami Map</title>
+  <title>Okami Map - Loot</title>
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -205,6 +205,7 @@ function lootToTR(loot, mapIDMap) {
   return tr;
 }
 
+/* Fetch multiple JSON files in parallel */
 async function paraFetchJSON(...URLs) {
   const requests = URLs.map(u=>
     fetch(u).then(r=>r.json())

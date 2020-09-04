@@ -25,7 +25,12 @@ Group 76 (4): Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-1006, 200, -1303)
 Group 77 (7): Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-2774, 200, -1333)
 Group 78 (8): Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A), Mouse (A) (-213, -329, -23)
 *** Kusa Village (r108) ***
-Group 0 (10): Chi (N), Ko (N), Rei (N), Shin (N), Tei (N), Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (-3987, 977, 1631)
+Group 0 (10): Hawk (D), Hawk (D), Hawk (D), Hawk (D), Hawk (D) (-3987, 977, 1631)
+Group 999 (10): Chi (A) (-3987, 977, 1631)
+Group 999 (10): Ko (A) (-3987, 977, 1631)
+Group 999 (10): Rei (A) (-3987, 977, 1631)
+Group 999 (10): Shin (A) (-3987, 977, 1631)
+Group 999 (10): Tei (A) (-3987, 977, 1631)
 Group 57 (5): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (-2073, 301, 2339)
 Group 58 (2): Monkey (A), Monkey (A) (-1646, 702, 1405)
 Group 59 (2): Raccoon (A), Raccoon (A) (-540, -2, 2128)
@@ -65,7 +70,7 @@ Group 160 (16): Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monkey (A), Monk
 *** Dragon Palace Grotto Under Stairs (r11c) ***
 Group 161 (15): Boar (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A), Boar Piglet (A) (-43, 99, -462)
 *** North Ryoshima Coast Grotto Near Yoichi (r11d) ***
-Group 162 (15): Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Inaba (Hare) (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A) (-83, 87, -424)
+Group 162 (15): Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (Patchwork) (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A), Hare (A) (-83, 87, -424)
 *** Sei'an Aristocratic Quarter (r200) ***
 *** Sei'an Commoner's Quarter (r201) ***
 *** Himiko's Palace (r202) ***
@@ -134,7 +139,6 @@ Group 39 (3): Hare (A), Hare (A), Hare (A) (2124, 472, -963)
 Group 40 (4): Sparrow (D), Sparrow (D), Sparrow (D), Sparrow (D) (3938, 38, 484)
 Group 41 (2): Horse (A), Horse (A) (487, 341, 675)
 *** Agata Forest (Cursed) (rf03) ***
-Group 0 (1): Monkey (A) (59, 28, 77)
 *** Agata Forest (Healed) (rf04) ***
 Group 20 (2): Hare (A), Hare (A) (14, 99, 6024)
 Group 21 (3): Sparrow (D), Sparrow (D), Sparrow (D) (105, -62, 7322)
@@ -182,7 +186,7 @@ Group 86 (3): Horse (A), Horse (A), Horse (A) (-2322, 431, -1130)
 Group 87 (4): Hare (A), Hare (A), Hare (A), Hare (A) (-1708, 540, 647)
 Group 88 (4): Hare (A), Hare (A), Hare (A), Hare (A) (1004, 400, 1253)
 Group 89 (2): Monkey (A), Monkey (A) (-3075, 255, 3609)
-Group 100 (1): Inaba (Hare) (A) (-1560, 538, 622)
+Group 100 (1): Hare (Patchwork) (A) (-1560, 538, 622)
 Group 137 (1): Boar Piglet (A) (-1444, 198, 2516)
 Group 138 (3): Cow (A), Cow (A), Cow (A) (-808, 406, -459)
 Group 139 (3): Cat (A), Cat (A), Cat (A) (-4300, 339, 1715)
