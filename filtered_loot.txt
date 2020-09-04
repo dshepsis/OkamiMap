@@ -232,7 +232,7 @@ Clover: Praise (10) (Buried) (180, 129, -640)
 Clover: Praise (10) (Buried) (-120, 129, -600)
 *** North Ryoshima Coast Grotto Near Yoichi (r11d) ***
 Chest: Stray Bead (On Land) (13, 138, -690)
-Chest: Pig Statue (On Land) (-63, 129, -665)
+Chest: Boar Statue (On Land) (-63, 129, -665)
 Chest: Golden Peach (On Land) (86, 129, -665)
 Clover: Praise (10) (Buried) (0, 66, -360)
 Clover: Praise (10) (Buried) (180, 129, -640)

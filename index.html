@@ -175,27 +175,36 @@ function tdImageEl(src) {
   return td;
 }
 
-function datumToTR(datum) {
+function lootToTR(loot, mapIDMap) {
   const tr = document.createElement('tr');
-  const {map, type, terrain, contents, image, notes} = datum;
-  const children = [tdEl(map), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)];
+  const {mapID, type, terrain, contents, image, notes} = loot;
+  const mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`
+  const children = [
+    tdEl(mapStr), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)
+  ];
   for (const c of children) {
     tr.appendChild(c);
   }
   return tr;
 }
 
-let data;
+async function paraFetchJSON(...URLs) {
+  return Promise.all(
+    URLs.map(u=>{
+      fetch(u).then(r=>r.json())
+    })
+  );
+}
+
+let lootData;
+let mapIDMap;
 (async ()=>{
   let response;
-  try {
-    response = await fetch('./data.json');
-    data = await response.json();
-    for (const datum of data) {
-      tb.appendChild(datumToTR(datum));
-    }
-  } catch (e) {
-    console.log(e);
+  [lootData, mapIDMap] = await paraFetchJSON(
+    './lootData.json', './mapIDMap.json'
+  );
+  for (const loot of lootData) {
+    tb.appendChild(lootToTR(loot, mapIDMap));
   }
 })();
 
