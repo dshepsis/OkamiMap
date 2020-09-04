@@ -1065,7 +1065,7 @@
     "type": "One-eyed Doll",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "Inn interior, North-West room on second floor. Dot the empty eye.",
+    "notes": "Stray Bead #31. Inn interior, North-West room on second floor. Dot the empty eye.",
     "image": "./Sasa/sb31.png"
   },
   {
@@ -1169,7 +1169,7 @@
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
     "notes": "B2F, behind ice block, Chery Bomb-able wall in elevator room",
-    "image": "./MoonCave/Clover5A.png"
+    "image": "./MoonCave/InkfinityStone.png"
   },
   {
     "map": "Moon Cavern (r110)",

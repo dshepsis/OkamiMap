@@ -194,11 +194,12 @@ function datumToTR(datum) {
   return tr;
 }
 
+let data;
 (async ()=>{
   let response;
   try {
     response = await fetch('./animalData.json');
-    const data = await response.json();
+    data = await response.json();
     for (const datum of data) {
       tb.appendChild(datumToTR(datum));
     }
