@@ -187,11 +187,11 @@ function animalToTR(datum) {
   const {mapID, bestiary, availability, praise, types, image, notes} = datum;
   let mapStr;
   if (mapID === undefined) {
-    console.error(`Loot ${contents} in ${type} found with no Map ID.`);
+    console.error(`Animal ${bestiary} with types ${types} found with no Map ID.`);
     mapStr = "Unknown map";
   } else if (mapIDMap[mapID] === undefined) {
     console.error(
-      `Loot ${contents} in ${type} found with invalid Map ID ${mapID}.`
+      `Animal ${bestiary} with types ${types} found with invalid Map ID ${mapID}.`
     );
     mapStr = `Unknown map (r${mapID.toString(16)})`;
   } else {
