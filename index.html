@@ -195,11 +195,10 @@ function lootToTR(loot, mapIDMap) {
 }
 
 async function paraFetchJSON(...URLs) {
-  return Promise.all(
-    URLs.map(u=>{
-      fetch(u).then(r=>r.json())
-    })
+  const requests = URLs.map(u=>
+    fetch(u).then(r=>r.json())
   );
+  return Promise.all(requests);
 }
 
 let lootData;
