@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Okami Map - Test</title>
+  <meta name="description" content="Map of treasure, clovers, etc. in Okami">
+  <meta name="author" content="Daniel Shepsis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Favicon.io-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+
+<style>
+* {
+  font: 20px/1.5 sans-serif;
+  color: #222;
+  box-sizing: border-box;
+}
+html {
+  background: #f8f8f8;
+  height:100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+svg {
+  height: 100%;
+  margin: 0;
+  display: block;
+  border: 5px dotted black;
+}
+
+svg.dragging {
+  cursor: all-scroll;
+}
+</style>
+</head>
+
+<body>
+  <svg tabindex="0" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+    <g id="matrix-group">
+      <circle cx="5" cy="5" r="5"/>
+      <circle fill="red" cx="5" cy="3" r="3"/>
+      <rect fill="orange" x="2.5" y = "2.5" width="2.5" height="2.5" />
+      <rect fill="purple" x="5" y = "5" width="2.5" height="2.5" />
+      <rect fill="#f0f3" x="0" y="0" width="10" height="10" />
+      <rect fill="#ff03" stroke="green" stroke-width="0.2" x="-5" y="-5" width="16" height="16" />
+    </g>
+  </svg>
+
+<script>
+
+//Credit http://www.petercollingridge.co.uk/tutorials/svg/interactive/dragging/
+function getMousePosition(ev, svg) {
+  const CTM = svg.getScreenCTM();
+  return {
+    x: (ev.clientX - CTM.e) / CTM.a,
+    y: (ev.clientY - CTM.f) / CTM.d
+  };
+}
+
+
+/* Normalize bounds so that they are defined by a top-left and bottom-right
+ * corner: (lx, ly) and (rx, ry) respectively. */
+function normalizeAndValidateBounds(bounds) {
+  if (bounds === null) return {
+    lx: -Infinity,
+    rx: Infinity,
+    width: Infinity,
+    ly: -Infinity,
+    ry: Infinity,
+    height: Infinity
+  };
+
+  if (bounds.lx === undefined) bounds.lx = bounds.x;
+  if (bounds.ly === undefined) bounds.ly = bounds.y;
+
+  /* Checks the bounds in a single dimension: */
+  function validateInterval(bounds, lName, rName, wName) {
+    const lb = bounds[lName];
+    if (lb === Infinity) throw new Error(
+      `${lName} bound may be -Infinity, but must not be +Infinity.`
+    );
+    const rb = bounds[rName];
+    if (rb === -Infinity) throw new Error(
+      `${rName} bound may be +Infinity, but must not be -Infinity.`
+    );
+    const width = bounds[wName];
+    if (width === -Infinity) throw new Error(
+      `${wName} bound may be +Infinity, but must not be -Infinity.`
+    );
+
+    if (isFinite(width)) {
+      if (lb === -Infinity || rb === Infinity) {
+        throw new Error(
+          `${wName} cannot by finite if ${lName} or ${rName} are infinite.`
+        )
+      }
+      if (isFinite(lb)) {
+        if (isFinite(rb)) {
+          /* Defining all 3 bounds is okay if they agree exactly: */
+          if (rb !== width + lb) throw new Error(
+            `${lName}, ${wName}, and ${rName} are all finite, but do not agree.`
+          );
+        } else {
+          bounds[rName] = lb + width;
+        }
+      } else {
+        if (!isFinite(rb)) throw new Error(
+          `If ${wName} is finite, ${lName} or ${rName} must be defined.`
+        );
+        bounds[lName] = rb - width;
+      } 
+    } else {
+      const lFinite = isFinite(lb);
+      const rFinite = isFinite(rb);
+      if (lFinite && rFinite) {
+        if (width === Infinity) throw new Error(
+          `${wName} cannot be Infinity if ${lName} and ${rName} are finite.`
+        );
+        bounds[wName] = rb - lb;
+      } else {
+        /* If width is undefined, and lb or rb (or both) are undefined, 
+         * width is effectively infinite */
+        bounds[wName] = Infinity;
+        /* Set undefined bounds as infinite: */
+        bounds[lName] = lFinite ? lb : -Infinity;
+        bounds[rName] = rFinite ? rb : Infinity;
+      }
+    }
+  }
+  validateInterval(bounds, 'lx', 'rx', 'width');
+  validateInterval(bounds, 'ly', 'ry', 'height');
+  return bounds;
+}
+
+/**
+ * Takes a given <g> element within a parent SVG element, and makes the parent
+ * interactive, such that clicking/tapping and dragging within the parent
+ * applies transforms to the <g> to simulate panning around within the given
+ * bounds (or with no bounds, if they're not given), and scrolling or pinching/ * stretching zooms in and out about the pointer(s).
+ * 
+ * The expected use is to wrap all the contents of an <svg> within a <g>, so
+ * that the 
+ */
+function makeSVGExplorable({
+  g, //Required. The <g> element to apply transforms to.
+  svg = g.ownerSVGElement, //Optional. Captures pan/zoomevents
+  bounds = svg.getBBox(), //Optional. Use null for no bounds.
+  minScale = 0.01, //Optional. Use 0 for no minimum.
+  maxScale = 100, //Optional. Use Infinity for no maximum.
+} = {}) {
+  normalizeAndValidateBounds(bounds);
+
+  const transform = svg.createSVGTransform();
+  g.transform.baseVal.insertItemBefore(transform, 0);
+  const tMat = transform.matrix;
+  const initViewBox = svg.viewBox.baseVal;
+
+  /**
+   * The effective position and dimensions of the viewbox, relative to the 
+   * initial svg frame.
+   */
+  function effectiveViewBox() {
+    return {
+      x: initViewBox.x - tMat.e / tMat.a,
+      y: initViewBox.y - tMat.f / tMat.d,
+      width: initViewBox.width / tMat.a,
+      height: initViewBox.height / tMat.d
+    };
+  // right bounds: x + width <= bounds.lx + bounds.width
+  //              initViewBox.x - tMat.e / tMat.a + initViewBox.width / tMat.a <= bounds.lx + bounds.width
+  //              tMat.e / tMat.a >= initViewBox.x + initViewBox.width / tMat.a - bounds.lx - bounds.width
+  //              tMat.e >= (initViewBox.x - bounds.lx - bounds.width) * tMat.a + initViewBox.width
+  // left bounds: x >= bounds.lx
+  //             initViewBox.x - tMat.e / tMat.a >= bounds.lx
+  //             tMat.e / tMat.a <= initViewBox.x - bounds.lx
+  //             tMat.e <= (initViewBox.x - bounds.lx) * tMat.a
+  }
+
+  gls = svg;
+  function clamp(n, min, max) {
+    if (min > max) {
+      let temp = min;
+      min = max;
+      max = temp;
+      // throw new Error(`Minimum ${min} greater than maximum ${max}.`);
+    }
+    if (n < min) return min;
+    if (n > max) return max;
+    return n;
+  }
+
+  function translationBounds(dimName, scaleName, wName) {
+    const leftBound = bounds['l' + dimName];
+    const rightBound = bounds['r' + dimName];
+    if (leftBound === -Infinity && rightBound === Infinity) {
+      return [-Infinity, Infinity];
+    }
+    
+    let minTranslate, maxTranslate;
+
+    const viewXY = initViewBox[dimName];
+    const curScale = tMat[scaleName];
+    const viewWH = initViewBox[wName];
+    if (rightBound === Infinity) minTranslate = -Infinity;
+    else minTranslate = (viewXY - rightBound) * curScale + viewWH;
+    if (leftBound === -Infinity) maxTranslate = Infinity;
+    else maxTranslate = (viewXY - leftBound) * curScale
+
+    return [minTranslate, maxTranslate];
+  }
+  /**
+   * Translates <g> such that the effectiveViewBox has the given x and y (top 
+   * left corner). Obeys the given bounds.
+   */
+  function panAbsolute({x = -tMat.e, y = -tMat.f} = {}) {
+    if (bounds === null) {
+      tMat.e = -x;
+      tMat.f = -y;
+      return;
+    }
+    tMat.e = clamp(-x, ...translationBounds('x', 'a', 'width'));
+    tMat.f = clamp(-y, ...translationBounds('y', 'd', 'height'));
+  }
+  /**
+   * Translates <g> such that the effectiveViewBox is moved dx to the right and * dy downward. Obeys the given bounds.
+   */
+  function panRelative({dx = 0, dy = 0} = {}) {
+    if (bounds === null) {
+      tMat.e = -x;
+      tMat.f = -y;
+      return;
+    }
+    tMat.e = clamp(tMat.e - dx, ...translationBounds('x', 'a', 'width'));
+    tMat.f = clamp(tMat.f - dy, ...translationBounds('y', 'd', 'height'));
+  }
+
+  function zoomRelative({scaleMul, cx, cy}) {
+    if (isNaN(scaleMul)) {
+      throw new Error(`scaleMul must be a number. Instead, found ${scaleMul}.`);
+    }
+    let minAD, maxAD;
+    if (tMat.a < tMat.d) {
+      minAD = tMat.a;
+      maxAD = tMat.d;
+    } else {
+      minAD = tMat.d;
+      maxAD = tMat.a;
+    }
+    scaleMul = clamp(scaleMul, minScale / maxAD, maxScale / minAD);
+    tMat.a *= scaleMul;
+    tMat.d *= scaleMul;
+
+    //I don't actually know if this works with different a and d
+    tMat.e = (1 - scaleMul) * cx + scaleMul * tMat.e;
+    tMat.f = (1 - scaleMul) * cy + scaleMul * tMat.f;
+  }
+  function zoomAbsolute({scale, cx, cy}) {
+    scale = clamp(scale, minScale, maxScale);
+    //I don't actually know if this works with different a and d
+    const scaleMulX = scale / tMat.a;
+    const scaleMulY = scale / tMat.d;
+    tMat.a = tMat.d = scale;
+    tMat.e = (1 - scaleMulX) * cx + scaleMulX * tMat.e;
+    tMat.f = (1 - scaleMulY) * cy + scaleMulY * tMat.f;
+  }
+
+  let dragging = false;
+  let dragStart;
+  function startPan(ev) {
+    dragging = true;
+    dragStart = getMousePosition(ev, svg);
+    dragStart.x -= tMat.e;
+    dragStart.y -= tMat.f;
+  }
+  function stopPan(ev) {
+    dragging = false;
+    svg.classList.remove('dragging');
+  }
+  svg.addEventListener('mousedown', startPan);
+  //Attach to window so that the mouse is followed even outside the <svg>
+  window.addEventListener('mouseup', stopPan);
+  window.addEventListener('mousemove', ev=>{
+    if (dragging === false) return;
+    svg.classList.add('dragging');
+    const dragCurrent = getMousePosition(ev, svg);
+    panAbsolute({
+      x: dragStart.x - dragCurrent.x,
+      y: dragStart.y - dragCurrent.y
+    });
+  });
+
+  const USE_FIXED_SCALE = false;
+  svg.addEventListener('wheel', ev=>{
+    ev.preventDefault();
+    const factor = 0.1 * ev.deltaY;
+
+    /* Calculate the scale such that scrolling up and down by the same number  
+     * of notches gives you the same zoom every time. */
+    const scale = (factor > 0) ? (1 - factor) : (1 / (1 + factor));
+    const scaleCenter = getMousePosition(ev, svg);
+    zoomRelative({scaleMul: scale, cx: scaleCenter.x, cy: scaleCenter.y});
+  });
+
+  (()=>{
+    const DBL_ZOOM = 2;
+    let dblClickToggle = false;
+    svg.addEventListener('dblclick', ev=>{
+      const scaleCenter = getMousePosition(ev, svg);
+      const scaleMul = dblClickToggle ? 1 / DBL_ZOOM : DBL_ZOOM;
+      dblClickToggle = !dblClickToggle;
+      zoomRelative({scaleMul, cx: scaleCenter.x, cy: scaleCenter.y});
+    });
+  })();
+  svg.addEventListener('keydown', ev=>{
+    ev.preventDefault();
+    const KEY_ZOOM = 1.5;
+    const KEY_PAN_FACTOR = 5;
+    const vbox = initViewBox;
+    switch (ev.key) {
+      case "ArrowUp": 
+        panRelative({dy: -vbox.height / KEY_PAN_FACTOR});
+        break;
+      case "ArrowDown": 
+        panRelative({dy: vbox.height / KEY_PAN_FACTOR});
+        break;
+      case "ArrowLeft":
+        panRelative({dx: -vbox.width / KEY_PAN_FACTOR});
+        break;
+      case "ArrowRight":
+        panRelative({dx: vbox.width / KEY_PAN_FACTOR});
+        break;
+      case "=":
+        zoomRelative({
+          scaleMul: KEY_ZOOM,
+          cx: vbox.x + vbox.width / 2,
+          cy: vbox.y + vbox.height / 2,
+        });
+        break;
+      case "-":
+        zoomRelative({
+          scaleMul: 1 / KEY_ZOOM,
+          cx: vbox.x + vbox.width / 2,
+          cy: vbox.y + vbox.height / 2,
+        });
+        break;
+      case "Home":
+        zoomAbsolute({
+          scale: 1,
+          cx: 0,
+          cy: 0,
+        });
+        panAbsolute({x: 0, y: 0});
+    }    
+  })
+
+  return({
+    g, svg, bounds,
+    effectiveViewBox,
+    panRelative, panAbsolute,
+    zoomRelative, zoomAbsolute
+  });
+}
+const g = document.getElementById('matrix-group');
+const ext = makeSVGExplorable({
+  g,
+  // bounds:{lx: -5, ly:-5, rx: 11, height: 16},
+  minScale: 0.25,
+  maxScale: 10
+});
+</script>
+</body>
+</html>
