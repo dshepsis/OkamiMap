@@ -285,10 +285,14 @@ function makeSVGExplorable({
     dragging = false;
     svg.classList.remove('dragging');
   }
-  svg.addEventListener('mousedown', startPan);
-  //Attach to window so that the mouse is followed even outside the <svg>
-  window.addEventListener('mouseup', stopPan);
-  window.addEventListener('mousemove', ev=>{
+  
+  /* For touch screens, disable the browser's handling of touching so we can 
+   * implement our own behavior: */
+  svg.style.touchAction = 'none';
+  svg.addEventListener('pointerdown', startPan);
+  //Attach to window so that the pointer is followed even outside the <svg>
+  window.addEventListener('pointerup', stopPan);
+  window.addEventListener('pointermove', ev=>{
     if (dragging === false) return;
     svg.classList.add('dragging');
     const dragCurrent = getMousePosition(ev, svg);
@@ -321,37 +325,46 @@ function makeSVGExplorable({
     });
   })();
   svg.addEventListener('keydown', ev=>{
-    ev.preventDefault();
+    if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    // ev.preventDefault();
     const KEY_ZOOM = 1.5;
-    const KEY_PAN_FACTOR = 5;
+    const KEY_PAN_FACTOR = 10;
     const vbox = initViewBox;
+    let preventDefault = true;
     switch (ev.key) {
+      case "w": case "W":
       case "ArrowUp": 
         panRelative({dy: -vbox.height / KEY_PAN_FACTOR});
         break;
+      case "s": case "S":
       case "ArrowDown": 
         panRelative({dy: vbox.height / KEY_PAN_FACTOR});
         break;
+      case "a": case "A":
       case "ArrowLeft":
         panRelative({dx: -vbox.width / KEY_PAN_FACTOR});
         break;
+      case "d": case "D":
       case "ArrowRight":
         panRelative({dx: vbox.width / KEY_PAN_FACTOR});
         break;
-      case "=":
+      case "e": case "E":
+      case "=": case "+":
         zoomRelative({
           scaleMul: KEY_ZOOM,
           cx: vbox.x + vbox.width / 2,
           cy: vbox.y + vbox.height / 2,
         });
         break;
-      case "-":
+      case "q": case "Q":
+      case "-": case "_":
         zoomRelative({
           scaleMul: 1 / KEY_ZOOM,
           cx: vbox.x + vbox.width / 2,
           cy: vbox.y + vbox.height / 2,
         });
         break;
+      case " ":
       case "Home":
         zoomAbsolute({
           scale: 1,
@@ -359,7 +372,11 @@ function makeSVGExplorable({
           cy: 0,
         });
         panAbsolute({x: 0, y: 0});
-    }    
+        break
+      default:
+        preventDefault = false;
+    }
+    if (preventDefault) ev.preventDefault();
   })
 
   return({
