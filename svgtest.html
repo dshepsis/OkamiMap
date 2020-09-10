@@ -286,7 +286,7 @@ function makeSVGExplorable({
       dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
       console.warn("DOWN");
-      console.log(pointers);
+      console.log(downtemp = pointers);
       const [pointA, pointB] = pointers.values();
       dragStart = Object.create(null);
 
@@ -295,6 +295,7 @@ function makeSVGExplorable({
       dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
       console.log(dragStart);
       dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
+      dragStart.initZoom = tMat.a; //TODO: Figure out whether we're going to handle different zoom in x and y (a and d)
     } else {
       //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
       console.warn("Sorry buddy idk what to do for 3+ fingers.")
@@ -311,7 +312,7 @@ function makeSVGExplorable({
       dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
       console.warn("UP");
-      console.log(pointers);
+      console.log(uptemp = pointers);
       const [pointA, pointB] = pointers.values();
       dragStart = Object.create(null);
 
@@ -344,9 +345,9 @@ function makeSVGExplorable({
       });
     } else if (pointers.size === 2) {
       console.warn("MOVING");
-      console.log(pointers);
+      console.log(movtemp = pointers);
       const [pointA, pointB] = pointers.values();
-      dragCurrent = Object.create(null);
+      const dragCurrent = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
       dragCurrent.x = (pointA.x + pointB.x) / 2 - tMat.e;
