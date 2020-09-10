@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+<style>
+#outer {
+  display: block;
+  width: 500px;
+}
+#inner {
+  border-style: solid;
+  border-width: 1px;
+  overflow: visible;
+}
+</style>
+</head>
+
+<body>
+
+  <svg id="outer" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+    <circle fill="gray" cx="5" cy="5" r="2.5" />
+    <path fill="transparent" stroke="purple" stroke-width="0.3" d="M0 5 q0.5 -0.5, 1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0" />
+    <svg id="inner" viewBox="0 0 10 10" x="0" y="0">
+      <path fill="transparent" stroke="green" stroke-width="0.3" d="M0 5 q0.5 -0.5, 1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0 t1 0" />
+      <circle fill="black" cx="5" cy="5" r="2" />
+      <circle fill="blue" cx="5" cy="5" r="1.5" />
+      <circle fill="green" cx="5" cy="5" r="1" />
+      <circle fill="red" cx="5" cy="5" r="0.5" />
+      <circle fill="white" cx="5" cy="5" r="0.1" />
+      <circle fill="white" cx="4" cy="5" r="0.1" />
+      <circle fill="white" cx="6" cy="5" r="0.1" />
+      <circle fill="white" cx="5" cy="4" r="0.1" />
+      <circle fill="white" cx="5" cy="6" r="0.1" />
+    </svg>
+  </svg>
+</body>
+</html>

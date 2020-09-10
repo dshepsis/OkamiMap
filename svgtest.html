@@ -31,7 +31,8 @@ body {
   height: 100%;
 }
 svg {
-  height: 100%;
+  height: 500px;
+  width: 500px;
   margin: 0;
   display: block;
   border: 5px dotted black;
@@ -46,12 +47,12 @@ svg.dragging {
 <body>
   <svg tabindex="0" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
     <g id="matrix-group">
+      <rect fill="#f0f3" x="0" y="0" width="10" height="10" />
+      <rect fill="#ff03" stroke="green" stroke-width="0.2" x="-5" y="-5" width="16" height="16" />
       <circle cx="5" cy="5" r="5"/>
       <circle fill="red" cx="5" cy="3" r="3"/>
       <rect fill="orange" x="2.5" y = "2.5" width="2.5" height="2.5" />
       <rect fill="purple" x="5" y = "5" width="2.5" height="2.5" />
-      <rect fill="#f0f3" x="0" y="0" width="10" height="10" />
-      <rect fill="#ff03" stroke="green" stroke-width="0.2" x="-5" y="-5" width="16" height="16" />
     </g>
   </svg>
 
@@ -275,31 +276,87 @@ function makeSVGExplorable({
 
   let dragging = false;
   let dragStart;
-  function startPan(ev) {
+  const pointers = new Map();
+  function downHandler(ev) {
     dragging = true;
-    dragStart = getMousePosition(ev, svg);
-    dragStart.x -= tMat.e;
-    dragStart.y -= tMat.f;
+    pointers.set(ev.pointerId, ev);
+    if (pointers.size === 1) {
+      dragStart = getMousePosition(ev, svg);
+      dragStart.x -= tMat.e;
+      dragStart.y -= tMat.f;
+    } else if (pointers.size === 2) {
+      const [pointA, pointB] = pointers.values();
+      dragStart = Object.create(null);
+
+      /* The transform origin becomes the middle of the two pointers: */
+      dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
+      dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
+    } else {
+      //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
+      console.warn("Sorry buddy idk what to do for 3+ fingers.")
+    }
   }
-  function stopPan(ev) {
-    dragging = false;
-    svg.classList.remove('dragging');
+  function upHandler(ev) {
+    pointers.delete(ev.pointerId);
+    if (pointers.size === 0) {
+      dragging = false;
+      svg.classList.remove('dragging');
+    } else if (pointers.size === 1) { //TODO Fix this being duplicated from above
+      dragStart = getMousePosition(ev, svg);
+      dragStart.x -= tMat.e;
+      dragStart.y -= tMat.f;
+    } else if (pointers.size === 2) {
+      const [pointA, pointB] = pointers.values();
+      dragStart = Object.create(null);
+
+      /* The transform origin becomes the middle of the two pointers: */
+      dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
+      dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
+      dragStart.initZoom = tMat.a; //TODO: Figure out whether we're going to handle different zoom in x and y (a and d)
+    } else {
+      //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
+      console.warn("Sorry buddy idk what to do for 3+ fingers.")
+    }
   }
   
   /* For touch screens, disable the browser's handling of touching so we can 
    * implement our own behavior: */
   svg.style.touchAction = 'none';
-  svg.addEventListener('pointerdown', startPan);
+  svg.addEventListener('pointerdown', downHandler);
   //Attach to window so that the pointer is followed even outside the <svg>
-  window.addEventListener('pointerup', stopPan);
+  window.addEventListener('pointerup', upHandler);
   window.addEventListener('pointermove', ev=>{
     if (dragging === false) return;
     svg.classList.add('dragging');
-    const dragCurrent = getMousePosition(ev, svg);
-    panAbsolute({
-      x: dragStart.x - dragCurrent.x,
-      y: dragStart.y - dragCurrent.y
-    });
+    if (pointers.size === 1) {
+      const dragCurrent = getMousePosition(ev, svg);
+      panAbsolute({
+        x: dragStart.x - dragCurrent.x,
+        y: dragStart.y - dragCurrent.y
+      });
+    } else if (pointers.size === 2) {
+      const [pointA, pointB] = pointers.values();
+      dragCurrent = Object.create(null);
+
+      /* The transform origin becomes the middle of the two pointers: */
+      dragCurrent.x = (pointA.x + pointB.x) / 2 - tMat.e;
+      dragCurrent.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      dragCurrent.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
+      panAbsolute({
+        x: dragStart.x - dragCurrent.x,
+        y: dragStart.y - dragCurrent.y
+      });
+      zoomAbsolute({
+        scale: dragCurrent.dist / dragStart.dist * dragStart.initZoom,
+        cx: dragCurrent.x,
+        cy: dragCurrent.y
+      });
+    } else {
+      //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
+      console.warn("Sorry buddy idk what to do for 3+ fingers.")
+    }
   });
 
   const USE_FIXED_SCALE = false;
