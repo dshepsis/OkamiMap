@@ -279,7 +279,7 @@ function makeSVGExplorable({
   const pointers = new Map();
   function downHandler(ev) {
     dragging = true;
-    pointers.set(ev.pointerId, ev);
+    pointers.set(ev.pointerId, getMousePosition(ev, svg));
     if (pointers.size === 1) {
       dragStart = getMousePosition(ev, svg);
       dragStart.x -= tMat.e;
@@ -307,9 +307,9 @@ function makeSVGExplorable({
       dragging = false;
       svg.classList.remove('dragging');
     } else if (pointers.size === 1) { //TODO Fix this being duplicated from above
-      dragStart = getMousePosition(ev, svg);
-      dragStart.x -= tMat.e;
-      dragStart.y -= tMat.f;
+      // dragStart = getMousePosition(ev, svg);
+      // dragStart.x -= tMat.e;
+      // dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
       console.warn("UP");
       console.log(uptemp = pointers);
