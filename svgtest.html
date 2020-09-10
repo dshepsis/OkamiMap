@@ -285,12 +285,15 @@ function makeSVGExplorable({
       dragStart.x -= tMat.e;
       dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
+      console.warn("DOWN");
+      console.log(pointers);
       const [pointA, pointB] = pointers.values();
       dragStart = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
       dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
       dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      console.log(dragStart);
       dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
     } else {
       //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
@@ -307,12 +310,15 @@ function makeSVGExplorable({
       dragStart.x -= tMat.e;
       dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
+      console.warn("UP");
+      console.log(pointers);
       const [pointA, pointB] = pointers.values();
       dragStart = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
       dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
       dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      console.log(dragStart);
       dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
       dragStart.initZoom = tMat.a; //TODO: Figure out whether we're going to handle different zoom in x and y (a and d)
     } else {
@@ -337,6 +343,8 @@ function makeSVGExplorable({
         y: dragStart.y - dragCurrent.y
       });
     } else if (pointers.size === 2) {
+      console.warn("MOVING");
+      console.log(pointers);
       const [pointA, pointB] = pointers.values();
       dragCurrent = Object.create(null);
 
@@ -344,6 +352,7 @@ function makeSVGExplorable({
       dragCurrent.x = (pointA.x + pointB.x) / 2 - tMat.e;
       dragCurrent.y = (pointA.y + pointB.y) / 2 - tMat.f;
       dragCurrent.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
+      console.log(dragCurrent);
       panAbsolute({
         x: dragStart.x - dragCurrent.x,
         y: dragStart.y - dragCurrent.y
