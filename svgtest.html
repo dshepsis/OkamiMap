@@ -151,6 +151,7 @@ function normalizeAndValidateBounds(bounds) {
  * The expected use is to wrap all the contents of an <svg> within a <g>, so
  * that the 
  */
+var movTemp;
 function makeSVGExplorable({
   g, //Required. The <g> element to apply transforms to.
   svg = g.ownerSVGElement, //Optional. Captures pan/zoomevents
@@ -275,25 +276,30 @@ function makeSVGExplorable({
   }
 
   let dragging = false;
-  let dragStart;
+  window.dragStart = null;
+  // window.movTemp = dragStart;
   const pointers = new Map();
+  window.pss = pointers;
+  function pointPos(index) {
+    const values = Array.from(pointers.values());
+    const pointer = values[index];
+    return getMousePosition(pointer, svg);
+  }
   function downHandler(ev) {
     dragging = true;
-    pointers.set(ev.pointerId, getMousePosition(ev, svg));
+    pointers.set(ev.pointerId, ev);
     if (pointers.size === 1) {
-      dragStart = getMousePosition(ev, svg);
+      dragStart = pointPos(0);
       dragStart.x -= tMat.e;
       dragStart.y -= tMat.f;
     } else if (pointers.size === 2) {
-      console.warn("DOWN");
-      console.log(downtemp = pointers);
-      const [pointA, pointB] = pointers.values();
+      const [pointA, pointB] = [pointPos(0), pointPos(1)];
       dragStart = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
       dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
       dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
-      console.log(dragStart);
+      
       dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
       dragStart.initZoom = tMat.a; //TODO: Figure out whether we're going to handle different zoom in x and y (a and d)
     } else {
@@ -307,19 +313,20 @@ function makeSVGExplorable({
       dragging = false;
       svg.classList.remove('dragging');
     } else if (pointers.size === 1) { //TODO Fix this being duplicated from above
-      // dragStart = getMousePosition(ev, svg);
-      // dragStart.x -= tMat.e;
-      // dragStart.y -= tMat.f;
+      const point = pointPos(0);
+      dragStart = Object.create(null);
+      dragStart.x = point.x - tMat.e;
+      dragStart.y = point.y - tMat.f;
     } else if (pointers.size === 2) {
-      console.warn("UP");
-      console.log(uptemp = pointers);
-      const [pointA, pointB] = pointers.values();
+      // console.warn("UP");
+      // console.log(uptemp = pointers);
+      const [pointA, pointB] = [pointPos(0), pointPos(1)];
       dragStart = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
       dragStart.x = (pointA.x + pointB.x) / 2 - tMat.e;
       dragStart.y = (pointA.y + pointB.y) / 2 - tMat.f;
-      console.log(dragStart);
+      // console.log(dragStart);
       dragStart.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
       dragStart.initZoom = tMat.a; //TODO: Figure out whether we're going to handle different zoom in x and y (a and d)
     } else {
@@ -337,32 +344,34 @@ function makeSVGExplorable({
   window.addEventListener('pointermove', ev=>{
     if (dragging === false) return;
     svg.classList.add('dragging');
+    pointers.set(ev.pointerId, ev);
     if (pointers.size === 1) {
-      const dragCurrent = getMousePosition(ev, svg);
+      const dragCurrent = pointPos(0);
       panAbsolute({
         x: dragStart.x - dragCurrent.x,
         y: dragStart.y - dragCurrent.y
       });
     } else if (pointers.size === 2) {
-      console.warn("MOVING");
-      console.log(movtemp = pointers);
-      const [pointA, pointB] = pointers.values();
+      // console.warn("MOVING");
+      const [pointA, pointB] = [pointPos(0), pointPos(1)];
       const dragCurrent = Object.create(null);
 
       /* The transform origin becomes the middle of the two pointers: */
-      dragCurrent.x = (pointA.x + pointB.x) / 2 - tMat.e;
-      dragCurrent.y = (pointA.y + pointB.y) / 2 - tMat.f;
+      dragCurrent.x = (pointA.x + pointB.x) / 2; //- tMat.e;
+      dragCurrent.y = (pointA.y + pointB.y) / 2; //- tMat.f;
+      // console.warn("changes");
       dragCurrent.dist = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y);
-      console.log(dragCurrent);
-      panAbsolute({
-        x: dragStart.x - dragCurrent.x,
-        y: dragStart.y - dragCurrent.y
-      });
+      // movTemp = ev.x;
+      // console.log(dragCurrent);
       zoomAbsolute({
         scale: dragCurrent.dist / dragStart.dist * dragStart.initZoom,
         cx: dragCurrent.x,
         cy: dragCurrent.y
       });
+      // panAbsolute({
+      //   x: dragStart.x - dragCurrent.x,
+      //   y: dragStart.y - dragCurrent.y
+      // });
     } else {
       //TODO FIXME HELP: IDK what do for 3 or more fingers!!!
       console.warn("Sorry buddy idk what to do for 3+ fingers.")
@@ -457,7 +466,7 @@ const g = document.getElementById('matrix-group');
 const ext = makeSVGExplorable({
   g,
   // bounds:{lx: -5, ly:-5, rx: 11, height: 16},
-  minScale: 0.25,
+  minScale: 0.1,
   maxScale: 10
 });
 </script>

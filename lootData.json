@@ -1759,7 +1759,8 @@
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "After defeating Bandit Spider",
+    "image": "./Kamui/SunFragment.png",
     "mapID": 283,
     "coords": [-742, 2503, -9027]
   },
@@ -6411,6 +6412,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover40B.png",
     "mapID": 3858,
     "coords": [-420, -57, -3460]
   },
@@ -6426,7 +6428,8 @@
     "type": "Clover",
     "contents": "Praise (40)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Under iron rock. Requires Power Slash 2",
+    "image": "./Kamui/Clover40A.png",
     "mapID": 3858,
     "coords": [-500, -136, -5500]
   },
@@ -6434,7 +6437,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #74",
+    "image": "./Kamui/sb74.png",
     "mapID": 3858,
     "coords": [1720, -69, -880]
   },
@@ -6443,6 +6447,7 @@
     "contents": "Amethyst Tassels",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/CraneB_AmethystTassels.png",
     "mapID": 3858,
     "coords": [-873, -47, -6754]
   },
@@ -6451,6 +6456,7 @@
     "contents": "Amber Tassels",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/AmberTassels.png",
     "mapID": 3858,
     "coords": [-1620, -139, -3780]
   },
@@ -6458,7 +6464,8 @@
     "type": "Frozen Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #75",
+    "image": "./Kamui/sb75_BearD.png",
     "mapID": 3858,
     "coords": [-2228, -91, -6830]
   },
@@ -6467,6 +6474,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover30B.png",
     "mapID": 3858,
     "coords": [-2520, -84, -6280]
   },
@@ -6475,6 +6483,7 @@
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/ExorcismSlipL.png",
     "mapID": 3858,
     "coords": [-3019, -89, -6457]
   },
@@ -6490,7 +6499,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #76",
+    "image": "./Kamui/sb76.png",
     "mapID": 3858,
     "coords": [-1469, 124, -7115]
   },
@@ -6499,6 +6509,7 @@
     "contents": "\"Travel Guide: Tribe of the Moon\"",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/TravelGuideTribeOfTheMoon.png",
     "mapID": 3858,
     "coords": [-2780, -125, -6185]
   },
@@ -6507,6 +6518,7 @@
     "contents": "Vengeance Slip",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/VengeanceSlip.png",
     "mapID": 3858,
     "coords": [-2354, -91, -5613]
   },
@@ -6515,6 +6527,7 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/WhitePorcelainPot.png",
     "mapID": 3858,
     "coords": [1894, -79, -1396]
   },
@@ -6523,6 +6536,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover30A.png",
     "mapID": 3858,
     "coords": [-1240, -140, -3340]
   },
@@ -6531,6 +6545,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/CloverC.png",
     "mapID": 3858,
     "coords": [0, 111, -3020]
   },
@@ -6539,6 +6554,7 @@
     "contents": "Pearl",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/Pearl.png",
     "mapID": 3858,
     "coords": [-269, -32, -1781]
   },
@@ -6546,7 +6562,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #77",
+    "image": "./Kamui/sb77.png",
     "mapID": 3858,
     "coords": [-1380, -142, -4340]
   },
@@ -6555,6 +6572,7 @@
     "contents": "Crystal",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Crystal.png",
     "mapID": 3858,
     "coords": [-220, -132, -5600]
   },
@@ -6563,6 +6581,7 @@
     "contents": "Etched Glass",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/EtchedGlass.png",
     "mapID": 3858,
     "coords": [1800, -79, -1860]
   },
