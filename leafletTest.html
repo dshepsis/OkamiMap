@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Okami Map - Test</title>
+  <meta name="description" content="Map of treasure, clovers, etc. in Okami">
+  <meta name="author" content="Daniel Shepsis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!--Favicon.io-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+
+  <!--Leaflet.js-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #f8f8f8;
+  height:100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  height: 100%;
+}
+</style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+<script>
+
+const map = L.map('map', {
+  crs: L.CRS.Simple,
+  minZoom: -6,
+  maxZoom: 2
+});
+map.setView([0, 0], -4);
+
+const yx = L.latLng;
+
+const xy = function(x, y) {
+  if (L.Util.isArray(x)) {    // When doing xy([x, y]);
+    return yx(x[1], x[0]);
+  }
+  return yx(y, x);  // When doing xy(x, y);
+};
+
+const scale = 5200;
+const shiftN = 1000;
+const shiftE = 1000;
+const bounds = [[-scale + shiftN, -scale + shiftE], [scale + shiftN, scale + shiftE]];
+
+const mapID = 3842;
+const mapIDHex = mapID.toString(16);
+console.log(mapIDHex)
+
+const image = L.imageOverlay(`./DumpedMaps/map_r${mapIDHex}_0out.png`, bounds).addTo(map);
+
+
+/* Fetch multiple JSON files in parallel */
+async function paraFetchJSON(...URLs) {
+  const requests = URLs.map(u=>
+    fetch(u).then(r=>r.json())
+  );
+  return Promise.all(requests);
+}
+
+let lootData;
+let mapIDMap;
+(async ()=>{
+  let response;
+  [lootData, mapIDMap] = await paraFetchJSON(
+    './lootData.json', './mapIDMap.json'
+  );
+  for (const loot of lootData) {
+    if (loot.mapID === mapID) {
+      const coords = loot.coords;
+      const latlong = [-coords[2], coords[0]];
+      L.marker(latlong).addTo(map).bindPopup(`${loot.contents} @${loot.coords}`);
+    }
+  }
+})();
+</script>
+  
+</body>
+</html>
