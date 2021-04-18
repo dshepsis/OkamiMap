@@ -40,41 +40,80 @@ body {
 #map {
   height: 100%;
 }
+input[type="text"] {
+  width: 5em;
+}
 </style>
 </head>
 
 <body>
+  <!-- <input id="mapHex" type="text" value="0xf02" />
+  <input id="mapDec" type="text" value="3842" /> -->
   <div id="map"></div>
 
 <script>
 
+const bScale = 8000;
+const zoomGranularity = 0.5;
 const map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -6,
-  maxZoom: 2
+  maxZoom: -1,
+  zoomSnap: zoomGranularity,
+  zoomDelta: zoomGranularity,
+  // maxBounds: [[-bScale, -bScale], [bScale, bScale]],
+  maxBoundsViscosity: 1
 });
-map.setView([0, 0], -4);
+map.setView([0, 0], 0);
 
-const yx = L.latLng;
-
-const xy = function(x, y) {
-  if (L.Util.isArray(x)) {    // When doing xy([x, y]);
-    return yx(x[1], x[0]);
+var ZoomViewer = L.Control.extend({
+  onAdd: function(){
+    var gauge = L.DomUtil.create('div');
+    gauge.style.width = '200px';
+    gauge.style.background = 'rgba(255,255,255,0.5)';
+    gauge.style.textAlign = 'left';
+    const update = function(ev){
+      gauge.innerHTML = 'Zoom level: ' + map.getZoom();
+    };
+    update();
+    map.on('zoomstart zoom zoomend', update)
+    return gauge;
   }
-  return yx(y, x);  // When doing xy(x, y);
-};
+});
+(new ZoomViewer).addTo(map);
+
+
+L.Control.Watermark = L.Control.extend({
+  onAdd: function(map) {
+    var img = L.DomUtil.create('img');
+    
+    img.src = './favicon-32x32.png';
+    img.style.width = '200px';
+    
+    return img;
+  },
+  
+  onRemove: function(map) {
+    // Nothing to do here
+  }
+});
+
+L.control.watermark = function(opts) {
+  return new L.Control.Watermark(opts);
+}
+
+L.control.watermark({ position: 'bottomright' }).addTo(map);
 
 const scale = 5200;
 const shiftN = 1000;
 const shiftE = 1000;
 const bounds = [[-scale + shiftN, -scale + shiftE], [scale + shiftN, scale + shiftE]];
 
-const mapID = 3842;
+const mapID = 0xf02;
 const mapIDHex = mapID.toString(16);
-console.log(mapIDHex)
 
 const image = L.imageOverlay(`./DumpedMaps/map_r${mapIDHex}_0out.png`, bounds).addTo(map);
-
+map.fitBounds(bounds, {animate: false});
 
 /* Fetch multiple JSON files in parallel */
 async function paraFetchJSON(...URLs) {
@@ -99,6 +138,18 @@ let mapIDMap;
     }
   }
 })();
+
+// function selectMap(e) {
+//   const selectedMapID = parseInt(e.target.value);
+//   const selectedMapIDHex = selectedMapID.toString(16);
+//   mapHex.value = "0x" + selectedMapIDHex;
+//   mapDec.value = selectedMapID;
+//   image.setUrl(`./DumpedMaps/map_r${selectedMapIDHex}_0out.png`)
+// }
+
+// mapHex.addEventListener('change', selectMap);
+// mapDec.addEventListener('change', selectMap);
+
 </script>
   
 </body>

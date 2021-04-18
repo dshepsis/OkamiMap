@@ -63,11 +63,14 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   width: 1500px;
-  max-width: 100%;
+}
+
+tr.current-pv-row {
+  background-color: #ddf;
 }
 
 td, th {
-  padding: 5px 10px;
+  padding: 4px 10px;
   word-wrap:break-word
 }
 
@@ -75,15 +78,19 @@ td + td {
   border-left: 1px dashed #aaa;
 }
   
-th {
+thead {
   font-weight: bold;
   position: sticky;
   top: 0;
   background: #afc;
 }
+th {
+  font-weight: bold;
+}
 
 .pv {
   margin-right: 5px;
+  width: 5em;
 }
 
 footer {
@@ -103,7 +110,7 @@ footer {
     <table>
     <thead>
       <tr>
-        <th style="width:23%;">Map</th>
+        <th style="width:20%;">Map</th>
         <th style="width:10%;">Type</th>
         <th style="width:10%;">Terrain</th>
         <th style="width:15%;">Contents</th>
@@ -118,8 +125,6 @@ footer {
   <footer>
     <a href="./animals">Animals</a>
     | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
-    | Credits to WhatAboutClyde for decompressing and parsing the game files.
-    | Site by Auride
     <!-- <span><a href="./svgtest.html">test</a></span> -->
   </footer>
 <script>
@@ -135,13 +140,28 @@ const pvImg = document.getElementById('preview');
     if (tgt.className != 'pv') return;
     const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
     pvImg.src = imageSrc;
+
     /* When an image is loading, put overlay on preview image: */
     pvImg.classList.add('loading');
 
-    /* Change the pressed button's text to "Loading": */
+    /* Highlight the row of the selected item and add an search parameter to
+     *  the URL: */
+    const parentRow = tgt.parentElement.parentElement;
+    parentRow.classList.add("current-pv-row");
+    
+    const searchParams = new URLSearchParams(window.location.search);
+    const rowID = parentRow.id;
+    if (searchParams.get('row') !== rowID) {
+      searchParams.set('row', rowID);
+      window.history.pushState({}, '', '?' + searchParams.toString());
+    }
+
+    /* Change the pressed button's text to "Loading" and restore the state of
+     * the previously selected row/button: */
     if (activeButton !== null) {
       activeButton.innerText = activeButtonText;
       activeButton.removeAttribute('disabled');
+      activeButton.parentElement.parentElement.classList.remove("current-pv-row");
     }
     activeButtonText = tgt.innerText;
     tgt.innerText = "Loading";
@@ -153,9 +173,7 @@ const pvImg = document.getElementById('preview');
   function onLoad() {
     pvImg.classList.remove('loading');
     if (activeButton === null) return;
-    activeButton.innerText = activeButtonText;
-    activeButton.removeAttribute('disabled');
-    activeButton = null;
+    activeButton.innerText = "Current";
   }
   pvImg.addEventListener('load', onLoad);
 })();
@@ -184,7 +202,7 @@ function tdImageEl(src) {
 
 function lootToTR(loot, mapIDMap) {
   const tr = document.createElement('tr');
-  const {mapID, type, terrain, contents, image, notes} = loot;
+  const {mapID, type, terrain, contents, image, notes, coords} = loot;
   let mapStr;
   if (mapID === undefined) {
     console.error(`Loot ${contents} in ${type} found with no Map ID.`);
@@ -203,6 +221,8 @@ function lootToTR(loot, mapIDMap) {
   for (const c of children) {
     tr.appendChild(c);
   }
+  const coordsStr = (coords === undefined) ? 'UNKNOWN' : coords.join('_');
+  tr.id = `Map_${mapID}_at_${coordsStr}`;
   return tr;
 }
 
@@ -216,6 +236,35 @@ async function paraFetchJSON(...URLs) {
 
 let lootData;
 let mapIDMap;
+
+function isRowVisible(rowEle, minFractionToQualifyAsVisible = 0) {
+  const tbCont = document.getElementById('table-cont');
+  const contBounds = tbCont.getBoundingClientRect();
+  const stickyHeader = tbCont.getElementsByTagName('thead')[0];
+  const headerHeight = stickyHeader.getBoundingClientRect().height;
+  const rowBounds = rowEle.getBoundingClientRect();
+  const rowHeight = rowBounds.height;
+
+  const pxBelowTop = rowBounds.bottom - (contBounds.top + headerHeight);
+  if (pxBelowTop < 0) return false;
+  const pxAboveBot = contBounds.bottom - rowBounds.top;
+  if (pxAboveBot < 0) return false;
+  const visHeight = Math.min(rowHeight, pxBelowTop, pxAboveBot);
+  return (visHeight/rowHeight >= minFractionToQualifyAsVisible);
+}
+
+/* Scroll search parameter target table row into view . */
+function viewAnchoredRow() {
+  if (location.search !== "") {
+    const searchParams = new URLSearchParams(window.location.search);
+    const target = document.getElementById(searchParams.get('row'));
+
+    /* Row must be 100% visible to not trigger a scroll: */
+    if (!isRowVisible(target, 1)) target.scrollIntoView({block: "center"});
+    target.getElementsByClassName('pv')[0].click();
+  }
+}
+
 (async ()=>{
   let response;
   [lootData, mapIDMap] = await paraFetchJSON(
@@ -224,7 +273,11 @@ let mapIDMap;
   for (const loot of lootData) {
     tb.appendChild(lootToTR(loot, mapIDMap));
   }
+  viewAnchoredRow()
 })();
+
+// window.addEventListener('hashchange', viewAnchoredRow);
+window.addEventListener('popstate', viewAnchoredRow);
 
 </script>
 

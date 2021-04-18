@@ -1,0 +1,440 @@
+{
+  "256": {
+    "name": "Kamiki Village (Game Start)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "257": {
+    "name": "Cave of Nagi",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "258": {
+    "name": "Kamiki Village",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "259": {
+    "name": "Hana Valley",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "260": {
+    "name": "Tsuta Ruins",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "261": {
+    "name": "City Checkpoint",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "262": {
+    "name": "Spider Queen Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "263": {
+    "name": "Gale Shrine",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "264": {
+    "name": "Kusa Village",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "265": {
+    "name": "Sasa Sanctuary",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "266": {
+    "name": "Agata Forest - Madame Fawn's",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "267": {
+    "name": "Digging Game",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "268": {
+    "name": "Dojo Learning Room",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "269": {
+    "name": "Crimson Helm Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "270": {
+    "name": "Calcified Cavern",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "272": {
+    "name": "Moon Cavern",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "273": {
+    "name": "Orochi Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "275": {
+    "name": "Ryoshima Coast Bandit Spider Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "276": {
+    "name": "Taka Pass - Moley's Treasure Trove",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "277": {
+    "name": "Kamui - Cherry Bomb 3 Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "278": {
+    "name": "North Ryoshima Coast - Power Slash 2 Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "279": {
+    "name": "North Ryoshima Coast - Cherry Bomb 2 Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "280": {
+    "name": "Kamui (Ezofuji) - Power Slash 3 Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "281": {
+    "name": "Kamui - Blockhead Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "282": {
+    "name": "North Ryoshima Coast Bandit Spider Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "283": {
+    "name": "Kamui Bandit Spider Grotto",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "284": {
+    "name": "Dragon Palace Grotto Under Stairs",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "285": {
+    "name": "North Ryoshima Coast Grotto Near Yoichi",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "290": {
+    "name": "River of the Heavens",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "512": {
+    "name": "Sei'an Aristocratic Quarter",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "513": {
+    "name": "Sei'an Commoner's Quarter",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "514": {
+    "name": "Himiko's Palace",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "515": {
+    "name": "Dragon Palace",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "516": {
+    "name": "Inside the Dragon",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "517": {
+    "name": "Sunken Ship",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "518": {
+    "name": "Imperial Palace Entry",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "519": {
+    "name": "Imperial Palace",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "520": {
+    "name": "Lower Oni Island (Before Platforming)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "521": {
+    "name": "Ninetails Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "522": {
+    "name": "Catcall Tower",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "523": {
+    "name": "Inside the Emperor",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "524": {
+    "name": "Sei'an Commoner's Quarter - Kimono Shop",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "525": {
+    "name": "Oni Island Entry",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "526": {
+    "name": "Upper Oni Island (After Platforming)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "527": {
+    "name": "Oni Island Platforming",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "769": {
+    "name": "Wep'keer",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "770": {
+    "name": "Kamiki Village (Past)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "771": {
+    "name": "Wawku Shrine",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "772": {
+    "name": "Nechku Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "773": {
+    "name": "Ponc'tan",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "774": {
+    "name": "Moon Cave Entry (Past)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "775": {
+    "name": "Ark of Yamato",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "776": {
+    "name": "Spider Queen Arena (Ark)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "777": {
+    "name": "Orochi Arena (Ark)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "778": {
+    "name": "Blight Arena (Ark)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "779": {
+    "name": "Ninetails Arena (Ark)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "780": {
+    "name": "Crimson Helm Arena (Ark)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "781": {
+    "name": "Ponc'tan - Mrs. Seal's Home",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "784": {
+    "name": "Yoshpet",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "785": {
+    "name": "Inner Yoshpet",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "786": {
+    "name": "Yami Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "787": {
+    "name": "Wep'keer Square",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "788": {
+    "name": "Lechku and Nechku Arena",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3842": {
+    "name": "Shinshu Field (Healed)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3844": {
+    "name": "Agata Forest (Healed)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3846": {
+    "name": "Moon Cave Entrance",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3848": {
+    "name": "Taka Pass (Healed)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3850": {
+    "name": "Ryoshima Coast (Healed)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3852": {
+    "name": "North Ryoshima Coast",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3858": {
+    "name": "Kamui (Healed)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3859": {
+    "name": "Kamui (Ezofuji)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3872": {
+    "name": "Shinshu Field (Past)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  },
+  "3873": {
+    "name": "Moon Cave Entrance (Past)",
+    "layers": ["Normal"],
+    "leafletScale": 5200,
+    "leafletNEOffset": [1000, 1000]
+  }
+}
