@@ -24,6 +24,8 @@
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
 
+  <script src="./Leaflet.moduleTest.js"></script>
+
 <style>
 * {
   box-sizing: border-box;
@@ -62,7 +64,8 @@ const map = L.map('map', {
   zoomSnap: zoomGranularity,
   zoomDelta: zoomGranularity,
   // maxBounds: [[-bScale, -bScale], [bScale, bScale]],
-  maxBoundsViscosity: 1
+  maxBoundsViscosity: 1,
+  layerPreview: true
 });
 map.setView([0, 0], 0);
 
@@ -82,27 +85,27 @@ var ZoomViewer = L.Control.extend({
 });
 (new ZoomViewer).addTo(map);
 
-
-L.Control.Watermark = L.Control.extend({
-  onAdd: function(map) {
-    var img = L.DomUtil.create('img');
+/* Thumbnail experimentation. TODO: Remove: */
+// L.Control.MarkerThumbnail = L.Control.extend({
+//   onAdd: function(map) {
+//     var img = L.DomUtil.create('img');
     
-    img.src = './favicon-32x32.png';
-    img.style.width = '200px';
+//     img.src = './favicon-32x32.png';
+//     img.style.width = '200px';
     
-    return img;
-  },
+//     return img;
+//   },
   
-  onRemove: function(map) {
-    // Nothing to do here
-  }
-});
+//   onRemove: function(map) {
+//     // Nothing to do here
+//   }
+// });
 
-L.control.watermark = function(opts) {
-  return new L.Control.Watermark(opts);
-}
+// L.control.markerThumbnail = function(opts) {
+//   return new L.Control.MarkerThumbnail(opts);
+// }
 
-L.control.watermark({ position: 'bottomright' }).addTo(map);
+// L.control.markerThumbnail({ position: 'bottomright' }).addTo(map);
 
 const scale = 5200;
 const shiftN = 1000;
@@ -130,13 +133,22 @@ let mapIDMap;
   [lootData, mapIDMap] = await paraFetchJSON(
     './lootData.json', './mapIDMap.json'
   );
+  const loots = [];
   for (const loot of lootData) {
     if (loot.mapID === mapID) {
       const coords = loot.coords;
       const latlong = [-coords[2], coords[0]];
-      L.marker(latlong).addTo(map).bindPopup(`${loot.contents} @${loot.coords}`);
+      loots.push(
+        L.marker(latlong, {image: loot.image}).bindPopup(`${loot.contents} @${loot.coords}`)
+      );
     }
   }
+  map.lootLayer = L.featureGroup(loots).addTo(map);
+
+  function updatePreview(e) {
+    map.setPreviewImage(e.sourceTarget.options.image);
+  }
+  map.lootLayer.on('popupopen', updatePreview);
 })();
 
 // function selectMap(e) {
