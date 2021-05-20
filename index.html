@@ -8,7 +8,7 @@
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!--Favicon.io-->
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -25,7 +25,7 @@ html {
   background: #f8f8f8;
   height:100%;
 }
-  
+
 body {
   display: flex;
   height: 100%;
@@ -72,7 +72,7 @@ body {
     max-height: none;
   }
 } */
-  
+
 table {
   border-collapse: collapse;
   table-layout: fixed;
@@ -91,7 +91,7 @@ td, th {
 td + td {
   border-left: 1px dashed #aaa;
 }
-  
+
 th {
   font-weight: bold;
   position: sticky;
@@ -135,8 +135,7 @@ footer {
   </div>
   <footer>
     <a href="./animals">Animals</a>
-    | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
-    <!-- <span><a href="./svgtest.html">test</a></span> -->
+  | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
   </footer>
 <script>
 const tb = document.getElementById('tb');
@@ -159,7 +158,7 @@ const pvImg = document.getElementById('preview');
      *  the URL: */
     const parentRow = tgt.parentElement.parentElement;
     parentRow.classList.add("current-pv-row");
-    
+
     const searchParams = new URLSearchParams(window.location.search);
     const rowID = parentRow.id;
     if (searchParams.get('row') !== rowID) {
@@ -237,6 +236,32 @@ function lootToTR(loot, mapIDMap) {
   return tr;
 }
 
+function animalToTR(loot, mapIDMap) {
+  const tr = document.createElement('tr');
+  const {mapID, type, terrain, contents, image, notes, coords} = loot;
+  let mapStr;
+  if (mapID === undefined) {
+    console.error(`Animal ${contents} in ${type} found with no Map ID.`);
+    mapStr = "Unknown map";
+  } else if (mapIDMap[mapID] === undefined) {
+    console.error(
+      `Animal ${contents} in ${type} found with invalid Map ID ${mapID}.`
+    );
+    mapStr = `Unknown map (r${mapID.toString(16)})`;
+  } else {
+    mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`;
+  }
+  const children = [
+    tdEl(mapStr), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)
+  ];
+  for (const c of children) {
+    tr.appendChild(c);
+  }
+  const coordsStr = (coords === undefined) ? 'UNKNOWN' : coords.join('_');
+  tr.id = `Map_${mapID}_at_${coordsStr}`;
+  return tr;
+}
+
 /* Fetch multiple JSON files in parallel */
 async function paraFetchJSON(...URLs) {
   const requests = URLs.map(u=>
@@ -246,6 +271,7 @@ async function paraFetchJSON(...URLs) {
 }
 
 let lootData;
+let animalData;
 let mapIDMap;
 
 function isRowVisible(rowEle, minFractionToQualifyAsVisible = 0) {
@@ -278,8 +304,8 @@ function viewAnchoredRow() {
 
 (async ()=>{
   let response;
-  [lootData, mapIDMap] = await paraFetchJSON(
-    './lootData.json', './mapIDMap.json'
+  [lootData, animalData, mapIDMap] = await paraFetchJSON(
+    './lootData.json', './animalData.json', './mapIDMap.json'
   );
   for (const loot of lootData) {
     tb.appendChild(lootToTR(loot, mapIDMap));
