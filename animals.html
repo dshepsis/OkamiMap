@@ -8,7 +8,7 @@
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
   <!--Favicon.io-->
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -25,7 +25,7 @@ html {
   background: #f8f8f8;
   height:100%;
 }
-  
+
 body {
   display: flex;
   height: 100%;
@@ -58,7 +58,7 @@ body {
   overflow-y: scroll;
   max-width: 100%;
 }
-  
+
 table {
   border-collapse: collapse;
   table-layout: fixed;
@@ -74,7 +74,7 @@ td, th {
 td + td {
   border-left: 1px dashed #aaa;
 }
-  
+
 th {
   font-weight: bold;
   position: sticky;
@@ -101,16 +101,7 @@ footer {
   <img id="preview" alt="Preview Image" src="./Kamiki/Chicken.png" />
   <div id="table-cont">
     <table>
-    <thead>
-      <tr>
-        <th style="width:23%;">Map</th>
-        <th style="width:10%;">Bestiary</th>
-        <th style="width:10%;">Availability</th>
-        <th style="width:8%;">Praise</th>
-        <th style="width:15%;">Types</th>
-        <th style="width:12%;">Image</th>
-        <th>Notes</th>
-      </tr>
+    <thead id="th">
     </thead>
     <tbody id="tb">
     </tbody>

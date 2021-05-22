@@ -1,10 +1,29 @@
-export default datum => ({
-  availability: datum.availability || null,
-  bestiary: datum.bestiary || 'None',
-  coords: datum.coords || [],
-  image: datum.image || null,
-  mapID: datum.mapID || null,
-  notes: datum.notes || '',
-  praise: datum.praise || 0,
-  types: datum.types || null,
-})
+export default {
+  rowIdGenerator: animal =>
+    `Map_${animal.mapID}_at_${animal.coords?.join('_') || 'UNKNOWN'}`,
+  header: [
+    { text: 'Map', style: { width: '23%' } },
+    { text: 'Bestiary', style: { width: '10%' } },
+    { text: 'Availability', style: { width: '10%' } },
+    { text: 'Praise', style: { width: '8%' } },
+    { text: 'Types', style: { width: '15%' } },
+    { text: 'Image', style: { width: '12%' } },
+    { text: 'Notes' },
+  ],
+  renderOrder: [
+    'map',
+    'bestiary',
+    'availability',
+    'praise',
+    'types',
+    'image',
+    'notes',
+  ],
+  bestiary: 'default',
+  availability: 'default',
+  praise: 'default',
+  types: 'default',
+  notes: 'default',
+  mapID: 'default',
+  coords: 'default',
+}

@@ -1,101 +1,103 @@
-const bScale = 8000;
-const zoomGranularity = 0.5;
-const map = L.map('map', {
-  crs: L.CRS.Simple,
-  minZoom: -6,
-  maxZoom: -1,
-  zoomSnap: zoomGranularity,
-  zoomDelta: zoomGranularity,
-  // maxBounds: [[-bScale, -bScale], [bScale, bScale]],
-  maxBoundsViscosity: 1,
-  layerPreview: true
-});
-map.setView([0, 0], 0);
+import mine from './buildTable.js'
+import { paraFetchJSON } from './util.js'
 
-let currentGameMap;
-let mapImage = null;
-function setGameMap(mapID, scale, shiftN, shiftE) {
-  currentGameMap = mapID;
-  const bounds = [[-scale + shiftN, -scale + shiftE], [scale + shiftN, scale + shiftE]];
-  let mapIDHex = mapID.toString(16);
+const th = document.getElementById('th')
+const tb = document.getElementById('tb')
+const pvImg = document.getElementById('preview')
 
-  const mapURL = `./DumpedMaps/map_r${mapIDHex}_0out.png`
-  if (mapImage === null) {
-    mapImage = L.imageOverlay(mapURL, bounds).addTo(map);
-  } else {
-    mapImage.setUrl(mapURL);
-    mapImage.setBounds(bounds);
-  }
-  map.fitBounds(bounds, {animate: false});
-}
-/* Initialize to Shinshu: */
-setGameMap(0xf02, 5200, 1000, 1000);
+/* Handle preview buttons with a single event, rather than having hundreds: */
+;(() => {
+  let activeButton = null
+  let activeButtonText
+  function tbOnClick(event) {
+    const tgt = event.target
+    if (tgt.className != 'pv') return
+    const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href
+    pvImg.src = imageSrc
 
-/* Fetch multiple JSON files in parallel */
-async function paraFetchJSON(...URLs) {
-  const requests = URLs.map(u=>
-    fetch(u).then(r=>r.json())
-  );
-  return Promise.all(requests);
-}
+    /* When an image is loading, put overlay on preview image: */
+    pvImg.classList.add('loading')
 
-let lootData;
-// let mapIDMap;
-let mapInfo
-(async ()=>{
-  let response;
-  [lootData, mapInfo] = await paraFetchJSON(
-    // './lootData.json', './mapIDMap.json', './mapInfo.json'
-    './lootData.json', './mapInfo.json'
-  );
+    /* Highlight the row of the selected item and add an search parameter to
+     *  the URL: */
+    const parentRow = tgt.parentElement.parentElement
+    parentRow.classList.add('current-pv-row')
 
-  map.lootLayer = L.featureGroup().addTo(map);
-  function addLootMarkers() {
-    map.lootLayer.clearLayers();
-    for (const loot of lootData) {
-      if (loot.mapID === currentGameMap) {
-        const coords = loot.coords;
-        const latlong = [-coords[2], coords[0]];
-        map.lootLayer.addLayer(
-          L.marker(latlong, {image: loot.image}).bindPopup(`${loot.contents} @${loot.coords}`)
-        );
-      }
+    const searchParams = new URLSearchParams(window.location.search)
+    const rowID = parentRow.id
+    if (searchParams.get('row') !== rowID) {
+      searchParams.set('row', rowID)
+      window.history.pushState({}, '', '?' + searchParams.toString())
     }
-  }
-  addLootMarkers();
 
-  function updatePreview(e) {
-    map.setPreviewImage(e.sourceTarget.options.image);
-  }
-  map.lootLayer.on('popupopen', updatePreview);
-
-  const MapSelector = L.Control.extend({
-    onAdd: function(){
-      const container = L.DomUtil.create('div');
-      container.style.width = '300px';
-      container.style.background = 'rgba(255,255,255,0.5)';
-      container.style.textAlign = 'left';
-      const selBox = L.DomUtil.create('select', '', container);
-      for (const id in mapInfo) {
-        const selOpt = L.DomUtil.create('option', '', selBox);
-        selOpt.value = id;
-        selOpt.innerText = mapInfo[id].name;
-
-        if (+id === currentGameMap) selOpt.setAttribute('selected', '');
-      }
-      // const setMap = function(){
-      //   gauge.innerHTML = 'Zoom level: ' + map.getZoom();
-      // };
-      // update();
-      // map.on('zoomstart zoom zoomend', update)
-      L.DomEvent.on(selBox, 'input', e=>{
-        const selID = +selBox.value;
-        const selInfo = mapInfo[selID];
-        setGameMap(selID, selInfo.leafletScale, ...selInfo.leafletNEOffset);
-        addLootMarkers();
-      })
-      return container;
+    /* Change the pressed button's text to "Loading" and restore the state of
+     * the previously selected row/button: */
+    if (activeButton !== null) {
+      activeButton.innerText = activeButtonText
+      activeButton.removeAttribute('disabled')
+      activeButton.parentElement.parentElement.classList.remove(
+        'current-pv-row',
+      )
     }
-  });
-  (new MapSelector).addTo(map);
-})();
+    activeButtonText = tgt.innerText
+    tgt.innerText = 'Loading'
+    tgt.setAttribute('disabled', '')
+    activeButton = tgt
+  }
+  tb.addEventListener('click', tbOnClick)
+  /* When preview image loading finishes, remove overlay: */
+  function onLoad() {
+    pvImg.classList.remove('loading')
+    if (activeButton === null) return
+    activeButton.innerText = 'Current'
+  }
+  pvImg.addEventListener('load', onLoad)
+})()
+
+let lootData
+let animalData
+
+function isRowVisible(rowEle, minFractionToQualifyAsVisible = 0) {
+  const tbCont = document.getElementById('table-cont')
+  const contBounds = tbCont.getBoundingClientRect()
+  const stickyHeader = tbCont.getElementsByTagName('thead')[0]
+  const headerHeight = stickyHeader.getBoundingClientRect().height
+  const rowBounds = rowEle.getBoundingClientRect()
+  const rowHeight = rowBounds.height
+
+  const pxBelowTop = rowBounds.bottom - (contBounds.top + headerHeight)
+  if (pxBelowTop < 0) return false
+  const pxAboveBot = contBounds.bottom - rowBounds.top
+  if (pxAboveBot < 0) return false
+  const visHeight = Math.min(rowHeight, pxBelowTop, pxAboveBot)
+  return visHeight / rowHeight >= minFractionToQualifyAsVisible
+}
+
+/* Scroll search parameter target table row into view . */
+function viewAnchoredRow() {
+  if (location.search !== '') {
+    const searchParams = new URLSearchParams(window.location.search)
+    const target = document.getElementById(searchParams.get('row'))
+
+    /* Row must be 100% visible to not trigger a scroll: */
+    if (!isRowVisible(target, 1)) target.scrollIntoView({ block: 'center' })
+    target.getElementsByClassName('pv')[0].click()
+  }
+}
+
+;(async () => {
+  const mapIDMap = await paraFetchJSON('./mapIDMap.json')
+  mine('./lootData.json', mapIDMap)
+    .then(rows => {
+      th.appendChild(rows.header)
+      tb.append(...rows.body)
+    })
+    .catch(err => {
+      console.error('Error fetching data to build table!')
+      console.error({ err })
+    })
+  viewAnchoredRow()
+})()
+
+// window.addEventListener('hashchange', viewAnchoredRow);
+window.addEventListener('popstate', viewAnchoredRow)
