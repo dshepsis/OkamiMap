@@ -1,4 +1,4 @@
-import mine from './buildTable.js'
+import buildTable from './buildTable.js'
 import { paraFetchJSON } from './util.js'
 
 const th = document.getElementById('th')
@@ -54,9 +54,6 @@ const pvImg = document.getElementById('preview')
   pvImg.addEventListener('load', onLoad)
 })()
 
-let lootData
-let animalData
-
 function isRowVisible(rowEle, minFractionToQualifyAsVisible = 0) {
   const tbCont = document.getElementById('table-cont')
   const contBounds = tbCont.getBoundingClientRect()
@@ -87,7 +84,8 @@ function viewAnchoredRow() {
 
 ;(async () => {
   const mapIDMap = await paraFetchJSON('./mapIDMap.json')
-  mine('./lootData.json', mapIDMap)
+  const { jsonPath } = document.getElementById('table-cont').dataset
+  buildTable(jsonPath, mapIDMap)
     .then(rows => {
       th.appendChild(rows.header)
       tb.append(...rows.body)
@@ -95,8 +93,15 @@ function viewAnchoredRow() {
     .catch(err => {
       console.error('Error fetching data to build table!')
       console.error({ err })
+      return err
     })
-  viewAnchoredRow()
+    .then(tableBuildErr => {
+      if (!tableBuildErr) viewAnchoredRow()
+    })
+    .catch(err => {
+      console.log('Error getting the row to search for!')
+      console.error({ err })
+    })
 })()
 
 // window.addEventListener('hashchange', viewAnchoredRow);

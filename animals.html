@@ -15,91 +15,12 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
 
-<style>
-* {
-  font: 20px/1.5 sans-serif;
-  color: #222;
-  box-sizing: border-box;
-}
-html {
-  background: #f8f8f8;
-  height:100%;
-}
-
-body {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 0;
-  overflow: hidden;
-}
-#preview {
-  display: block;
-  width:100%;
-  max-height:50%;
-  object-fit: contain;
-  flex: 0 0 auto;
-  position: relative;
-  opacity: 1;
-  filter: none;
-  transition-property: opacity filter;
-  transition-duration: 0.2s;
-  transition-delay: 0;
-}
-#preview.loading {
-  opacity: 0.5;
-  transition-delay: 0.2s;
-}
-
-#table-cont {
-  flex: 1 1 auto;
-  overflow-y: scroll;
-  max-width: 100%;
-}
-
-table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 1500px;
-  max-width: 100%;
-}
-
-td, th {
-  padding: 5px 10px;
-  word-wrap:break-word
-}
-
-td + td {
-  border-left: 1px dashed #aaa;
-}
-
-th {
-  font-weight: bold;
-  position: sticky;
-  top: 0;
-  background: #fca;
-}
-
-.pv {
-  margin-right: 5px;
-}
-
-footer {
-  flex: 0 0 auto;
-  background-color: #ccc;
-  padding: 3px;
-  width: 100%;
-  text-align: center;
-  border-top: 1px solid #aaa;
-}
-</style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <img id="preview" alt="Preview Image" src="./Kamiki/Chicken.png" />
-  <div id="table-cont">
+  <div id="table-cont" data-json-path="./animalData.json">
     <table>
     <thead id="th">
     </thead>
@@ -113,7 +34,10 @@ footer {
     | Credits to WhatAboutClyde for decompressing and parsing the game files.
     | Site by Auride
   </footer>
-<script>
+
+<script async type="module" src="js/index.js"></script>
+<!-- <script>
+// Leaving this chunk in here for now cuz it's slightly different than in index.js
 const tb = document.getElementById('tb');
 const pvImg = document.getElementById('preview');
 
@@ -151,66 +75,6 @@ const pvImg = document.getElementById('preview');
   pvImg.addEventListener('load', onLoad);
 })();
 
-function tdEl(text) {
-    const el = document.createElement('td');
-    el.innerText = text;
-    return el;
-}
-function tdImageEl(src) {
-  const td = document.createElement('td');
-  if (src === undefined) {
-    td.innerText = "No image :(";
-    return td;
-  }
-  const pvButton = document.createElement('button');
-  pvButton.className = 'pv';
-  pvButton.innerText = "Preview";
-  const link = document.createElement('a');
-  link.innerText = "Link";
-  link.href = src;
-  td.appendChild(pvButton);
-  td.appendChild(link);
-  return td;
-}
-
-function animalToTR(datum) {
-  const tr = document.createElement('tr');
-  const {mapID, bestiary, availability, praise, types, image, notes} = datum;
-  let mapStr;
-  if (mapID === undefined) {
-    console.error(`Animal ${bestiary} with types ${types} found with no Map ID.`);
-    mapStr = "Unknown map";
-  } else if (mapIDMap[mapID] === undefined) {
-    console.error(
-      `Animal ${bestiary} with types ${types} found with invalid Map ID ${mapID}.`
-    );
-    mapStr = `Unknown map (r${mapID.toString(16)})`;
-  } else {
-    mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`;
-  }
-  const children = [
-    tdEl(mapStr),
-    tdEl(bestiary),
-    tdEl(availability),
-    tdEl(praise),
-    tdEl(types),
-    tdImageEl(image),
-    tdEl(notes)
-  ];
-  for (const c of children) {
-    tr.appendChild(c);
-  }
-  return tr;
-}
-
-/* Fetch multiple JSON files in parallel */
-async function paraFetchJSON(...URLs) {
-  const requests = URLs.map(u=>
-    fetch(u).then(r=>r.json())
-  );
-  return Promise.all(requests);
-}
-
 let animalData;
 let mapIDMap;
 (async ()=>{
@@ -223,7 +87,7 @@ let mapIDMap;
   }
 })();
 
-</script>
+</script> -->
 
 </body>
 </html>

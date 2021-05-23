@@ -85,24 +85,18 @@ const createDataCell = (config, key, el, mapIDMap) => {
 }
 
 export default async (url, mapIDMap) => {
-  try {
-    const res = await fetch(url)
-    const config = (await getConfig(res)).default
-    return {
-      header: createHeaderRow(config),
-      body: (await res.json()).map((el, i) => {
-        const row = createDataRow(config, el)
-        row.append(
-          ...config.renderOrder.map(key =>
-            createDataCell(config, key, el, mapIDMap),
-          ),
-        )
-        return row
-      }),
-    }
-  } catch (e) {
-    console.log('Error building table:', e)
-    // No xxDataConfig.js file exists. Just return the data.
-    return res.json()
+  const res = await fetch(url)
+  const config = (await getConfig(res)).default
+  return {
+    header: createHeaderRow(config),
+    body: (await res.json()).map((el, i) => {
+      const row = createDataRow(config, el)
+      row.append(
+        ...config.renderOrder.map(key =>
+          createDataCell(config, key, el, mapIDMap),
+        ),
+      )
+      return row
+    }),
   }
 }

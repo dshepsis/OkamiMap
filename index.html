@@ -15,109 +15,12 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
 
-<style>
-* {
-  font: 20px/1.5 sans-serif;
-  color: #222;
-  box-sizing: border-box;
-}
-html {
-  background: #f8f8f8;
-  height:100%;
-}
-
-body {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 0;
-  overflow: hidden;
-}
-#preview {
-  display: block;
-  width:100%;
-  max-height:50%;
-  object-fit: contain;
-  flex: 0 0 auto;
-  position: relative;
-  opacity: 1;
-  filter: none;
-  transition-property: opacity filter;
-  transition-duration: 0.2s;
-  transition-delay: 0;
-}
-#preview.loading {
-  opacity: 0.5;
-  transition-delay: 0.2s;
-}
-
-#table-cont {
-  flex: 1 1 auto;
-  overflow-y: scroll;
-  /* max-width: 100%; */
-}
-
-/* @media (min-aspect-ratio: 4/1) {
-  body {
-    flex-flow: row wrap;
-  }
-  #table-cont {
-    flex: 1 0 auto;
-  }
-  #preview {
-    width: 25%;
-    height: 100%;
-    max-height: none;
-  }
-} */
-
-table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 1500px;
-}
-
-tr.current-pv-row {
-  background-color: #ddf;
-}
-
-td, th {
-  padding: 4px 10px;
-  word-wrap:break-word
-}
-
-td + td {
-  border-left: 1px dashed #aaa;
-}
-
-th {
-  font-weight: bold;
-  position: sticky;
-  top: 0;
-  background: #afc;
-}
-
-.pv {
-  margin-right: 5px;
-  width: 5em;
-}
-
-footer {
-  flex: 0 0 auto;
-  background-color: #ccc;
-  padding: 3px;
-  width: 100%;
-  text-align: center;
-  border-top: 1px solid #aaa;
-}
-</style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <img id="preview" alt="Preview Image" src="./CaveOfNagi/sb01.png" />
-  <div id="table-cont">
+  <div id="table-cont" data-json-path="./lootData.json">
     <table>
     <thead id="th">
     </thead>
@@ -126,10 +29,9 @@ footer {
     </table>
   </div>
   <footer>
-    <a href="./animals">Animals</a>
+    <a href="./animals.html">Animals</a>
   | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
   </footer>
-<script type="module" src="js/index.js"></script>
-
+<script async type="module" src="js/index.js"></script>
 </body>
 </html>

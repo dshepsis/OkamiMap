@@ -11,7 +11,7 @@ export default {
     { text: 'Notes' },
   ],
   renderOrder: [
-    'map',
+    'mapID',
     'bestiary',
     'availability',
     'praise',
@@ -19,11 +19,29 @@ export default {
     'image',
     'notes',
   ],
+  mapID: [
+    'default',
+    (animal, mapIDMap) => {
+      const { bestiary, mapID, types } = animal
+      if (mapID === undefined) {
+        console.error(
+          `Animal ${bestiary} with types ${types} found with no Map ID.`,
+        )
+        return 'Unknown map'
+      } else if (mapIDMap[mapID] === undefined) {
+        console.error(
+          `Animal ${bestiary} with types ${types} found with invalid Map ID ${mapID}.`,
+        )
+        return `Unknown map (r${mapID.toString(16)})`
+      } else {
+        return `${mapIDMap[mapID]} (r${mapID.toString(16)})`
+      }
+    },
+  ],
   bestiary: 'default',
   availability: 'default',
   praise: 'default',
   types: 'default',
+  image: 'image',
   notes: 'default',
-  mapID: 'default',
-  coords: 'default',
 }
