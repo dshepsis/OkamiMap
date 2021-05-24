@@ -68,6 +68,10 @@ table {
   max-width: 100%;
 }
 
+tr.current-pv-row {
+  background-color: #ddf;
+}
+
 td,
 th {
   padding: 5px 10px;

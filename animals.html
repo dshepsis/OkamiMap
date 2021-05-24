@@ -36,58 +36,5 @@
   </footer>
 
 <script async type="module" src="js/index.js"></script>
-<!-- <script>
-// Leaving this chunk in here for now cuz it's slightly different than in index.js
-const tb = document.getElementById('tb');
-const pvImg = document.getElementById('preview');
-
-/* Handle preview buttons with a single event, rather than having hundreds: */
-(()=>{
-  let activeButton = null;
-  let activeButtonText;
-  function tbOnClick(event) {
-    const tgt = event.target;
-    if (tgt.className != 'pv') return;
-    const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
-    pvImg.src = imageSrc;
-    /* When an image is loading, put overlay on preview image: */
-    pvImg.classList.add('loading');
-
-    /* Change the pressed button's text to "Loading": */
-    if (activeButton !== null) {
-      activeButton.innerText = activeButtonText;
-      activeButton.removeAttribute('disabled');
-    }
-    activeButtonText = tgt.innerText;
-    tgt.innerText = "Loading";
-    tgt.setAttribute('disabled', '');
-    activeButton = tgt;
-  }
-  tb.addEventListener('click', tbOnClick);
-  /* When preview image loading finishes, remove overlay: */
-  function onLoad() {
-    pvImg.classList.remove('loading');
-    if (activeButton === null) return;
-    activeButton.innerText = activeButtonText;
-    activeButton.removeAttribute('disabled');
-    activeButton = null;
-  }
-  pvImg.addEventListener('load', onLoad);
-})();
-
-let animalData;
-let mapIDMap;
-(async ()=>{
-  let response;
-  [animalData, mapIDMap] = await paraFetchJSON(
-    './animalData.json', './mapIDMap.json'
-  );
-  for (const animal of animalData) {
-    tb.appendChild(animalToTR(animal, mapIDMap));
-  }
-})();
-
-</script> -->
-
 </body>
 </html>
