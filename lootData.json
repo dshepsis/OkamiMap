@@ -252,7 +252,6 @@
     "coords": [-384, -20, -809]
   },
   {
-    "map": "Hana Valley (r103)",
     "type": "Chest-Special",
     "contents": "Sun Fragment",
     "terrain": "On Land",
@@ -2616,7 +2615,6 @@
     "coords": [1000, 210, -1780]
   },
   {
-    "map": "Dragon Palace (r203)",
     "type": "Chest-Special",
     "contents": "\"Travel Guide: Waterspout Tech 1\"",
     "terrain": "On Land",

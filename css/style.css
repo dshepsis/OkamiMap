@@ -1,18 +1,114 @@
 * {
+  font: 20px/1.5 sans-serif;
+  color: #222;
   box-sizing: border-box;
 }
 html {
   background: #f8f8f8;
   height: 100%;
-  margin: 0;
 }
+
 body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: 0;
-  height: 100%;
+  overflow: hidden;
 }
-#map {
-  height: 100%;
+#preview {
+  display: block;
+  width: 100%;
+  max-height: 50%;
+  object-fit: contain;
+  flex: 0 0 auto;
+  position: relative;
+  opacity: 1;
+  filter: none;
+  transition-property: opacity filter;
+  transition-duration: 0.2s;
+  transition-delay: 0;
 }
-input[type='text'] {
+#preview.loading {
+  opacity: 0.5;
+  transition-delay: 0.2s;
+}
+
+#table-cont {
+  flex: 1 1 auto;
+  overflow-y: scroll;
+}
+
+#table-cont[data-json-path='./animalData.json'] {
+  max-width: 100%;
+}
+
+/* @media (min-aspect-ratio: 4/1) {
+  body {
+    flex-flow: row wrap;
+  }
+  #table-cont {
+    flex: 1 0 auto;
+  }
+  #preview {
+    width: 25%;
+    height: 100%;
+    max-height: none;
+  }
+} */
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 1500px;
+}
+
+#table-cont[data-json-path='./animalData.json'] table {
+  max-width: 100%;
+}
+
+tr.current-pv-row {
+  background-color: #ddf;
+}
+
+td,
+th {
+  padding: 5px 10px;
+  word-wrap: break-word;
+}
+
+td + td {
+  border-left: 1px dashed #aaa;
+}
+
+th {
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+#table-cont[data-json-path='./animalData.json'] th {
+  background: #fca;
+}
+
+#table-cont[data-json-path='./lootData.json'] th {
+  background: #afc;
+}
+
+.pv {
+  margin-right: 5px;
+}
+
+#table-cont[data-json-path='./lootData.json'] .pv {
   width: 5em;
+}
+
+footer {
+  flex: 0 0 auto;
+  background-color: #ccc;
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #aaa;
 }

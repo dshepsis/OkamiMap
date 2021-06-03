@@ -8,289 +8,30 @@
   <meta name="description" content="Map of treasure, clovers, etc. in Okami">
   <meta name="author" content="Daniel Shepsis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!--Favicon.io-->
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
 
-<style>
-* {
-  font: 20px/1.5 sans-serif;
-  color: #222;
-  box-sizing: border-box;
-}
-html {
-  background: #f8f8f8;
-  height:100%;
-}
-  
-body {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 0;
-  overflow: hidden;
-}
-#preview {
-  display: block;
-  width:100%;
-  max-height:50%;
-  object-fit: contain;
-  flex: 0 0 auto;
-  position: relative;
-  opacity: 1;
-  filter: none;
-  transition-property: opacity filter;
-  transition-duration: 0.2s;
-  transition-delay: 0;
-}
-#preview.loading {
-  opacity: 0.5;
-  transition-delay: 0.2s;
-}
-
-#table-cont {
-  flex: 1 1 auto;
-  overflow-y: scroll;
-  /* max-width: 100%; */
-}
-
-/* @media (min-aspect-ratio: 4/1) {
-  body {
-    flex-flow: row wrap;
-  }
-  #table-cont {
-    flex: 1 0 auto;
-  }
-  #preview {
-    width: 25%;
-    height: 100%;
-    max-height: none;
-  }
-} */
-  
-table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 1500px;
-}
-
-tr.current-pv-row {
-  background-color: #ddf;
-}
-
-td, th {
-  padding: 4px 10px;
-  word-wrap:break-word
-}
-
-td + td {
-  border-left: 1px dashed #aaa;
-}
-  
-th {
-  font-weight: bold;
-  position: sticky;
-  top: 0;
-  background: #afc;
-}
-
-.pv {
-  margin-right: 5px;
-  width: 5em;
-}
-
-footer {
-  flex: 0 0 auto;
-  background-color: #ccc;
-  padding: 3px;
-  width: 100%;
-  text-align: center;
-  border-top: 1px solid #aaa;
-}
-</style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <img id="preview" alt="Preview Image" src="./CaveOfNagi/sb01.png" />
-  <div id="table-cont">
+  <div id="table-cont" data-json-path="./lootData.json">
     <table>
-    <thead>
-      <tr>
-        <th style="width:20%;">Map</th>
-        <th style="width:10%;">Type</th>
-        <th style="width:10%;">Terrain</th>
-        <th style="width:15%;">Contents</th>
-        <th style="width:12%;">Image</th>
-        <th>Notes</th>
-      </tr>
+    <thead id="th">
     </thead>
     <tbody id="tb">
     </tbody>
     </table>
   </div>
   <footer>
-    <a href="./animals">Animals</a>
-    | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
-    <!-- <span><a href="./svgtest.html">test</a></span> -->
+    <a href="./animals.html">Animals</a>
+  | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
   </footer>
-<script>
-const tb = document.getElementById('tb');
-const pvImg = document.getElementById('preview');
-
-/* Handle preview buttons with a single event, rather than having hundreds: */
-(()=>{
-  let activeButton = null;
-  let activeButtonText;
-  function tbOnClick(event) {
-    const tgt = event.target;
-    if (tgt.className != 'pv') return;
-    const imageSrc = tgt.parentElement.getElementsByTagName('a')[0].href;
-    pvImg.src = imageSrc;
-
-    /* When an image is loading, put overlay on preview image: */
-    pvImg.classList.add('loading');
-
-    /* Highlight the row of the selected item and add an search parameter to
-     *  the URL: */
-    const parentRow = tgt.parentElement.parentElement;
-    parentRow.classList.add("current-pv-row");
-    
-    const searchParams = new URLSearchParams(window.location.search);
-    const rowID = parentRow.id;
-    if (searchParams.get('row') !== rowID) {
-      searchParams.set('row', rowID);
-      window.history.pushState({}, '', '?' + searchParams.toString());
-    }
-
-    /* Change the pressed button's text to "Loading" and restore the state of
-     * the previously selected row/button: */
-    if (activeButton !== null) {
-      activeButton.innerText = activeButtonText;
-      activeButton.removeAttribute('disabled');
-      activeButton.parentElement.parentElement.classList.remove("current-pv-row");
-    }
-    activeButtonText = tgt.innerText;
-    tgt.innerText = "Loading";
-    tgt.setAttribute('disabled', '');
-    activeButton = tgt;
-  }
-  tb.addEventListener('click', tbOnClick);
-  /* When preview image loading finishes, remove overlay: */
-  function onLoad() {
-    pvImg.classList.remove('loading');
-    if (activeButton === null) return;
-    activeButton.innerText = "Current";
-  }
-  pvImg.addEventListener('load', onLoad);
-})();
-
-function tdEl(text) {
-    const el = document.createElement('td');
-    el.innerText = text;
-    return el;
-}
-function tdImageEl(src) {
-  const td = document.createElement('td');
-  if (src === undefined) {
-    td.innerText = "No image :(";
-    return td;
-  }
-  const pvButton = document.createElement('button');
-  pvButton.className = 'pv';
-  pvButton.innerText = "Preview";
-  const link = document.createElement('a');
-  link.innerText = "Link";
-  link.href = src;
-  td.appendChild(pvButton);
-  td.appendChild(link);
-  return td;
-}
-
-function lootToTR(loot, mapIDMap) {
-  const tr = document.createElement('tr');
-  const {mapID, type, terrain, contents, image, notes, coords} = loot;
-  let mapStr;
-  if (mapID === undefined) {
-    console.error(`Loot ${contents} in ${type} found with no Map ID.`);
-    mapStr = "Unknown map";
-  } else if (mapIDMap[mapID] === undefined) {
-    console.error(
-      `Loot ${contents} in ${type} found with invalid Map ID ${mapID}.`
-    );
-    mapStr = `Unknown map (r${mapID.toString(16)})`;
-  } else {
-    mapStr = `${mapIDMap[mapID]} (r${mapID.toString(16)})`;
-  }
-  const children = [
-    tdEl(mapStr), tdEl(type), tdEl(terrain), tdEl(contents), tdImageEl(image), tdEl(notes)
-  ];
-  for (const c of children) {
-    tr.appendChild(c);
-  }
-  const coordsStr = (coords === undefined) ? 'UNKNOWN' : coords.join('_');
-  tr.id = `Map_${mapID}_at_${coordsStr}`;
-  return tr;
-}
-
-/* Fetch multiple JSON files in parallel */
-async function paraFetchJSON(...URLs) {
-  const requests = URLs.map(u=>
-    fetch(u).then(r=>r.json())
-  );
-  return Promise.all(requests);
-}
-
-let lootData;
-let mapIDMap;
-
-function isRowVisible(rowEle, minFractionToQualifyAsVisible = 0) {
-  const tbCont = document.getElementById('table-cont');
-  const contBounds = tbCont.getBoundingClientRect();
-  const stickyHeader = tbCont.getElementsByTagName('thead')[0];
-  const headerHeight = stickyHeader.getBoundingClientRect().height;
-  const rowBounds = rowEle.getBoundingClientRect();
-  const rowHeight = rowBounds.height;
-
-  const pxBelowTop = rowBounds.bottom - (contBounds.top + headerHeight);
-  if (pxBelowTop < 0) return false;
-  const pxAboveBot = contBounds.bottom - rowBounds.top;
-  if (pxAboveBot < 0) return false;
-  const visHeight = Math.min(rowHeight, pxBelowTop, pxAboveBot);
-  return (visHeight/rowHeight >= minFractionToQualifyAsVisible);
-}
-
-/* Scroll search parameter target table row into view . */
-function viewAnchoredRow() {
-  if (location.search !== "") {
-    const searchParams = new URLSearchParams(window.location.search);
-    const target = document.getElementById(searchParams.get('row'));
-
-    /* Row must be 100% visible to not trigger a scroll: */
-    if (!isRowVisible(target, 1)) target.scrollIntoView({block: "center"});
-    target.getElementsByClassName('pv')[0].click();
-  }
-}
-
-(async ()=>{
-  let response;
-  [lootData, mapIDMap] = await paraFetchJSON(
-    './lootData.json', './mapIDMap.json'
-  );
-  for (const loot of lootData) {
-    tb.appendChild(lootToTR(loot, mapIDMap));
-  }
-  viewAnchoredRow()
-})();
-
-// window.addEventListener('hashchange', viewAnchoredRow);
-window.addEventListener('popstate', viewAnchoredRow);
-
-</script>
-
+<script async type="module" src="js/index.js"></script>
 </body>
 </html>
