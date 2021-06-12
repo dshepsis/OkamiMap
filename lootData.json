@@ -551,7 +551,7 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "./CityCheckpoint/Clover5B.png",
     "mapID": 261,
     "coords": [560, -592, 3260]
   },
@@ -604,7 +604,7 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "./CityCheckpoint/Clover5C.png",
     "mapID": 261,
     "coords": [-3640, -561, -4980]
   },
@@ -648,7 +648,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #40",
+    "image": "./CityCheckpoint/sb40.png",
     "mapID": 261,
     "coords": [-3740, -561, -4980]
   },
@@ -1206,6 +1207,7 @@
     "contents": "Praise (5)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Sasa/Clover5B.png",
     "mapID": 265,
     "coords": [600, 280, -560]
   },
@@ -1501,7 +1503,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #44. After defeating Ryoshima Coast Devil Gate Trial",
+    "image": "./Ryoshima/sb44.png",
     "mapID": 275,
     "coords": [-761, 2503, -8989]
   },
@@ -1558,6 +1561,7 @@
     "contents": "\"Travel Guide: Cherry Bomb 3\"",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiCB3/TravelGuideCherryBomb3,Clover30C.png",
     "mapID": 277,
     "coords": [71, 128, -564]
   },
@@ -1566,6 +1570,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiCB3/Clover30A.png",
     "mapID": 277,
     "coords": [0, 64, -360]
   },
@@ -1574,6 +1579,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiCB3/TravelGuideCherryBomb3,Clover30C.png",
     "mapID": 277,
     "coords": [120, 125, -520]
   },
@@ -1582,6 +1588,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiCB3/Clover30B.png",
     "mapID": 277,
     "coords": [-80, 123, -520]
   },
@@ -1693,7 +1700,8 @@
     "type": "Chest",
     "contents": "Silver Pocket Watch",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "After defeating Blockhead Grande",
+    "image": "./KamuiBlockhead/SilverPocketWatch.png",
     "mapID": 281,
     "coords": [92, 129, -666]
   },
@@ -1701,7 +1709,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #78. After defeating Blockhead Grande",
+    "image": "./KamuiBlockhead/sb78.png",
     "mapID": 281,
     "coords": [14, 138, -688]
   },
@@ -1709,7 +1718,8 @@
     "type": "Chest",
     "contents": "Gold Dust",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "After defeating Blockhead Grande",
+    "image": "./KamuiBlockhead/GoldDust.png",
     "mapID": 281,
     "coords": [-59, 129, -669]
   },
@@ -1718,6 +1728,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiBlockhead/Clover30C.png",
     "mapID": 281,
     "coords": [0, 78, -400]
   },
@@ -1726,6 +1737,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiBlockhead/Clover30A.png",
     "mapID": 281,
     "coords": [120, 128, -540]
   },
@@ -1734,6 +1746,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiBlockhead/Clover30B.png",
     "mapID": 281,
     "coords": [-80, 122, -520]
   },
@@ -1750,7 +1763,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #65. After defeating North Ryoshima Devil Gate Trial",
+    "image": "./NorthRyo/sb65.png",
     "mapID": 282,
     "coords": [-757, 2503, -8988]
   },
@@ -1767,7 +1781,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #79. After defeating Kamui Devil Gate Trial",
+    "image": "./Kamui/sb79.png",
     "mapID": 283,
     "coords": [-760, 2503, -8978]
   },
@@ -4252,7 +4267,7 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #83",
     "mapID": 787,
     "coords": [-480, 0, 2520]
   },
@@ -6419,6 +6434,7 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover50.png",
     "mapID": 3858,
     "coords": [-3480, -89, -6660]
   },
@@ -6490,6 +6506,7 @@
     "contents": "Golden Peach",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/GoldenPeach.png",
     "mapID": 3858,
     "coords": [20, -104, -6200]
   },
@@ -6588,6 +6605,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover40C.png",
     "mapID": 3858,
     "coords": [-1680, 346, -7160]
   },
@@ -6596,6 +6614,7 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiEzofuji/Clover50.png",
     "mapID": 3859,
     "coords": [-2800, 437, -3800]
   },
@@ -6604,6 +6623,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiEzofuji/Clover30A.png",
     "mapID": 3859,
     "coords": [2600, 395, -2860]
   },
@@ -6612,6 +6632,7 @@
     "contents": "Etched Glass",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiEzofuji/EtchedGlass.png",
     "mapID": 3859,
     "coords": [3293, 180, -1813]
   },
@@ -6619,7 +6640,8 @@
     "type": "Frozen Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #84",
+    "image": "./KamuiEzofuji/sb84.png",
     "mapID": 3859,
     "coords": [3265, 187, -1957]
   },
@@ -6628,6 +6650,7 @@
     "contents": "\"Travel Guide: Another Civilization\"",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiEzofuji/TravelGuideAnotherCivilization.png",
     "mapID": 3859,
     "coords": [-179, 30, 323]
   },
@@ -6636,6 +6659,7 @@
     "contents": "Stray Bead",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiEzofuji/sb87.png",
     "mapID": 3859,
     "coords": [1890, -43, -470]
   },
@@ -6644,6 +6668,7 @@
     "contents": "Silver Pocket Watch",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiEzofuji/SilverPocketWatch.png",
     "mapID": 3859,
     "coords": [1945, -43, -369]
   },
@@ -6652,6 +6677,7 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./KamuiEzofuji/WhitePorcelainPot.png",
     "mapID": 3859,
     "coords": [1782, -43, -508]
   },
@@ -6659,7 +6685,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #85",
+    "image": "./KamuiEzofuji/sb85.png",
     "mapID": 3859,
     "coords": [1480, 1032, -3760]
   },
@@ -6668,6 +6695,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Kamui/Clover30B.png",
     "mapID": 3859,
     "coords": [1560, 1018, -3660]
   },
@@ -6676,6 +6704,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiEzofuji/Clover40A.png",
     "mapID": 3859,
     "coords": [-140, 583, -4600]
   },
@@ -6683,7 +6712,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #86",
+    "image": "./KamuiEzofuji/sb86.png",
     "mapID": 3859,
     "coords": [-40, 585, -4660]
   },
@@ -6692,6 +6722,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamuiEzofuji/Clover40B.png",
     "mapID": 3859,
     "coords": [-20, 585, -4540]
   },
@@ -6699,7 +6730,8 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "By some sheep. Baa",
+    "image": "./KamuiEzofuji/Clover30C.png",
     "mapID": 3859,
     "coords": [540, 250, -4140]
   },
@@ -6708,6 +6740,7 @@
     "contents": "Sun Fragment",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Kamui/SunFragment.png",
     "mapID": 3859,
     "coords": [253, 910, -4975]
   },
