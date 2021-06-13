@@ -1922,7 +1922,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Thunderstorm Tech\"",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "After defeating Ninetails and giving the Gimmick Gear to Gen.",
+    "image": "./Sei-anAristocratic/TravelGuideThunderstormTech.png",
     "mapID": 512,
     "coords": [-172, -9997, 86]
   },
@@ -1930,7 +1931,8 @@
     "type": "Chest",
     "contents": "\"Travel Guide: Waterspout Tech 2\"",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "After defeating Ninetails, talking to Himiko's handmaiden behind her palace, and Waterspouting all four gravestones.",
+    "image": "./Sei-anAristocratic/TravelGuideWaterspoutTech2.png",
     "mapID": 512,
     "coords": [-52, 877, -4875]
   },
@@ -1983,7 +1985,7 @@
     "type": "Chest",
     "contents": "Sheep Statue",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Baa",
     "image": "./Sei-anAristocratic/SheepStatue.png",
     "mapID": 512,
     "coords": [380, 692, -3120]
@@ -2010,7 +2012,8 @@
     "type": "Electric Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #56. After defeating Ninetails and either giving the Gimmick Gear to Gen, or equipping Thunder Edge.",
+    "image": "./Sei-anAristocratic/sb56.png",
     "mapID": 512,
     "coords": [-106, -9997, 131]
   },
@@ -3944,7 +3947,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #91",
+    "image": "./Ponc'tan/sb91.png",
     "mapID": 773,
     "coords": [-312, 1062, 1957]
   },
@@ -3953,6 +3957,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Ponc'tan/Clover30A.png",
     "mapID": 773,
     "coords": [340, 1017, 1020]
   },
@@ -3961,6 +3966,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Ponc'tan/Clover30B.png",
     "mapID": 773,
     "coords": [1960, 700, 1880]
   },
@@ -3969,6 +3975,7 @@
     "contents": "Etched Glass",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/EtchedGlass.png",
     "mapID": 773,
     "coords": [815, 842, -158]
   },
@@ -3976,7 +3983,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #92",
+    "image": "./Ponc'tan/sb92.png",
     "mapID": 773,
     "coords": [-1450, 1161, -360]
   },
@@ -3993,6 +4001,7 @@
     "contents": "Pearl",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/Pearl.png",
     "mapID": 773,
     "coords": [-2017, 1090, 715]
   },
@@ -4001,6 +4010,7 @@
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/InkfinityStone.png",
     "mapID": 773,
     "coords": [-728, 649, 310]
   },
@@ -4009,6 +4019,7 @@
     "contents": "Vengeance Slip",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/VengeanceSlip.png",
     "mapID": 773,
     "coords": [-325, 1023, 1032]
   },
@@ -4017,6 +4028,7 @@
     "contents": "Crystal",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/Crystal.png",
     "mapID": 773,
     "coords": [1628, 706, 1339]
   },
@@ -4025,6 +4037,7 @@
     "contents": "Agate Tassels",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/AgateTassels.png",
     "mapID": 773,
     "coords": [636, 616, 1807]
   },
@@ -4033,6 +4046,7 @@
     "contents": "Steel Fist Sake",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/SteelFistSake.png",
     "mapID": 773,
     "coords": [-1003, 723, 1119]
   },
