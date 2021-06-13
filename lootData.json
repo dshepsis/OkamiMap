@@ -1513,6 +1513,7 @@
     "contents": "Stray Bead",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Taka/sb26.png",
     "mapID": 276,
     "coords": [13, 138, -688]
   },
@@ -1521,6 +1522,7 @@
     "contents": "Godly Charm",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Taka/GodlyCharm.png",
     "mapID": 276,
     "coords": [-58, 129, -651]
   },
@@ -1529,6 +1531,7 @@
     "contents": "Crystal",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Taka/CrystalB.png",
     "mapID": 276,
     "coords": [85, 129, -652]
   },
@@ -1537,6 +1540,7 @@
     "contents": "Praise (10)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Taka/Clover10C.png",
     "mapID": 276,
     "coords": [180, 129, -640]
   },
@@ -1545,6 +1549,7 @@
     "contents": "Praise (10)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Taka/Clover10B.png",
     "mapID": 276,
     "coords": [-180, 129, -660]
   },
@@ -1553,6 +1558,7 @@
     "contents": "Praise (10)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Taka/Clover10A.png",
     "mapID": 276,
     "coords": [0, 79, -400]
   },
@@ -3588,6 +3594,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wep'keer/Clover30A.png",
     "mapID": 769,
     "coords": [220, 0, -520]
   },
@@ -3595,7 +3602,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #80",
+    "image": "./Wep'keer/sb80.png",
     "mapID": 769,
     "coords": [820, 112, -540]
   },
@@ -3604,6 +3612,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wep'keer/Clover30B.png",
     "mapID": 769,
     "coords": [1120, 113, -800]
   },
@@ -3612,6 +3621,7 @@
     "contents": "Jade Tassels",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wep'keer/JadeTassels.png",
     "mapID": 769,
     "coords": [400, 0, -140]
   },
@@ -3620,6 +3630,7 @@
     "contents": "Etched Glass",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wep'keer/EtchedGlass.png",
     "mapID": 769,
     "coords": [560, 0, -880]
   },
@@ -3627,7 +3638,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #81",
+    "image": "./Wep'keer/sb81.png",
     "mapID": 769,
     "coords": [785, 12, -1298]
   },
@@ -3635,7 +3647,8 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "By some sheep. Baa",
+    "image": "./Wep'keer/Clover30C.png",
     "mapID": 769,
     "coords": [1720, 12, -1460]
   },
@@ -3643,15 +3656,26 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #82. By some sheep. Baa",
+    "image": "./Wep'keer/sb82.png",
     "mapID": 769,
     "coords": [-280, 350, -1440]
+  },
+  {
+    "type": "Chest",
+    "contents": "Stray Bead",
+    "terrain": "Buried",
+    "notes": "Stray Bead #83",
+    "image": "./Wep'keer/sb83.png",
+    "mapID": 769,
+    "coords": [-480, 0, 2513]
   },
   {
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "By some sheep. Baa",
+    "image": "./Wep'keer/Clover30D.png",
     "mapID": 769,
     "coords": [-640, 336, -420]
   },
@@ -3660,6 +3684,7 @@
     "contents": "Sun Fragment",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wep'keer/SunFragment.png",
     "mapID": 769,
     "coords": [-482, 200, -755]
   },
@@ -3668,6 +3693,7 @@
     "contents": "Kutani Pottery",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wep'keer/KutaniPottery.png",
     "mapID": 769,
     "coords": [-80, 625, -1680]
   },
@@ -3676,6 +3702,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamikiPast/Clover30A.png",
     "mapID": 770,
     "coords": [-605, -472, 1068]
   },
@@ -3684,6 +3711,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamikiPast/Clover30B.png",
     "mapID": 770,
     "coords": [1520, -213, 1380]
   },
@@ -3692,6 +3720,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamikiPast/Clover30C.png",
     "mapID": 770,
     "coords": [2540, -427, 1020]
   },
@@ -3700,6 +3729,7 @@
     "contents": "Pearl",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamikiPast/Pearl.png",
     "mapID": 770,
     "coords": [2860, -427, -100]
   },
@@ -3708,6 +3738,7 @@
     "contents": "Kutani Pottery",
     "terrain": "Buried",
     "notes": "",
+    "image": "./KamikiPast/KutaniPottery.png",
     "mapID": 770,
     "coords": [120, -463, 1820]
   },
@@ -3715,7 +3746,8 @@
     "type": "Chest",
     "contents": "White Porcelain Pot",
     "terrain": "Underwater",
-    "notes": "",
+    "notes": "Get this before fighting Nagi. Once Nami's bathing you can't get it anymore.",
+    "image": "./KamikiPast/WhitePorcelainPot.png",
     "mapID": 770,
     "coords": [1467, -531, 2435]
   },
@@ -3723,7 +3755,8 @@
     "type": "Chest",
     "contents": "Etched Glass",
     "terrain": "Underwater",
-    "notes": "",
+    "notes": "Get this before fighting Nagi. Once Nami's bathing you can't get it anymore.",
+    "image": "./KamikiPast/EtchedGlass.png",
     "mapID": 770,
     "coords": [1466, -531, 2508]
   },
@@ -3732,6 +3765,7 @@
     "contents": "Crystal",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./KamikiPast/Crystal.png",
     "mapID": 770,
     "coords": [1708, -534, 1928]
   },
@@ -3739,7 +3773,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #97",
+    "image": "./Wawku/sb97.png",
     "mapID": 771,
     "coords": [-3580, 1810, 1200]
   },
@@ -3748,6 +3783,7 @@
     "contents": "Ruby Tassels",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wawku/RubyTassels.png",
     "mapID": 771,
     "coords": [-3380, 1812, 1200]
   },
@@ -3756,6 +3792,7 @@
     "contents": "Etched Glass",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/EtchedGlass.png",
     "mapID": 771,
     "coords": [-3474, 2411, 200]
   },
@@ -3764,6 +3801,7 @@
     "contents": "Silver Pocket Watch",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/SilverPocketWatch.png",
     "mapID": 771,
     "coords": [-3007, 2012, -227]
   },
@@ -3772,6 +3810,7 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/WhitePorcelainPot.png",
     "mapID": 771,
     "coords": [-3277, 3245, -457]
   },
@@ -3780,6 +3819,7 @@
     "contents": "Kutani Pottery",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/KutaniPotteryA.png",
     "mapID": 771,
     "coords": [-5066, 3440, -189]
   },
@@ -3788,6 +3828,7 @@
     "contents": "Sapphire Tassels",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/SapphireTassels.png",
     "mapID": 771,
     "coords": [-5625, 3328, -236]
   },
@@ -3795,7 +3836,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #98",
+    "image": "./Wawku/sb98.png",
     "mapID": 771,
     "coords": [-4419, 3864, 621]
   },
@@ -3803,7 +3845,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #99",
+    "image": "./Wawku/sb99.png",
     "mapID": 771,
     "coords": [-3344, 3666, -612]
   },
@@ -3812,6 +3855,7 @@
     "contents": "Wawku Shrine Map",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/WawkuShrineMap.png",
     "mapID": 771,
     "coords": [-1497, 4258, -9]
   },
@@ -3820,6 +3864,7 @@
     "contents": "Holy Bone M",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/HolyBoneM.png",
     "mapID": 771,
     "coords": [-3571, 4882, -1625]
   },
@@ -3828,6 +3873,7 @@
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/InkfinityStone.png",
     "mapID": 771,
     "coords": [-3437, 4882, -1626]
   },
@@ -3836,6 +3882,7 @@
     "contents": "Kutani Pottery",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/KutaniPotteryB.png",
     "mapID": 771,
     "coords": [-9024, 3253, -894]
   },
@@ -3844,6 +3891,7 @@
     "contents": "Godly Charm",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/GodlyCharm.png",
     "mapID": 771,
     "coords": [-9056, 3253, -970]
   },
@@ -3852,6 +3900,7 @@
     "contents": "Vengeance Slip",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/VengeanceSlip.png",
     "mapID": 771,
     "coords": [-926, 1820, -754]
   },
@@ -3860,6 +3909,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wawku/Clover30A.png",
     "mapID": 771,
     "coords": [-5280, 3445, 520]
   },
@@ -3868,6 +3918,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wawku/Clover30B.png",
     "mapID": 771,
     "coords": [-440, 4499, -3320]
   },
@@ -3876,6 +3927,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Wawku/Clover30C.png",
     "mapID": 771,
     "coords": [-6760, 3209, -2260]
   },
@@ -3884,6 +3936,7 @@
     "contents": "Emerald Tassels",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Wawku/EmeraldTassels.png",
     "mapID": 771,
     "coords": [-8231, 3253, -1669]
   },
@@ -5308,6 +5361,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Taka/Clover40.png",
     "mapID": 3848,
     "coords": [-2140, 905, 4660]
   },
@@ -6695,7 +6749,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
-    "image": "./Kamui/Clover30B.png",
+    "image": "./KamuiEzofuji/Clover30B.png",
     "mapID": 3859,
     "coords": [1560, 1018, -3660]
   },
@@ -6740,7 +6794,7 @@
     "contents": "Sun Fragment",
     "terrain": "On Land",
     "notes": "",
-    "image": "./Kamui/SunFragment.png",
+    "image": "./KamuiEzofuji/SunFragment.png",
     "mapID": 3859,
     "coords": [253, 910, -4975]
   },
@@ -6749,6 +6803,7 @@
     "contents": "Silver Pocket Watch",
     "terrain": "On Land",
     "notes": "",
+    "image": "./ShinshuFieldPast/SilverPocketWatch.png",
     "mapID": 3872,
     "coords": [796, 71, -1817]
   },
@@ -6757,6 +6812,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover40A.png",
     "mapID": 3872,
     "coords": [660, 43, -660]
   },
@@ -6765,6 +6821,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover40C.png",
     "mapID": 3872,
     "coords": [820, 463, 1400]
   },
@@ -6773,6 +6830,7 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover40B.png",
     "mapID": 3872,
     "coords": [660, 363, 720]
   },
@@ -6781,6 +6839,7 @@
     "contents": "Etched Glass",
     "terrain": "On Land",
     "notes": "",
+    "image": "./ShinshuFieldPast/EtchedGlass.png",
     "mapID": 3872,
     "coords": [1098, -5, 1770]
   },
@@ -6789,6 +6848,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover30E.png",
     "mapID": 3872,
     "coords": [1360, -40, 1060]
   },
@@ -6797,6 +6857,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover30C.png",
     "mapID": 3872,
     "coords": [740, 451, 2100]
   },
@@ -6805,6 +6866,7 @@
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
     "notes": "",
+    "image": "./ShinshuFieldPast/ExorcismSlipL.png",
     "mapID": 3872,
     "coords": [-417, 322, 653]
   },
@@ -6813,6 +6875,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover30D.png",
     "mapID": 3872,
     "coords": [-1200, 198, -180]
   },
@@ -6821,6 +6884,7 @@
     "contents": "Kutani Pottery",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/KutaniPottery.png",
     "mapID": 3872,
     "coords": [-120, -32, -180]
   },
@@ -6829,6 +6893,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover30A.png",
     "mapID": 3872,
     "coords": [-260, 119, -2820]
   },
@@ -6837,6 +6902,7 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./ShinshuFieldPast/Clover30B.png",
     "mapID": 3872,
     "coords": [1480, 540, 380]
   }
