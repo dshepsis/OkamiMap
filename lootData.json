@@ -4055,6 +4055,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/HourglassOrbA.png",
     "mapID": 784,
     "coords": [139, -18, 242]
   },
@@ -4063,6 +4064,7 @@
     "contents": "Holy Bone S",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/HolyBoneS.png",
     "mapID": 784,
     "coords": [-358, 278, -3104]
   },
@@ -4071,6 +4073,7 @@
     "contents": "Cat's Eye Tassels",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/CatsEyeTassels.png",
     "mapID": 784,
     "coords": [-2460, 435, -6525]
   },
@@ -4079,6 +4082,7 @@
     "contents": "Holy Bone M",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/HolyBoneM.png",
     "mapID": 784,
     "coords": [3982, -32, 184]
   },
@@ -4087,6 +4091,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/HourglassOrbC.png",
     "mapID": 784,
     "coords": [3761, 79, -636]
   },
@@ -4095,6 +4100,7 @@
     "contents": "Godly Charm",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/GodlyCharm.png",
     "mapID": 784,
     "coords": [4411, 232, -1456]
   },
@@ -4103,6 +4109,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/WhitePorcelainPot,HourglassOrbD.png",
     "mapID": 784,
     "coords": [4979, 230, -2552]
   },
@@ -4110,7 +4117,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #88. Before the fork at the end of the second section.",
+    "image": "./Yoshpet/sb88.png",
     "mapID": 784,
     "coords": [6713, -97, -4575]
   },
@@ -4119,6 +4127,7 @@
     "contents": "Etched Glass",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/EtchedGlass.png",
     "mapID": 784,
     "coords": [7140, 434, -6524]
   },
@@ -4126,7 +4135,8 @@
     "type": "Free-standing",
     "contents": "Hourglass Orb",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "In the last section, right after The Frozen Lake of Death",
+    "image": "./Yoshpet/HourglassOrbF.png",
     "mapID": 784,
     "coords": [-9639, 236, -3104]
   },
@@ -4134,7 +4144,8 @@
     "type": "Chest",
     "contents": "Steel Soul Sake",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "In the last section, in between The Frozen Lake of Death and the fork at the end.",
+    "image": "./Yoshpet/SteelSoulSake.png",
     "mapID": 784,
     "coords": [-9381, 80, -4228]
   },
@@ -4142,7 +4153,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "Stray Bead #89. At the fork at the end of the last section, take the wrong path.",
+    "image": "./Yoshpet/sb89.png",
     "mapID": 784,
     "coords": [-8440, 21, -6300]
   },
@@ -4151,6 +4163,7 @@
     "contents": "Pearl",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/Pearl.png",
     "mapID": 784,
     "coords": [239, 134, -857]
   },
@@ -4159,6 +4172,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/HourglassOrbB.png",
     "mapID": 784,
     "coords": [-575, 235, -2589]
   },
@@ -4166,7 +4180,8 @@
     "type": "Free-standing",
     "contents": "Hourglass Orb",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "In the last section, in the middle of the Frozen Lake of Death",
+    "image": "./Yoshpet/HourglassOrbE.png",
     "mapID": 784,
     "coords": [-9148, 201, -2144]
   },
@@ -4174,7 +4189,8 @@
     "type": "Chest",
     "contents": "Kutani Pottery",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "In the last section, in the middle of the Frozen Lake of Death",
+    "image": "./Yoshpet/KutaniPottery.png",
     "mapID": 784,
     "coords": [-9247, 201, -2731]
   },
@@ -4183,6 +4199,7 @@
     "contents": "Crystal",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/Crystal.png",
     "mapID": 784,
     "coords": [92, -33, 890]
   },
@@ -4191,6 +4208,7 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Yoshpet/WhitePorcelainPot,HourglassOrbD.png",
     "mapID": 784,
     "coords": [4940, 229, -2021]
   },
@@ -4198,7 +4216,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #97. At the fork at the end of the second section, take the wrong path.",
+    "image": "./InnerYoshpet/sb97.png",
     "mapID": 785,
     "coords": [-790, 283, -3824]
   },
@@ -4207,6 +4226,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./InnerYoshpet/HourglassOrbB.png",
     "mapID": 785,
     "coords": [-1431, 55, -4078]
   },
@@ -4214,7 +4234,8 @@
     "type": "Chest",
     "contents": "Etched Glass",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "At the fork at the end of the first section, take the wrong path.",
+    "image": "./InnerYoshpet/EtchedGlass.png",
     "mapID": 785,
     "coords": [-174, -41, -5687]
   },
@@ -4223,6 +4244,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./InnerYoshpet/HourglassOrbC.png",
     "mapID": 785,
     "coords": [4531, 46, -84]
   },
@@ -4231,6 +4253,7 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./InnerYoshpet/WhitePorcelainPot.png",
     "mapID": 785,
     "coords": [4345, 149, -857]
   },
@@ -4239,6 +4262,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./InnerYoshpet/HourglassOrbD.png",
     "mapID": 785,
     "coords": [5395, 213, -4003]
   },
@@ -4246,7 +4270,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #95. At the fork at the end of the second section, take the wrong path.",
+    "image": "./InnerYoshpet/sb95.png",
     "mapID": 785,
     "coords": [4923, -15, -5678]
   },
@@ -4254,7 +4279,8 @@
     "type": "Free-standing",
     "contents": "Hourglass Orb",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Right before the Catwalk area in the final section.",
+    "image": "./InnerYoshpet/HourglassOrbE.png",
     "mapID": 785,
     "coords": [-8977, 300, -1490]
   },
@@ -4262,7 +4288,8 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Stray Bead #96. On the right path of the Catwalk area in the final section.",
+    "image": "./InnerYoshpet/sb96.png",
     "mapID": 785,
     "coords": [-8804, 258, -2162]
   },
@@ -4270,7 +4297,8 @@
     "type": "Free-standing",
     "contents": "Hourglass Orb",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Final Hourglass Orb. Right after the Catwalk area in the final section.",
+    "image": "./InnerYoshpet/HourglassOrbF.png",
     "mapID": 785,
     "coords": [-9961, 179, -3317]
   },
@@ -4278,7 +4306,8 @@
     "type": "Chest",
     "contents": "Inkfinity Stone",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "In the final section, past the final Hourglass Orb, then the moving thorny brush.",
+    "image": "./InnerYoshpet/InkfinityStone.png",
     "mapID": 785,
     "coords": [-10238, 115, -4242]
   },
@@ -4286,7 +4315,8 @@
     "type": "Chest",
     "contents": "Sun Fragment",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "At the fork at the end of the final section, take the wrong path.",
+    "image": "./InnerYoshpet/SunFragment.png",
     "mapID": 785,
     "coords": [-8300, 160, -6060]
   },
@@ -4294,7 +4324,8 @@
     "type": "Chest",
     "contents": "Turquoise Tassels",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "At the beginning of the first section.",
+    "image": "./InnerYoshpet/TurquoiseTassels.png",
     "mapID": 785,
     "coords": [446, -497, 307]
   },
@@ -4303,6 +4334,7 @@
     "contents": "Hourglass Orb",
     "terrain": "On Land",
     "notes": "",
+    "image": "./InnerYoshpet/HourglassOrbA.png",
     "mapID": 785,
     "coords": [655, -363, -700]
   },
