@@ -3947,7 +3947,7 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "Stray Bead #91",
+    "notes": "Stray Bead #91. On a leaf right behind the Spirit Mirror. Use Vine.",
     "image": "./Ponc'tan/sb91.png",
     "mapID": 773,
     "coords": [-312, 1062, 1957]
@@ -3956,7 +3956,7 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "On the big ol' mushroom in the middle of the map.",
     "image": "./Ponc'tan/Clover30A.png",
     "mapID": 773,
     "coords": [340, 1017, 1020]
@@ -3965,7 +3965,7 @@
     "type": "Clover",
     "contents": "Praise (30)",
     "terrain": "Buried",
-    "notes": "",
+    "notes": "In the middle of the tilled patch east-southeast of the map.",
     "image": "./Ponc'tan/Clover30B.png",
     "mapID": 773,
     "coords": [1960, 700, 1880]
@@ -3983,7 +3983,7 @@
     "type": "Chest",
     "contents": "Stray Bead",
     "terrain": "On Land",
-    "notes": "Stray Bead #92",
+    "notes": "Stray Bead #92. On a leaf in the northwest of the map, near the WS waterfall.",
     "image": "./Ponc'tan/sb92.png",
     "mapID": 773,
     "coords": [-1450, 1161, -360]
@@ -3993,6 +3993,7 @@
     "contents": "Kutani Pottery",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Ponc'tan/KutaniPottery.png",
     "mapID": 773,
     "coords": [-2194, 1317, 2]
   },
@@ -4018,7 +4019,7 @@
     "type": "Chest",
     "contents": "Vengeance Slip",
     "terrain": "On Land",
-    "notes": "",
+    "notes": "Above the merchant's house, and below Mono's. Use Vine to get to it.",
     "image": "./Ponc'tan/VengeanceSlip.png",
     "mapID": 773,
     "coords": [-325, 1023, 1032]
