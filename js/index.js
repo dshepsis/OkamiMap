@@ -85,7 +85,7 @@ function viewAnchoredRow() {
 ;(async () => {
   const mapIDMap = await paraFetchJSON('./mapIDMap.json')
   const { jsonPath } = document.getElementById('table-cont').dataset
-  buildTable(jsonPath, mapIDMap)
+  buildTable(jsonPath.replace(/^\./, '..'), mapIDMap)
     .then(rows => {
       th.appendChild(rows.header)
       tb.append(...rows.body)
