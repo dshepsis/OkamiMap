@@ -4863,6 +4863,8 @@
     "contents": "Stray Bead",
     "terrain": "Buried",
     "notes": "Stray Bead #83",
+    "image": "./Loot/Yami/sb83.webp",
+    "backupImage": "./Loot/Yami/sb83.jpeg",
     "mapID": 787,
     "coords": [-480, 0, 2520]
   },
