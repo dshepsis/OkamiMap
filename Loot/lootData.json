@@ -612,7 +612,7 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": "./CityCheckpoint/Clover5B",
+    "notes": "",
     "image": "./Loot/CityCheckpoint/Clover5B.webp",
     "backupImage": "./Loot/CityCheckpoint/Clover5B.jpeg",
     "mapID": 261,
@@ -672,7 +672,7 @@
     "type": "Clover",
     "contents": "Praise (5)",
     "terrain": "Buried",
-    "notes": "./CityCheckpoint/Clover5C",
+    "notes": "",
     "image": "./Loot/CityCheckpoint/Clover5C.webp",
     "backupImage": "./Loot/CityCheckpoint/Clover5C.jpeg",
     "mapID": 261,
@@ -1863,6 +1863,8 @@
     "contents": "\"Travel Guide: Power Slash 3\"",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/KamuiEzofuji/TravelGuidePowerSlash3.webp",
+    "backupImage": "./Loot/KamuiEzofuji/TravelGuidePowerSlash3.jpeg",
     "mapID": 280,
     "coords": [78, 128, -568]
   },
@@ -1871,6 +1873,8 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/KamuiEzofuji/PS3CloverAll.webp",
+    "backupImage": "./Loot/KamuiEzofuji/PS3CloverAll.jpeg",
     "mapID": 280,
     "coords": [0, 81, -400]
   },
@@ -1879,6 +1883,8 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/KamuiEzofuji/PS3CloverAll.webp",
+    "backupImage": "./Loot/KamuiEzofuji/PS3CloverAll.jpeg",
     "mapID": 280,
     "coords": [120, 126, -520]
   },
@@ -1887,6 +1893,8 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/KamuiEzofuji/PS3CloverAll.webp",
+    "backupImage": "./Loot/KamuiEzofuji/PS3CloverAll.jpeg",
     "mapID": 280,
     "coords": [-80, 123, -520]
   },
@@ -4825,6 +4833,8 @@
     "contents": "Golden Peach",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Yami/GoldenPeach.webp",
+    "backupImage": "./Loot/Yami/GoldenPeach.jpeg",
     "mapID": 786,
     "coords": [-639, 223, 368]
   },
@@ -4833,6 +4843,8 @@
     "contents": "Steel Soul Sake",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Yami/SteelSoulSake.webp",
+    "backupImage": "./Loot/Yami/SteelSoulSake.jpeg",
     "mapID": 786,
     "coords": [637, 223, 366]
   },
@@ -4841,6 +4853,8 @@
     "contents": "Vengeance Slip",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Yami/VengeanceSlip.webp",
+    "backupImage": "./Loot/Yami/VengeanceSlip.jpeg",
     "mapID": 786,
     "coords": [0, 223, -736]
   },
@@ -4857,6 +4871,8 @@
     "contents": "Crystal",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Wep'keer/Crystal.webp",
+    "backupImage": "./Loot/Wep'keer/Crystal.jpeg",
     "mapID": 787,
     "coords": [193, 0, 777]
   },
@@ -4865,6 +4881,8 @@
     "contents": "White Porcelain Pot",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Wep'keer/WhitePorcelainPot.webp",
+    "backupImage": "./Loot/Wep'keer/WhitePorcelainPot.jpeg",
     "mapID": 787,
     "coords": [-49, 0, 1258]
   },
@@ -4873,6 +4891,8 @@
     "contents": "Exorcism Slip M",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Wep'keer/ExorcismSlipM.webp",
+    "backupImage": "./Loot/Wep'keer/ExorcismSlipM.jpeg",
     "mapID": 787,
     "coords": [-1113, 0, 344]
   },
@@ -5141,6 +5161,8 @@
     "contents": "Bull Horn",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/ShinshuField/BullHorn.webp",
+    "backupImage": "./Loot/ShinshuField/BullHorn.jpeg",
     "mapID": 3842,
     "coords": [4480, 67, 220]
   },
@@ -5149,6 +5171,8 @@
     "contents": "Praise (20)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/ShinshuField/Clover20A.webp",
+    "backupImage": "./Loot/ShinshuField/Clover20A.jpeg",
     "mapID": 3842,
     "coords": [340, -29, -980]
   },
@@ -5157,6 +5181,8 @@
     "contents": "Praise (20)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/ShinshuField/Clover20B.webp",
+    "backupImage": "./Loot/ShinshuField/Clover20B.jpeg",
     "mapID": 3842,
     "coords": [180, 776, 2640]
   },
@@ -5425,6 +5451,8 @@
     "contents": "Praise (20)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/Clover20.webp",
+    "backupImage": "./Loot/Agata/Clover20.jpeg",
     "mapID": 3844,
     "coords": [-2360, 732, 3200]
   },
@@ -5613,6 +5641,8 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/Clover40.webp",
+    "backupImage": "./Loot/Agata/Clover40.jpeg",
     "mapID": 3844,
     "coords": [-2260, 191, 7580]
   },
@@ -5621,6 +5651,8 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/Clover50A.webp",
+    "backupImage": "./Loot/Agata/Clover50A.jpeg",
     "mapID": 3844,
     "coords": [-2440, 81, 3880]
   },
@@ -5629,6 +5661,8 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/Clover30.webp",
+    "backupImage": "./Loot/Agata/Clover30.jpeg",
     "mapID": 3844,
     "coords": [1360, 455, 6860]
   },
@@ -5667,6 +5701,8 @@
     "contents": "Bull Statue",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/BullStatue.webp",
+    "backupImage": "./Loot/Agata/BullStatue.jpeg",
     "mapID": 3844,
     "coords": [640, -25, 7260]
   },
@@ -5685,6 +5721,8 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Agata/Clover50B.webp",
+    "backupImage": "./Loot/Agata/Clover50B.jpeg",
     "mapID": 3844,
     "coords": [-740, 242, 8100]
   },
@@ -6083,6 +6121,8 @@
     "contents": "Pearl",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/PearlA.webp",
+    "backupImage": "./Loot/Ryoshima/PearlA.jpeg",
     "mapID": 3850,
     "coords": [-2864, 62, 3875]
   },
@@ -6101,6 +6141,8 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/Clover40A.webp",
+    "backupImage": "./Loot/Ryoshima/Clover40A.jpeg",
     "mapID": 3850,
     "coords": [980, 124, 2040]
   },
@@ -6109,6 +6151,8 @@
     "contents": "Coral Fragment",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Ryoshima/CoralFragmentA.webp",
+    "backupImage": "./Loot/Ryoshima/CoralFragmentA.jpeg",
     "mapID": 3850,
     "coords": [-1942, 165, 9225]
   },
@@ -6177,6 +6221,8 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/Clover50.webp",
+    "backupImage": "./Loot/Ryoshima/Clover50.jpeg",
     "mapID": 3850,
     "coords": [-2260, 385, -1540]
   },
@@ -6205,6 +6251,8 @@
     "contents": "Kutani Pottery",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Ryoshima/KutaniPottery.webp",
+    "backupImage": "./Loot/Ryoshima/KutaniPottery.jpeg",
     "mapID": 3850,
     "coords": [3283, 466, 760]
   },
@@ -6223,6 +6271,8 @@
     "contents": "Snake Statue",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Ryoshima/SnakeStatue.webp",
+    "backupImage": "./Loot/Ryoshima/SnakeStatue.jpeg",
     "mapID": 3850,
     "coords": [5327, 161, 7791]
   },
@@ -6231,6 +6281,8 @@
     "contents": "Bull Horn",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Ryoshima/BullHorn.webp",
+    "backupImage": "./Loot/Ryoshima/BullHorn.jpeg",
     "mapID": 3850,
     "coords": [7143, 191, 5267]
   },
@@ -6239,6 +6291,8 @@
     "contents": "Praise (40)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/Clover40B.webp",
+    "backupImage": "./Loot/Ryoshima/Clover40B.jpeg",
     "mapID": 3850,
     "coords": [2580, 557, -1280]
   },
@@ -6307,6 +6361,8 @@
     "contents": "Inkfinity Stone",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/InkfinityStone.webp",
+    "backupImage": "./Loot/Ryoshima/InkfinityStone.jpeg",
     "mapID": 3850,
     "coords": [-1510, -10, 9057]
   },
@@ -6315,6 +6371,8 @@
     "contents": "Godly Charm",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/GodlyCharm.webp",
+    "backupImage": "./Loot/Ryoshima/GodlyCharm.jpeg",
     "mapID": 3850,
     "coords": [20, -187, 5740]
   },
@@ -6323,6 +6381,8 @@
     "contents": "Steel Soul Sake",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/SteelSoulSake.webp",
+    "backupImage": "./Loot/Ryoshima/SteelSoulSake.jpeg",
     "mapID": 3850,
     "coords": [5273, 90, 8001]
   },
@@ -6331,6 +6391,8 @@
     "contents": "Wooden Bear",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/WoodenBear.webp",
+    "backupImage": "./Loot/Ryoshima/WoodenBear.jpeg",
     "mapID": 3850,
     "coords": [5160, 82, 7650]
   },
@@ -6339,6 +6401,8 @@
     "contents": "Traveler's Charm",
     "terrain": "On Land",
     "notes": "",
+    "image": "./Loot/Ryoshima/TravelersCharmA.webp",
+    "backupImage": "./Loot/Ryoshima/TravelersCharmA.jpeg",
     "mapID": 3850,
     "coords": [3754, 191, 5458]
   },
@@ -6347,6 +6411,8 @@
     "contents": "Coral Fragment",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/CoralFragmentB.webp",
+    "backupImage": "./Loot/Ryoshima/CoralFragmentB.jpeg",
     "mapID": 3850,
     "coords": [4123, 55, 5262]
   },
@@ -6355,6 +6421,8 @@
     "contents": "Glass Beads",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/GlassBeadsA.webp",
+    "backupImage": "./Loot/Ryoshima/GlassBeadsA.jpeg",
     "mapID": 3850,
     "coords": [4165, 70, 5509]
   },
@@ -6363,6 +6431,8 @@
     "contents": "Pearl",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/PearlB.webp",
+    "backupImage": "./Loot/Ryoshima/PearlB.jpeg",
     "mapID": 3850,
     "coords": [1328, 27, 6080]
   },
@@ -6371,6 +6441,8 @@
     "contents": "Vengeance Slip",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/VengeanceSlip.webp",
+    "backupImage": "./Loot/Ryoshima/VengeanceSlip.jpeg",
     "mapID": 3850,
     "coords": [2901, 36, 4288]
   },
@@ -6379,6 +6451,8 @@
     "contents": "Mermaid Coin",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/MermaidCoinA.webp",
+    "backupImage": "./Loot/Ryoshima/MermaidCoinA.jpeg",
     "mapID": 3850,
     "coords": [6828, 93, 5225]
   },
@@ -6387,6 +6461,8 @@
     "contents": "Lacquerware Set",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/LacquerwareSet.webp",
+    "backupImage": "./Loot/Ryoshima/LacquerwareSet.jpeg",
     "mapID": 3850,
     "coords": [5235, 84, 4428]
   },
@@ -6395,6 +6471,8 @@
     "contents": "Glass Beads",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/GlassBeadsB.webp",
+    "backupImage": "./Loot/Ryoshima/GlassBeadsB.jpeg",
     "mapID": 3850,
     "coords": [871, 88, 7485]
   },
@@ -6403,6 +6481,8 @@
     "contents": "Coral Fragment",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/CoralFragmentC.webp",
+    "backupImage": "./Loot/Ryoshima/CoralFragmentC.jpeg",
     "mapID": 3850,
     "coords": [511, 89, 7556]
   },
@@ -6411,6 +6491,8 @@
     "contents": "Exorcism Slip M",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/ExorcismSlipM.webp",
+    "backupImage": "./Loot/Ryoshima/ExorcismSlipM.jpeg",
     "mapID": 3850,
     "coords": [-220, -139, 4780]
   },
@@ -6419,6 +6501,8 @@
     "contents": "Holy Bone S",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/HolyBoneS.webp",
+    "backupImage": "./Loot/Ryoshima/HolyBoneS.jpeg",
     "mapID": 3850,
     "coords": [-508, 103, 2839]
   },
@@ -6427,6 +6511,8 @@
     "contents": "Glass Beads",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/Ryoshima/GlassBeadsC.webp",
+    "backupImage": "./Loot/Ryoshima/GlassBeadsC.jpeg",
     "mapID": 3850,
     "coords": [-880, -61, 4560]
   },
@@ -6435,6 +6521,8 @@
     "contents": "Coral Fragment",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/CoralFragmentD.webp",
+    "backupImage": "./Loot/Ryoshima/CoralFragmentD.jpeg",
     "mapID": 3850,
     "coords": [-1653, 91, 3616]
   },
@@ -6443,6 +6531,8 @@
     "contents": "Traveler's Charm",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/TravelersCharmB.webp",
+    "backupImage": "./Loot/Ryoshima/TravelersCharmB.jpeg",
     "mapID": 3850,
     "coords": [-2405, 80, 2425]
   },
@@ -6451,6 +6541,8 @@
     "contents": "Dragonfly Bead",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/DragonflyBeadB.webp",
+    "backupImage": "./Loot/Ryoshima/DragonflyBeadB.jpeg",
     "mapID": 3850,
     "coords": [-2494, 95, 1022]
   },
@@ -6459,6 +6551,8 @@
     "contents": "Pearl",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/PearlC.webp",
+    "backupImage": "./Loot/Ryoshima/PearlC.jpeg",
     "mapID": 3850,
     "coords": [-2456, 93, -23]
   },
@@ -6467,6 +6561,8 @@
     "contents": "Glass Beads",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/GlassBeadsD.webp",
+    "backupImage": "./Loot/Ryoshima/GlassBeadsD.jpeg",
     "mapID": 3850,
     "coords": [892, 99, 2484]
   },
@@ -6475,6 +6571,8 @@
     "contents": "Mermaid Coin",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/MermaidCoinB.webp",
+    "backupImage": "./Loot/Ryoshima/MermaidCoinB.jpeg",
     "mapID": 3850,
     "coords": [865, 21, 3054]
   },
@@ -6483,6 +6581,8 @@
     "contents": "Coral Fragment",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/CoralFragmentE.webp",
+    "backupImage": "./Loot/Ryoshima/CoralFragmentE.jpeg",
     "mapID": 3850,
     "coords": [2324, 11, 2643]
   },
@@ -6491,6 +6591,8 @@
     "contents": "Exorcism Slip S",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/ExorcismSlipSB.webp",
+    "backupImage": "./Loot/Ryoshima/ExorcismSlipSB.jpeg",
     "mapID": 3850,
     "coords": [3637, 56, 2159]
   },
@@ -6499,6 +6601,8 @@
     "contents": "Dragonfly Bead",
     "terrain": "Underwater",
     "notes": "",
+    "image": "./Loot/Ryoshima/DragonflyBeadC.webp",
+    "backupImage": "./Loot/Ryoshima/DragonflyBeadC.jpeg",
     "mapID": 3850,
     "coords": [3130, 51, 2226]
   },
@@ -6667,6 +6771,8 @@
     "contents": "Praise (50)",
     "terrain": "Buried",
     "notes": "",
+    "image": "./Loot/NorthRyo/Clover50.webp",
+    "backupImage": "./Loot/NorthRyo/Clover50.jpeg",
     "mapID": 3852,
     "coords": [10040, -237, -9700]
   },
