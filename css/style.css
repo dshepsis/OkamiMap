@@ -88,11 +88,11 @@ th {
   top: 0;
 }
 
-#table-cont[data-json-path='./Loot/animalData.json'] th {
+#table-cont[data-json-path='./animalData.json'] th {
   background: #fca;
 }
 
-#table-cont[data-json-path='./Loot/lootData.json'] th {
+#table-cont[data-json-path='./lootData.json'] th {
   background: #afc;
 }
 
@@ -100,7 +100,7 @@ th {
   margin-right: 5px;
 }
 
-#table-cont[data-json-path='./Loot/lootData.json'] .pv {
+#table-cont[data-json-path='./lootData.json'] .pv {
   width: 5em;
 }
 
