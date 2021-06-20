@@ -1,5 +1,4 @@
 import buildTable from './buildTable.js'
-import { paraFetchJSON } from './util.js'
 
 const th = document.getElementById('th')
 const tb = document.getElementById('tb')
@@ -83,17 +82,15 @@ function viewAnchoredRow() {
 }
 
 ;(async () => {
-  const mapIDMap = await paraFetchJSON('./mapIDMap.json')
-  const { jsonPath } = document.getElementById('table-cont').dataset
-  buildTable(jsonPath.replace(/^\./, '..'), mapIDMap)
+  buildTable(document.getElementById('table-cont').dataset.type)
     .then(rows => {
       th.appendChild(rows.header)
       tb.append(...rows.body)
     })
-    .catch(err => {
+    .catch(dataFetchError => {
       console.error('Error fetching data to build table!')
-      console.error({ err })
-      return err
+      console.error({ dataFetchError })
+      return dataFetchError
     })
     .then(tableBuildErr => {
       if (!tableBuildErr) viewAnchoredRow()
