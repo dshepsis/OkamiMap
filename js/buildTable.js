@@ -36,7 +36,7 @@ function tdEl(text) {
   return el
 }
 
-function tdImageEl(src, backupSrc, canUseWebp) {
+function tdImageEl(src) {
   const td = document.createElement('td')
   if (src === undefined) {
     td.innerText = 'No image :('
@@ -48,7 +48,7 @@ function tdImageEl(src, backupSrc, canUseWebp) {
   pvButton.innerText = 'Preview'
   const link = document.createElement('a')
   link.innerText = 'Link'
-  link.href = canUseWebp ? src : backupSrc
+  link.href = src
   td.appendChild(pvButton)
   td.appendChild(link)
   return td
@@ -92,7 +92,7 @@ const createDataRow = (config, el) => {
   return tr
 }
 
-const createDataCell = (config, key, el, mapIDMap, canUseWebp) => {
+const createDataCell = (config, key, el, mapIDMap) => {
   if (Array.isArray(config[key])) {
     const [elType, textGenerator] = config[key]
 
@@ -102,7 +102,7 @@ const createDataCell = (config, key, el, mapIDMap, canUseWebp) => {
   }
   switch (config[key]) {
     case 'image':
-      return tdImageEl(el.image, el.backupImage, canUseWebp)
+      return tdImageEl(el[key])
     default:
       return tdEl(el[key])
   }
