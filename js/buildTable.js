@@ -5,8 +5,8 @@ const DATA = (()=>{
   const basePath = /[^#?@]+[^/]\//.exec(location.href)[0];
   return {
     animals: {
-      configPath: `${basePath}animalDataConfig.js`,
-      jsonPath: `${basePath}animalData.json`,
+      configPath: `${basePath}Loot/animalDataConfig.js`,
+      jsonPath: `${basePath}Loot/animalData.json`,
     },
     loot: {
       configPath: `${basePath}Loot/lootDataConfig.js`,
