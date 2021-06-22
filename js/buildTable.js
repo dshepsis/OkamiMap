@@ -2,12 +2,12 @@ import { paraFetchJSON } from './util.js'
 
 const DATA = {
   animals: {
-    configPath: `${location}animalDataConfig.js`,
-    jsonPath: `${location}animalData.json`,
+    configPath: `${location.origin + location.pathname}animalDataConfig.js`,
+    jsonPath: `${location.origin + location.pathname}animalData.json`,
   },
   loot: {
-    configPath: `${location}Loot/lootDataConfig.js`,
-    jsonPath: `${location}Loot/lootData.json`,
+    configPath: `${location.origin + location.pathname}Loot/lootDataConfig.js`,
+    jsonPath: `${location.origin + location.pathname}Loot/lootData.json`,
   },
 }
 
