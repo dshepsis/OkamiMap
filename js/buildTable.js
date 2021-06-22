@@ -1,15 +1,19 @@
 import { paraFetchJSON } from './util.js'
 
-const DATA = {
-  animals: {
-    configPath: `${location.origin + location.pathname}animalDataConfig.js`,
-    jsonPath: `${location.origin + location.pathname}animalData.json`,
-  },
-  loot: {
-    configPath: `${location.origin + location.pathname}Loot/lootDataConfig.js`,
-    jsonPath: `${location.origin + location.pathname}Loot/lootData.json`,
-  },
-}
+const DATA = (()=>{
+  /* Take the current URL and remove everything after the last slash which isn't part of the hash or query: */
+  const basePath = /[^#?@]+[^/]\//.exec(location.href)[0];
+  return {
+    animals: {
+      configPath: `${basePath}animalDataConfig.js`,
+      jsonPath: `${basePath}animalData.json`,
+    },
+    loot: {
+      configPath: `${basePath}Loot/lootDataConfig.js`,
+      jsonPath: `${basePath}Loot/lootData.json`,
+    },
+  };
+})();
 
 /**
  * Modified from https://stackoverflow.com/a/54631141.
