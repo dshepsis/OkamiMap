@@ -40,7 +40,7 @@ body {
   overflow-y: scroll;
 }
 
-#table-cont[data-type='animals'] {
+#table-cont[data-json-path='./animalData.json'] {
   max-width: 100%;
 }
 
@@ -64,7 +64,7 @@ table {
   width: 1500px;
 }
 
-#table-cont[data-type='animals'] table {
+#table-cont[data-json-path='./animalData.json'] table {
   max-width: 100%;
 }
 
@@ -88,11 +88,11 @@ th {
   top: 0;
 }
 
-#table-cont[data-type='animals'] th {
+#table-cont[data-json-path='./animalData.json'] th {
   background: #fca;
 }
 
-#table-cont[data-type='loot'] th {
+#table-cont[data-json-path='./lootData.json'] th {
   background: #afc;
 }
 
@@ -100,7 +100,7 @@ th {
   margin-right: 5px;
 }
 
-#table-cont[data-type='loot'] .pv {
+#table-cont[data-json-path='./lootData.json'] .pv {
   width: 5em;
 }
 

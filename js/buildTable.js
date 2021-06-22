@@ -1,35 +1,3 @@
-import { paraFetchJSON } from './util.js'
-
-const DATA = {
-  animals: {
-    configPath: `${location}animalDataConfig.js`,
-    jsonPath: `${location}animalData.json`,
-  },
-  loot: {
-    configPath: `${location}Loot/lootDataConfig.js`,
-    jsonPath: `${location}Loot/lootData.json`,
-  },
-}
-
-/**
- * Modified from https://stackoverflow.com/a/54631141.
- * Renamed function, used the lossy base64 string directly, and make it be async.
- */
-function checkWebp() {
-  return new Promise(res => {
-    const img = new Image()
-    img.onload = function () {
-      const result = img.width > 0 && img.height > 0
-      res(result)
-    }
-    img.onerror = function () {
-      res(false)
-    }
-    img.src =
-      'data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA'
-  })
-}
-
 function tdEl(text) {
   const el = document.createElement('td')
   el.innerText = text || 'N/A'
@@ -52,6 +20,14 @@ function tdImageEl(src) {
   td.appendChild(pvButton)
   td.appendChild(link)
   return td
+}
+
+const getConfig = async res => {
+  try {
+    return await import(res.url.replace('.json', 'Config.js'))
+  } catch (e) {
+    throw Error(`Error fetching config for ${res.url}: ${e.message}`)
+  }
 }
 
 const createHeaderRow = config => {
@@ -108,31 +84,19 @@ const createDataCell = (config, key, el, mapIDMap) => {
   }
 }
 
-const getPathsForType = type => {
-  if (!DATA[type])
-    throw Error(`Type ${type} is invalid! No table data can be supplied`)
-  return DATA[type]
-}
-
-export default async type => {
-  const { configPath, jsonPath } = getPathsForType(type)
-  const [json, mapIDMap] = await paraFetchJSON(jsonPath, './mapIDMap.json')
-  try {
-    const config = (await import(configPath)).default
-    const hasWebp = await checkWebp()
-    return {
-      header: createHeaderRow(config),
-      body: (await json).map((el, i) => {
-        const row = createDataRow(config, el)
-        row.append(
-          ...config.renderOrder.map(key =>
-            createDataCell(config, key, el, mapIDMap, hasWebp),
-          ),
-        )
-        return row
-      }),
-    }
-  } catch (importConfigError) {
-    throw Error(`Error getting config for ${type}:`, importConfigError)
+export default async (url, mapIDMap) => {
+  const res = await fetch(url)
+  const config = (await getConfig(res)).default
+  return {
+    header: createHeaderRow(config),
+    body: (await res.json()).map((el, i) => {
+      const row = createDataRow(config, el)
+      row.append(
+        ...config.renderOrder.map(key =>
+          createDataCell(config, key, el, mapIDMap),
+        ),
+      )
+      return row
+    }),
   }
 }
