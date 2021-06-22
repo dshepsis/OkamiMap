@@ -79,19 +79,19 @@ const createDataRow = (config, jsonRow) => {
   return tr
 }
 
-const createDataCell = (config, key, row, mapIDMap, hasWebp) => {
+const createDataCell = (config, key, jsonRow, mapIDMap, hasWebp) => {
   if (Array.isArray(config[key])) {
     const [elType, textGenerator] = config[key]
 
     return createDataCell({ [key]: elType }, key, {
-      [key]: textGenerator(row, mapIDMap),
+      [key]: textGenerator(jsonRow, mapIDMap),
     })
   }
   switch (config[key]) {
     case 'image':
-      return tdImageEl(row.image, row.backupImage, hasWebp)
+      return tdImageEl(jsonRow.image, jsonRow.backupImage, hasWebp)
     default:
-      return tdEl(row[key])
+      return tdEl(jsonRow[key])
   }
 }
 
