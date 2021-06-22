@@ -26,9 +26,9 @@ body {
   position: relative;
   opacity: 1;
   filter: none;
-  transition-property: opacity filter;
+  transition-property: opacity, filter;
   transition-duration: 0.2s;
-  transition-delay: 0;
+  transition-delay: 0s;
 }
 #preview.loading {
   opacity: 0.5;
