@@ -36,9 +36,9 @@ function tdEl(text) {
   return el
 }
 
-function tdImageEl(src) {
+function tdImageEl(src, backupSrc, hasWebp) {
   const td = document.createElement('td')
-  if (src === undefined) {
+  if (src === undefined && backupSrc === undefined) {
     td.innerText = 'No image :('
     return td
   }
@@ -48,7 +48,7 @@ function tdImageEl(src) {
   pvButton.innerText = 'Preview'
   const link = document.createElement('a')
   link.innerText = 'Link'
-  link.href = src
+  link.href = hasWebp ? src : backupSrc
   td.appendChild(pvButton)
   td.appendChild(link)
   return td
@@ -57,54 +57,41 @@ function tdImageEl(src) {
 const createHeaderRow = config => {
   const tr = document.createElement('tr')
 
-  if (config.header) {
-    tr.append(
-      ...config.header.map(h => {
-        const th = document.createElement('th')
-        th.textContent = h.text
-        if (h.style) Object.assign(th.style, h.style)
-        return th
-      }),
-    )
-  } else {
-    tr.append(
-      ...config.renderOrder.map(h => {
-        const th = document.createElement('th')
-        th.textContent = h
-        Object.assign(th.style, {
-          textTransform: 'capitalize',
-        })
-        return th
-      }),
-    )
-  }
+  tr.append(
+    ...config.headers.map(h => {
+      const th = document.createElement('th')
+      th.textContent = h.text
+      if (h.style) Object.assign(th.style, h.style)
+      return th
+    }),
+  )
 
   return tr
 }
 
-const createDataRow = (config, el) => {
+const createDataRow = (config, jsonRow) => {
   const tr = document.createElement('tr')
 
   if (config.rowIdGenerator) {
-    tr.id = config.rowIdGenerator(el)
+    tr.id = config.rowIdGenerator(jsonRow)
   }
 
   return tr
 }
 
-const createDataCell = (config, key, el, mapIDMap) => {
+const createDataCell = (config, key, row, mapIDMap, hasWebp) => {
   if (Array.isArray(config[key])) {
     const [elType, textGenerator] = config[key]
 
     return createDataCell({ [key]: elType }, key, {
-      [key]: textGenerator(el, mapIDMap),
+      [key]: textGenerator(row, mapIDMap),
     })
   }
   switch (config[key]) {
     case 'image':
-      return tdImageEl(el[key])
+      return tdImageEl(row.image, row.backupImage, hasWebp)
     default:
-      return tdEl(el[key])
+      return tdEl(row[key])
   }
 }
 
@@ -122,14 +109,14 @@ export default async type => {
     const hasWebp = await checkWebp()
     return {
       header: createHeaderRow(config),
-      body: (await json).map((el, i) => {
-        const row = createDataRow(config, el)
-        row.append(
-          ...config.renderOrder.map(key =>
-            createDataCell(config, key, el, mapIDMap, hasWebp),
+      body: json.map(jsonRow => {
+        const dataRow = createDataRow(config, jsonRow)
+        dataRow.append(
+          ...config.headers.map(({ key }) =>
+            createDataCell(config, key, jsonRow, mapIDMap, hasWebp),
           ),
         )
-        return row
+        return dataRow
       }),
     }
   } catch (importConfigError) {
