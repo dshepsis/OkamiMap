@@ -6443,8 +6443,8 @@
     "contents": "Vengeance Slip",
     "terrain": "Underwater",
     "notes": "",
-    "image": "./Loot/Ryoshima/VengeanceSlip.webp",
-    "backupImage": "./Loot/Ryoshima/VengeanceSlip.jpeg",
+    "image": "./Loot/Ryoshima/VengeanceSlipB.webp",
+    "backupImage": "./Loot/Ryoshima/VengeanceSlipB.jpeg",
     "mapID": 3850,
     "coords": [2901, 36, 4288]
   },
