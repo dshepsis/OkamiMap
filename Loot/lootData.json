@@ -5563,8 +5563,8 @@
     "contents": "Bull Horn",
     "terrain": "On Land",
     "notes": "With Vine",
-    "image": "./Loot/Kamiki/BullHornA.webp",
-    "backupImage": "./Loot/Kamiki/BullHornA.jpeg",
+    "image": "./Loot/Agata/BullHornA.webp",
+    "backupImage": "./Loot/Agata/BullHornA.jpeg",
     "mapID": 3844,
     "coords": [-375, 490, 4957]
   },
