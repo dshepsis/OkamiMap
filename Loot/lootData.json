@@ -3492,8 +3492,8 @@
     "contents": "Exorcism Slip S",
     "terrain": "On Land",
     "notes": "1F, in sliding door maze, East path",
-    "image": "./Loot/Oni/ExorcismSlipS.webp",
-    "backupImage": "./Loot/Oni/ExorcismSlipS.jpeg",
+    "image": "./Loot/Oni/ExorcismSlipSB.webp",
+    "backupImage": "./Loot/Oni/ExorcismSlipSB.jpeg",
     "mapID": 520,
     "coords": [-450, 0, -2507]
   },
