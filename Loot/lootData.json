@@ -4413,8 +4413,8 @@
     "contents": "Praise (30)",
     "terrain": "Buried",
     "notes": "In the middle of the tilled patch east-southeast of the map.",
-    "image": "./Loot/Ponc'tan/Clover30B.webp",
-    "backupImage": "./Loot/Ponc'tan/Clover30B.jpeg",
+    "image": "./Loot/Ponc'tan/Crystal_Clover30B.webp",
+    "backupImage": "./Loot/Ponc'tan/Crystal_Clover30B.jpeg",
     "mapID": 773,
     "coords": [1960, 700, 1880]
   },
@@ -4483,8 +4483,8 @@
     "contents": "Crystal",
     "terrain": "On Land",
     "notes": "",
-    "image": "./Loot/Ponc'tan/Crystal.webp",
-    "backupImage": "./Loot/Ponc'tan/Crystal.jpeg",
+    "image": "./Loot/Ponc'tan/Crystal_Clover30B.webp",
+    "backupImage": "./Loot/Ponc'tan/Crystal_Clover30B.jpeg",
     "mapID": 773,
     "coords": [1628, 706, 1339]
   },
