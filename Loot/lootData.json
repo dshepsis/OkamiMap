@@ -3382,8 +3382,8 @@
     "contents": "Traveler's Charm",
     "terrain": "On Land",
     "notes": "",
-    "image": "./Loot/SunkenShip/TravelersCharm.webp",
-    "backupImage": "./Loot/SunkenShip/TravelersCharm.jpeg",
+    "image": "./Loot/ImperialPalace/TravelersCharm.webp",
+    "backupImage": "./Loot/ImperialPalace/TravelersCharm.jpeg",
     "mapID": 519,
     "coords": [1954, 37, -4564]
   },
