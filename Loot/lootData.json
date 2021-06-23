@@ -3983,8 +3983,8 @@
     "contents": "Exorcism Slip L",
     "terrain": "On Land",
     "notes": "To the left of the electric key",
-    "image": "./Loot/Oni/ExorcismSlipL.webp",
-    "backupImage": "./Loot/Oni/ExorcismSlipL.jpeg",
+    "image": "./Loot/Oni/ExorcismSlipLB.webp",
+    "backupImage": "./Loot/Oni/ExorcismSlipLB.jpeg",
     "mapID": 527,
     "coords": [-6986, -3896, -5426]
   },
