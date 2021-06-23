@@ -1523,8 +1523,8 @@
     "contents": "Vengeance Slip",
     "terrain": "On Land",
     "notes": "1F, to the side in the Vine cave on the way to the Ogre Liver",
-    "image": "./Loot/MoonCave/VengenceSlip.webp",
-    "backupImage": "./Loot/MoonCave/VengenceSlip.jpeg",
+    "image": "./Loot/MoonCave/VengeanceSlip.webp",
+    "backupImage": "./Loot/MoonCave/VengeanceSlip.jpeg",
     "mapID": 272,
     "coords": [-2902, -24, -1243]
   },
