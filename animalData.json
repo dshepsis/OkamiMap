@@ -14,7 +14,8 @@
     "praise": 0,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kamiki/Chicken.png",
+    "image": "./Loot/Kamiki/Chicken.webp",
+    "backupImage": "./Loot/Kamiki/Chicken.jpeg",
     "mapID": 258,
     "coords": [558, -462, 2238]
   },
@@ -24,7 +25,8 @@
     "praise": 0,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Kamiki/Hare.png",
+    "image": "./Loot/Kamiki/Hare.webp",
+    "backupImage": "./Loot/Kamiki/Hare.jpeg",
     "mapID": 258,
     "coords": [2065, -413, 2522]
   },
@@ -34,7 +36,8 @@
     "praise": 0,
     "types": "Hayabusa / Chu (2)",
     "notes": "",
-    "image": "./Kamiki/DogHayabusa.png",
+    "image": "./Loot/Kamiki/DogHayabusa.webp",
+    "backupImage": "./Loot/Kamiki/DogHayabusa.jpeg",
     "mapID": 258,
     "coords": [3978, -10002, -49]
   },
@@ -44,7 +47,8 @@
     "praise": 0,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Kamiki/SparrowC.png",
+    "image": "./Loot/Kamiki/SparrowC.webp",
+    "backupImage": "./Loot/Kamiki/SparrowC.jpeg",
     "mapID": 258,
     "coords": [1115, -180, 416]
   },
@@ -54,7 +58,8 @@
     "praise": 0,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Kamiki/SparrowA.png",
+    "image": "./Loot/Kamiki/SparrowA.webp",
+    "backupImage": "./Loot/Kamiki/SparrowA.jpeg",
     "mapID": 258,
     "coords": [940, 102, 1321]
   },
@@ -64,7 +69,8 @@
     "praise": 0,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Kamiki/SparrowB.png",
+    "image": "./Loot/Kamiki/SparrowB.webp",
+    "backupImage": "./Loot/Kamiki/SparrowB.jpeg",
     "mapID": 258,
     "coords": [698, -466, 1722]
   },
@@ -74,7 +80,8 @@
     "praise": 0,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Kamiki/SparrowD.png",
+    "image": "./Loot/Kamiki/SparrowD.webp",
+    "backupImage": "./Loot/Kamiki/SparrowD.jpeg",
     "mapID": 258,
     "coords": [2742, -474, 1771]
   },
@@ -84,7 +91,8 @@
     "praise": 0,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./HanaValley/Monkey.png",
+    "image": "./Loot/HanaValley/Monkey.webp",
+    "backupImage": "./Loot/HanaValley/Monkey.jpeg",
     "mapID": 259,
     "coords": [144, 28, -1111]
   },
@@ -94,7 +102,8 @@
     "praise": 0,
     "types": "Boar (1), Boar Piglet (2)",
     "notes": "",
-    "image": "./HanaValley/Boar.png",
+    "image": "./Loot/HanaValley/Boar.webp",
+    "backupImage": "./Loot/HanaValley/Boar.jpeg",
     "mapID": 259,
     "coords": [-1923, 429, -3292]
   },
@@ -104,7 +113,8 @@
     "praise": 3,
     "types": "Nightingale (3)",
     "notes": "",
-    "image": "./CityCheckpoint/NightingaleA.png",
+    "image": "./Loot/CityCheckpoint/NightingaleA.webp",
+    "backupImage": "./Loot/CityCheckpoint/NightingaleA.jpeg",
     "mapID": 261,
     "coords": [-75, 2, -383]
   },
@@ -114,7 +124,8 @@
     "praise": 6,
     "types": "Boar Piglet (2)",
     "notes": "",
-    "image": "./CityCheckpoint/BoarPiglet.png",
+    "image": "./Loot/CityCheckpoint/BoarPiglet.webp",
+    "backupImage": "./Loot/CityCheckpoint/BoarPiglet.jpeg",
     "mapID": 261,
     "coords": [-292, -544, 2589]
   },
@@ -124,7 +135,8 @@
     "praise": 6,
     "types": "Raccoon (2)",
     "notes": "",
-    "image": "./CityCheckpoint/Raccoon.png",
+    "image": "./Loot/CityCheckpoint/Raccoon.webp",
+    "backupImage": "./Loot/CityCheckpoint/Raccoon.jpeg",
     "mapID": 261,
     "coords": [293, -566, 3828]
   },
@@ -134,7 +146,8 @@
     "praise": 2,
     "types": "Nightingale (2)",
     "notes": "After Blooming all 4 cursed patches on the Ryoshima side",
-    "image": "./CityCheckpoint/NightingaleB.png",
+    "image": "./Loot/CityCheckpoint/NightingaleB.webp",
+    "backupImage": "./Loot/CityCheckpoint/NightingaleB.jpeg",
     "mapID": 261,
     "coords": [-3272, 0, -637]
   },
@@ -144,7 +157,8 @@
     "praise": 8,
     "types": "Horse (2)",
     "notes": "After Blooming all 4 cursed patches on the Ryoshima Side",
-    "image": "./CityCheckpoint/Horse.png",
+    "image": "./Loot/CityCheckpoint/Horse.webp",
+    "backupImage": "./Loot/CityCheckpoint/Horse.jpeg",
     "mapID": 261,
     "coords": [-3386, 0, 857]
   },
@@ -163,7 +177,8 @@
     "praise": 4,
     "types": "Mouse (4)",
     "notes": "",
-    "image": "./GaleShrine/MouseB.png",
+    "image": "./Loot/GaleShrine/MouseB.webp",
+    "backupImage": "./Loot/GaleShrine/MouseB.jpeg",
     "mapID": 263,
     "coords": [-1006, 200, -1303]
   },
@@ -173,7 +188,8 @@
     "praise": 7,
     "types": "Mouse (7)",
     "notes": "",
-    "image": "./GaleShrine/MouseC.png",
+    "image": "./Loot/GaleShrine/MouseC.webp",
+    "backupImage": "./Loot/GaleShrine/MouseC.jpeg",
     "mapID": 263,
     "coords": [-2774, 200, -1333]
   },
@@ -183,7 +199,8 @@
     "praise": 8,
     "types": "Mouse (8)",
     "notes": "Under Cherry Bomb elevator",
-    "image": "./GaleShrine/MouseA.png",
+    "image": "./Loot/GaleShrine/MouseA.webp",
+    "backupImage": "./Loot/GaleShrine/MouseA.jpeg",
     "mapID": 263,
     "coords": [-213, -329, -23]
   },
@@ -202,7 +219,8 @@
     "praise": 0,
     "types": "Chi (1)",
     "notes": "Listed in group 0 internally. Found near Mr. Bamboo's house.",
-    "image": "./Kusa/Chi.png",
+    "image": "./Loot/Kusa/Chi.webp",
+    "backupImage": "./Loot/Kusa/Chi.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
@@ -212,7 +230,8 @@
     "praise": 10,
     "types": "Ko (1)",
     "notes": "Listed in group 0 internally. In upper-level cave reachable via Vine.",
-    "image": "./Kusa/Ko.png",
+    "image": "./Loot/Kusa/Ko.webp",
+    "backupImage": "./Loot/Kusa/Ko.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
@@ -222,7 +241,8 @@
     "praise": 10,
     "types": "Rei (1)",
     "notes": "Listed in group 0 internally. Found in cave behind Cherry Bomb wall.",
-    "image": "./Kusa/Rei.png",
+    "image": "./Loot/Kusa/Rei.webp",
+    "backupImage": "./Loot/Kusa/Rei.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
@@ -232,7 +252,8 @@
     "praise": 10,
     "types": "Shin (1)",
     "notes": "Listed in group 0 internally. In flower bed after Blooming cursed patch.",
-    "image": "./Kusa/Shin.png",
+    "image": "./Loot/Kusa/Shin.webp",
+    "backupImage": "./Loot/Kusa/Shin.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
@@ -242,7 +263,8 @@
     "praise": 10,
     "types": "Tei (1)",
     "notes": "Listed in group 0 internally",
-    "image": "./Kusa/Tei.png",
+    "image": "./Loot/Kusa/Tei.webp",
+    "backupImage": "./Loot/Kusa/Tei.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
@@ -252,7 +274,8 @@
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "Along the path to Mr. Bamboo's house.",
-    "image": "./Kusa/SparrowA.png",
+    "image": "./Loot/Kusa/SparrowA.webp",
+    "backupImage": "./Loot/Kusa/SparrowA.jpeg",
     "mapID": 264,
     "coords": [-2073, 301, 2339]
   },
@@ -262,7 +285,8 @@
     "praise": 6,
     "types": "Monkey (2)",
     "notes": "",
-    "image": "./Kusa/MonkeyA.png",
+    "image": "./Loot/Kusa/MonkeyA.webp",
+    "backupImage": "./Loot/Kusa/MonkeyA.jpeg",
     "mapID": 264,
     "coords": [-1646, 702, 1405]
   },
@@ -272,7 +296,8 @@
     "praise": 6,
     "types": "Raccoon (2)",
     "notes": "",
-    "image": "./Kusa/Raccoon.png",
+    "image": "./Loot/Kusa/Raccoon.webp",
+    "backupImage": "./Loot/Kusa/Raccoon.jpeg",
     "mapID": 264,
     "coords": [-540, -2, 2128]
   },
@@ -282,7 +307,8 @@
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Kusa/SparrowB.png",
+    "image": "./Loot/Kusa/SparrowB.webp",
+    "backupImage": "./Loot/Kusa/SparrowB.jpeg",
     "mapID": 264,
     "coords": [-54, -275, 1360]
   },
@@ -292,7 +318,8 @@
     "praise": 4,
     "types": "Chicken (2)",
     "notes": "Requires Galestorm",
-    "image": "./Kusa/sb29_ChickenB.png",
+    "image": "./Loot/Kusa/sb29_ChickenB.webp",
+    "backupImage": "./Loot/Kusa/sb29_ChickenB.jpeg",
     "mapID": 264,
     "coords": [902, 639, 1643]
   },
@@ -302,7 +329,8 @@
     "praise": 8,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kusa/ChickenA.png",
+    "image": "./Loot/Kusa/ChickenA.webp",
+    "backupImage": "./Loot/Kusa/ChickenA.jpeg",
     "mapID": 264,
     "coords": [438, 462, 2431]
   },
@@ -312,7 +340,8 @@
     "praise": 6,
     "types": "Pig (2)",
     "notes": "",
-    "image": "./Kusa/Pig.png",
+    "image": "./Loot/Kusa/Pig.webp",
+    "backupImage": "./Loot/Kusa/Pig.jpeg",
     "mapID": 264,
     "coords": [601, 47, 1736]
   },
@@ -322,7 +351,8 @@
     "praise": 8,
     "types": "Chicken (4)",
     "notes": "",
-    "image": "./Kusa/ChickenC.png",
+    "image": "./Loot/Kusa/ChickenC.webp",
+    "backupImage": "./Loot/Kusa/ChickenC.jpeg",
     "mapID": 264,
     "coords": [-1664, 301, 2641]
   },
@@ -332,7 +362,8 @@
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./Kusa/MonkeyB.png",
+    "image": "./Loot/Kusa/MonkeyB.webp",
+    "backupImage": "./Loot/Kusa/MonkeyB.jpeg",
     "mapID": 264,
     "coords": [-4642, 712, 1663]
   },
@@ -342,7 +373,8 @@
     "praise": 10,
     "types": "Take / Gi (5)",
     "notes": "Not listed in files",
-    "image": "./Sasa/Take.png",
+    "image": "./Loot/Sasa/Take.webp",
+    "backupImage": "./Loot/Sasa/Take.jpeg",
     "mapID": 265
   },
   {
@@ -351,7 +383,8 @@
     "praise": 5,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Sasa/SparrowA.png",
+    "image": "./Loot/Sasa/SparrowA.webp",
+    "backupImage": "./Loot/Sasa/SparrowA.jpeg",
     "mapID": 265,
     "coords": [-5, 74, -1490]
   },
@@ -361,7 +394,8 @@
     "praise": 0,
     "types": "Sparrow (5)",
     "notes": "",
-    "image": "./Sasa/SparrowB.png",
+    "image": "./Loot/Sasa/SparrowB.webp",
+    "backupImage": "./Loot/Sasa/SparrowB.jpeg",
     "mapID": 265,
     "coords": [528, 77, -1365]
   },
@@ -371,7 +405,8 @@
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Sasa/SparrowC.png",
+    "image": "./Loot/Sasa/SparrowC.webp",
+    "backupImage": "./Loot/Sasa/SparrowC.jpeg",
     "mapID": 265,
     "coords": [989, 241, -3488]
   },
@@ -381,7 +416,8 @@
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./Sasa/SparrowD.png",
+    "image": "./Loot/Sasa/SparrowD.webp",
+    "backupImage": "./Loot/Sasa/SparrowD.jpeg",
     "mapID": 265,
     "coords": [2009, 383, -3555]
   },
@@ -391,7 +427,8 @@
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Sasa/Hare.png",
+    "image": "./Loot/Sasa/Hare.webp",
+    "backupImage": "./Loot/Sasa/Hare.jpeg",
     "mapID": 265,
     "coords": [2177, 543, -5999]
   },
@@ -401,7 +438,8 @@
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "",
-    "image": "./Sasa/TigerA.png",
+    "image": "./Loot/Sasa/TigerA.webp",
+    "backupImage": "./Loot/Sasa/TigerA.jpeg",
     "mapID": 265,
     "coords": [1655, 546, -5466]
   },
@@ -411,7 +449,8 @@
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "",
-    "image": "./Sasa/TigerB.png",
+    "image": "./Loot/Sasa/TigerB.webp",
+    "backupImage": "./Loot/Sasa/TigerB.jpeg",
     "mapID": 265,
     "coords": [2052, 544, -5056]
   },
@@ -421,7 +460,8 @@
     "praise": 4,
     "types": "Mouse (3)",
     "notes": "",
-    "image": "./Sasa/MouseA.png",
+    "image": "./Loot/Sasa/MouseA.webp",
+    "backupImage": "./Loot/Sasa/MouseA.jpeg",
     "mapID": 265,
     "coords": [214, -13471, -1615]
   },
@@ -431,7 +471,8 @@
     "praise": 2,
     "types": "Mouse (2)",
     "notes": "Inn interior, South-West room 2nd floor.",
-    "image": "./Sasa/MouseB.png",
+    "image": "./Loot/Sasa/MouseB.webp",
+    "backupImage": "./Loot/Sasa/MouseB.jpeg",
     "mapID": 265,
     "coords": [-1229, -15478, -1361]
   },
@@ -450,7 +491,8 @@
     "praise": 45,
     "types": "Boar (1), Boar Piglet (14)",
     "notes": "",
-    "image": "./DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.png",
+    "image": "./Loot/DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.webp",
+    "backupImage": "./Loot/DragonPalace/KutaniPottery_sb70_GodlyCharm_Clover10ABC_Boar.jpeg",
     "mapID": 284,
     "coords": [-43, 99, -462]
   },
@@ -460,7 +502,8 @@
     "praise": 30,
     "types": "Hare (14), Hare (Patchwork) (1)",
     "notes": "Requires Digging Champ to enter grotto",
-    "image": "./NorthRyo/HareA.png",
+    "image": "./Loot/NorthRyo/HareA.webp",
+    "backupImage": "./Loot/NorthRyo/HareA.jpeg",
     "mapID": 285,
     "coords": [-83, 87, -424]
   },
@@ -470,7 +513,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/CatA.png",
+    "image": "./Loot/Catcall/CatA.webp",
+    "backupImage": "./Loot/Catcall/CatA.jpeg",
     "mapID": 522,
     "coords": [-4, 4, -620]
   },
@@ -480,7 +524,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10A_CatB.png",
+    "image": "./Loot/Catcall/Clover10A_CatB.webp",
+    "backupImage": "./Loot/Catcall/Clover10A_CatB.jpeg",
     "mapID": 522,
     "coords": [358, 4, -134]
   },
@@ -490,7 +535,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10B_CatC.png",
+    "image": "./Loot/Catcall/Clover10B_CatC.webp",
+    "backupImage": "./Loot/Catcall/Clover10B_CatC.jpeg",
     "mapID": 522,
     "coords": [163, 4, 477]
   },
@@ -500,7 +546,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Ground level",
-    "image": "./Catcall/Clover10C_CatD.png",
+    "image": "./Loot/Catcall/Clover10C_CatD.webp",
+    "backupImage": "./Loot/Catcall/Clover10C_CatD.jpeg",
     "mapID": 522,
     "coords": [-292, 4, -123]
   },
@@ -510,7 +557,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "First cloud platform",
-    "image": "./Catcall/CatE.png",
+    "image": "./Loot/Catcall/CatE.webp",
+    "backupImage": "./Loot/Catcall/CatE.jpeg",
     "mapID": 522,
     "coords": [1, 1582, 378]
   },
@@ -520,7 +568,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Second cloud platform",
-    "image": "./Catcall/CatF.png",
+    "image": "./Loot/Catcall/CatF.webp",
+    "backupImage": "./Loot/Catcall/CatF.jpeg",
     "mapID": 522,
     "coords": [325, 2836, 187]
   },
@@ -530,7 +579,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Third cloud platform",
-    "image": "./Catcall/TravelersCharm_CatG.png",
+    "image": "./Loot/Catcall/TravelersCharm_CatG.webp",
+    "backupImage": "./Loot/Catcall/TravelersCharm_CatG.jpeg",
     "mapID": 522,
     "coords": [380, 4093, -220]
   },
@@ -540,7 +590,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "Top of tower. Triggers Catwallk cutscene when fed.",
-    "image": "./Catcall/CatH.png",
+    "image": "./Loot/Catcall/CatH.webp",
+    "backupImage": "./Loot/Catcall/CatH.jpeg",
     "mapID": 522,
     "coords": [0, 10485, 668]
   },
@@ -667,7 +718,8 @@
     "praise": 0,
     "types": "Hare (4)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareA.png",
+    "image": "./Loot/ShinshuField/HareA.webp",
+    "backupImage": "./Loot/ShinshuField/HareA.jpeg",
     "mapID": 3842,
     "coords": [1207, 89, -1371]
   },
@@ -677,7 +729,8 @@
     "praise": 10,
     "types": "Hare (5)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareB.png",
+    "image": "./Loot/ShinshuField/HareB.webp",
+    "backupImage": "./Loot/ShinshuField/HareB.jpeg",
     "mapID": 3842,
     "coords": [192, 141, -3857]
   },
@@ -687,7 +740,8 @@
     "praise": 8,
     "types": "Hare (4)",
     "notes": "",
-    "image": "./ShinshuField/HareD.png",
+    "image": "./Loot/ShinshuField/HareD.webp",
+    "backupImage": "./Loot/ShinshuField/HareD.jpeg",
     "mapID": 3842,
     "coords": [1062, 681, -4770]
   },
@@ -697,7 +751,8 @@
     "praise": 10,
     "types": "Hare (5)",
     "notes": "After clearing a devil gate",
-    "image": "./ShinshuField/HareE.png",
+    "image": "./Loot/ShinshuField/HareE.webp",
+    "backupImage": "./Loot/ShinshuField/HareE.jpeg",
     "mapID": 3842,
     "coords": [3933, 705, -1871]
   },
@@ -707,7 +762,8 @@
     "praise": 15,
     "types": "Boar Piglet (5)",
     "notes": "After Blooming cursed patch",
-    "image": "./ShinshuField/BoarB.png",
+    "image": "./Loot/ShinshuField/BoarB.webp",
+    "backupImage": "./Loot/ShinshuField/BoarB.jpeg",
     "mapID": 3842,
     "coords": [-384, -45, -1358]
   },
@@ -717,7 +773,8 @@
     "praise": 15,
     "types": "Boar (2), Boar Piglet (3)",
     "notes": "",
-    "image": "./ShinshuField/BoarA_TravelGuideFeeding.png",
+    "image": "./Loot/ShinshuField/BoarA_TravelGuideFeeding.webp",
+    "backupImage": "./Loot/ShinshuField/BoarA_TravelGuideFeeding.jpeg",
     "mapID": 3842,
     "coords": [371, 481, 1514]
   },
@@ -727,7 +784,8 @@
     "praise": 9,
     "types": "Pig (3)",
     "notes": "",
-    "image": "./ShinshuField/Pig.png",
+    "image": "./Loot/ShinshuField/Pig.webp",
+    "backupImage": "./Loot/ShinshuField/Pig.jpeg",
     "mapID": 3842,
     "coords": [-684, 229, 523]
   },
@@ -737,7 +795,8 @@
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./ShinshuField/HareC.png",
+    "image": "./Loot/ShinshuField/HareC.webp",
+    "backupImage": "./Loot/ShinshuField/HareC.jpeg",
     "mapID": 3842,
     "coords": [2124, 472, -963]
   },
@@ -747,7 +806,8 @@
     "praise": 4,
     "types": "Sparrow (4)",
     "notes": "",
-    "image": "./ShinshuField/Sparrow.png",
+    "image": "./Loot/ShinshuField/Sparrow.webp",
+    "backupImage": "./Loot/ShinshuField/Sparrow.jpeg",
     "mapID": 3842,
     "coords": [3938, 38, 484]
   },
@@ -757,7 +817,8 @@
     "praise": 8,
     "types": "Horse (2)",
     "notes": "After clearing mermaid spring devil gate",
-    "image": "./ShinshuField/Horse.png",
+    "image": "./Loot/ShinshuField/Horse.webp",
+    "backupImage": "./Loot/ShinshuField/Horse.jpeg",
     "mapID": 3842,
     "coords": [487, 341, 675]
   },
@@ -767,7 +828,8 @@
     "praise": 0,
     "types": "Ume / Jin (1)",
     "notes": "Not listed in files. Found at fishing spot after going to Taka, and in Kamui after Blooming the Kamui Guardian Sapling.",
-    "image": "./Agata/Ume.png",
+    "image": "./Loot/Agata/Ume.webp",
+    "backupImage": "./Loot/Agata/Ume.jpeg",
     "mapID": 3844
   },
   {
@@ -776,7 +838,8 @@
     "praise": 4,
     "types": "Hare (2)",
     "notes": "",
-    "image": "./Agata/HareB.png",
+    "image": "./Loot/Agata/HareB.webp",
+    "backupImage": "./Loot/Agata/HareB.jpeg",
     "mapID": 3844,
     "coords": [14, 99, 6024]
   },
@@ -786,7 +849,8 @@
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./Agata/SparrowA.png",
+    "image": "./Loot/Agata/SparrowA.webp",
+    "backupImage": "./Loot/Agata/SparrowA.jpeg",
     "mapID": 3844,
     "coords": [105, -62, 7322]
   },
@@ -796,7 +860,8 @@
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "After clearing devil gate",
-    "image": "./Agata/MonkeyA.png",
+    "image": "./Loot/Agata/MonkeyA.webp",
+    "backupImage": "./Loot/Agata/MonkeyA.jpeg",
     "mapID": 3844,
     "coords": [-1319, 97, 5768]
   },
@@ -806,7 +871,8 @@
     "praise": 12,
     "types": "Deer (3)",
     "notes": "",
-    "image": "./Agata/DeerA.png",
+    "image": "./Loot/Agata/DeerA.webp",
+    "backupImage": "./Loot/Agata/DeerA.jpeg",
     "mapID": 3844,
     "coords": [-1859, 680, 3152]
   },
@@ -816,7 +882,8 @@
     "praise": 4,
     "types": "Hare (2)",
     "notes": "After Blooming a cursed patch",
-    "image": "./Agata/HareC.png",
+    "image": "./Loot/Agata/HareC.webp",
+    "backupImage": "./Loot/Agata/HareC.jpeg",
     "mapID": 3844,
     "coords": [-2252, 192, 8633]
   },
@@ -826,7 +893,8 @@
     "praise": 3,
     "types": "Nightingale (3)",
     "notes": "",
-    "image": "./Agata/Nightingale.png",
+    "image": "./Loot/Agata/Nightingale.webp",
+    "backupImage": "./Loot/Agata/Nightingale.jpeg",
     "mapID": 3844,
     "coords": [-630, 99, 6378]
   },
@@ -836,7 +904,8 @@
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerE.png",
+    "image": "./Loot/Agata/DeerE.webp",
+    "backupImage": "./Loot/Agata/DeerE.jpeg",
     "mapID": 3844,
     "coords": [752, -7, 7402]
   },
@@ -846,7 +915,8 @@
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerC.png",
+    "image": "./Loot/Agata/DeerC.webp",
+    "backupImage": "./Loot/Agata/DeerC.jpeg",
     "mapID": 3844,
     "coords": [621, -12, 6892]
   },
@@ -856,7 +926,8 @@
     "praise": 8,
     "types": "Deer (2)",
     "notes": "",
-    "image": "./Agata/DeerD_TravelGuideEnhancingWeapons.png",
+    "image": "./Loot/Agata/DeerD_TravelGuideEnhancingWeapons.webp",
+    "backupImage": "./Loot/Agata/DeerD_TravelGuideEnhancingWeapons.jpeg",
     "mapID": 3844,
     "coords": [-440, -62, 7198]
   },
@@ -866,7 +937,8 @@
     "praise": 12,
     "types": "Deer (3)",
     "notes": "",
-    "image": "./Agata/DeerB.png",
+    "image": "./Loot/Agata/DeerB.webp",
+    "backupImage": "./Loot/Agata/DeerB.jpeg",
     "mapID": 3844,
     "coords": [-1424, -11, 6961]
   },
@@ -876,7 +948,8 @@
     "praise": 4,
     "types": "Hare (2)",
     "notes": "After completing the log bridge minigame",
-    "image": "./Agata/HareD.png",
+    "image": "./Loot/Agata/HareD.webp",
+    "backupImage": "./Loot/Agata/HareD.jpeg",
     "mapID": 3844,
     "coords": [-2481, 112, 3296]
   },
@@ -886,7 +959,8 @@
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Agata/SparrowB.png",
+    "image": "./Loot/Agata/SparrowB.webp",
+    "backupImage": "./Loot/Agata/SparrowB.jpeg",
     "mapID": 3844,
     "coords": [-2133, 139, 6453]
   },
@@ -896,7 +970,8 @@
     "praise": 6,
     "types": "Hare (3)",
     "notes": "",
-    "image": "./Agata/HareA_DevoutBeads.png",
+    "image": "./Loot/Agata/HareA_DevoutBeads.webp",
+    "backupImage": "./Loot/Agata/HareA_DevoutBeads.jpeg",
     "mapID": 3844,
     "coords": [65, 69, 3037]
   },
@@ -924,7 +999,8 @@
     "praise": 8,
     "types": "Deer (2)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/DeerC.png",
+    "image": "./Loot/Taka/DeerC.webp",
+    "backupImage": "./Loot/Taka/DeerC.jpeg",
     "mapID": 3848,
     "coords": [-4346, 781, 4176]
   },
@@ -934,7 +1010,8 @@
     "praise": 8,
     "types": "Horse (2)",
     "notes": "",
-    "image": "./Taka/HorseA.png",
+    "image": "./Loot/Taka/HorseA.webp",
+    "backupImage": "./Loot/Taka/HorseA.jpeg",
     "mapID": 3848,
     "coords": [-2500, 870, 4676]
   },
@@ -944,7 +1021,8 @@
     "praise": 3,
     "types": "Sparrow (3)",
     "notes": "",
-    "image": "./Taka/Sparrow.png",
+    "image": "./Loot/Taka/Sparrow.webp",
+    "backupImage": "./Loot/Taka/Sparrow.jpeg",
     "mapID": 3848,
     "coords": [-5324, 796, 2619]
   },
@@ -954,7 +1032,8 @@
     "praise": 6,
     "types": "Boar Piglet (2)",
     "notes": "",
-    "image": "./Taka/BoarPiglet.png",
+    "image": "./Loot/Taka/BoarPiglet.webp",
+    "backupImage": "./Loot/Taka/BoarPiglet.jpeg",
     "mapID": 3848,
     "coords": [-3084, 603, 2795]
   },
@@ -964,7 +1043,8 @@
     "praise": 6,
     "types": "Fox (2)",
     "notes": "",
-    "image": "./Taka/FoxA.png",
+    "image": "./Loot/Taka/FoxA.webp",
+    "backupImage": "./Loot/Taka/FoxA.jpeg",
     "mapID": 3848,
     "coords": [-7794, 1008, 2702]
   },
@@ -974,7 +1054,8 @@
     "praise": 10,
     "types": "Tiger (2)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/Tiger.png",
+    "image": "./Loot/Taka/Tiger.webp",
+    "backupImage": "./Loot/Taka/Tiger.jpeg",
     "mapID": 3848,
     "coords": [-1745, 570, 1449]
   },
@@ -984,7 +1065,8 @@
     "praise": 12,
     "types": "Deer (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./Taka/DeerA.png",
+    "image": "./Loot/Taka/DeerA.webp",
+    "backupImage": "./Loot/Taka/DeerA.jpeg",
     "mapID": 3848,
     "coords": [-7595, 1032, 3432]
   },
@@ -994,7 +1076,8 @@
     "praise": 9,
     "types": "Monkey (3)",
     "notes": "",
-    "image": "./Taka/Monkey.png",
+    "image": "./Loot/Taka/Monkey.webp",
+    "backupImage": "./Loot/Taka/Monkey.jpeg",
     "mapID": 3848,
     "coords": [-4978, 1355, 5728]
   },
@@ -1004,7 +1087,8 @@
     "praise": 3,
     "types": "Dog (1)",
     "notes": "",
-    "image": "./Taka/DogA.png",
+    "image": "./Loot/Taka/DogA.webp",
+    "backupImage": "./Loot/Taka/DogA.jpeg",
     "mapID": 3848,
     "coords": [-2414, 596, 2905]
   },
@@ -1014,7 +1098,8 @@
     "praise": 3,
     "types": "Dog (1)",
     "notes": "",
-    "image": "./Taka/DogB.png",
+    "image": "./Loot/Taka/DogB.webp",
+    "backupImage": "./Loot/Taka/DogB.jpeg",
     "mapID": 3848,
     "coords": [-2907, 561, 3653]
   },
@@ -1024,7 +1109,8 @@
     "praise": 16,
     "types": "Deer (4)",
     "notes": "",
-    "image": "./Taka/DeerB.png",
+    "image": "./Loot/Taka/DeerB.webp",
+    "backupImage": "./Loot/Taka/DeerB.jpeg",
     "mapID": 3848,
     "coords": [-396, 1273, 2677]
   },
@@ -1034,7 +1120,8 @@
     "praise": 8,
     "types": "Horse (2)",
     "notes": "",
-    "image": "./Taka/HorseB.png",
+    "image": "./Loot/Taka/HorseB.webp",
+    "backupImage": "./Loot/Taka/HorseB.jpeg",
     "mapID": 3848,
     "coords": [-6292, 838, 3118]
   },
@@ -1044,7 +1131,8 @@
     "praise": 6,
     "types": "Fox (2)",
     "notes": "",
-    "image": "./Taka/FoxB.png",
+    "image": "./Loot/Taka/FoxB.webp",
+    "backupImage": "./Loot/Taka/FoxB.jpeg",
     "mapID": 3848,
     "coords": [623, 725, 4225]
   },
@@ -1054,7 +1142,8 @@
     "praise": 8,
     "types": "Nightingale (8)",
     "notes": "",
-    "image": "./Taka/Nightingale.png",
+    "image": "./Loot/Taka/Nightingale.webp",
+    "backupImage": "./Loot/Taka/Nightingale.jpeg",
     "mapID": 3848,
     "coords": [-787, 1029, 519]
   },
@@ -1073,7 +1162,8 @@
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./CityCheckpoint/CowA.png",
+    "image": "./Loot/CityCheckpoint/CowA.webp",
+    "backupImage": "./Loot/CityCheckpoint/CowA.jpeg",
     "mapID": 3850,
     "coords": [2526, 471, -821]
   },
@@ -1083,7 +1173,8 @@
     "praise": 2,
     "types": "Cat (1)",
     "notes": "",
-    "image": "./Ryoshima/CatA.png",
+    "image": "./Loot/Ryoshima/CatA.webp",
+    "backupImage": "./Loot/Ryoshima/CatA.jpeg",
     "mapID": 3850,
     "coords": [2080, 985, -225]
   },
@@ -1093,7 +1184,8 @@
     "praise": 12,
     "types": "Fox (4)",
     "notes": "",
-    "image": "./Ryoshima/FoxA.png",
+    "image": "./Loot/Ryoshima/FoxA.webp",
+    "backupImage": "./Loot/Ryoshima/FoxA.jpeg",
     "mapID": 3850,
     "coords": [2094, 480, 1547]
   },
@@ -1103,7 +1195,8 @@
     "praise": 9,
     "types": "Dog (3)",
     "notes": "",
-    "image": "./Ryoshima/Dog.png",
+    "image": "./Loot/Ryoshima/Dog.webp",
+    "backupImage": "./Loot/Ryoshima/Dog.jpeg",
     "mapID": 3850,
     "coords": [3107, 410, 1833]
   },
@@ -1113,7 +1206,8 @@
     "praise": 9,
     "types": "Fox (3)",
     "notes": "",
-    "image": "./Ryoshima/FoxB.png",
+    "image": "./Loot/Ryoshima/FoxB.webp",
+    "backupImage": "./Loot/Ryoshima/FoxB.jpeg",
     "mapID": 3850,
     "coords": [1274, 395, 2491]
   },
@@ -1123,7 +1217,8 @@
     "praise": 3,
     "types": "Boar Piglet (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/BoarPigletA.png",
+    "image": "./Loot/Ryoshima/BoarPigletA.webp",
+    "backupImage": "./Loot/Ryoshima/BoarPigletA.jpeg",
     "mapID": 3850,
     "coords": [-1278, 239, 2290]
   },
@@ -1133,7 +1228,8 @@
     "praise": 12,
     "types": "Monkey (4)",
     "notes": "",
-    "image": "./Ryoshima/MonkeyA.png",
+    "image": "./Loot/Ryoshima/MonkeyA.webp",
+    "backupImage": "./Loot/Ryoshima/MonkeyA.jpeg",
     "mapID": 3850,
     "coords": [71, 141, 1539]
   },
@@ -1143,7 +1239,8 @@
     "praise": 12,
     "types": "Horse (3)",
     "notes": "",
-    "image": "./Ryoshima/Horse.png",
+    "image": "./Loot/Ryoshima/Horse.webp",
+    "backupImage": "./Loot/Ryoshima/Horse.jpeg",
     "mapID": 3850,
     "coords": [-2322, 431, -1130]
   },
@@ -1153,7 +1250,8 @@
     "praise": 8,
     "types": "Hare (4)",
     "notes": "",
-    "image": "./Ryoshima/HareA.png",
+    "image": "./Loot/Ryoshima/HareA.webp",
+    "backupImage": "./Loot/Ryoshima/HareA.jpeg",
     "mapID": 3850,
     "coords": [-1708, 540, 647]
   },
@@ -1163,7 +1261,8 @@
     "praise": 8,
     "types": "Hare (4)",
     "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
-    "image": "./Ryoshima/HareB.png",
+    "image": "./Loot/Ryoshima/HareB.webp",
+    "backupImage": "./Loot/Ryoshima/HareB.jpeg",
     "mapID": 3850,
     "coords": [1004, 400, 1253]
   },
@@ -1173,7 +1272,8 @@
     "praise": 6,
     "types": "Monkey (2)",
     "notes": "",
-    "image": "./Ryoshima/MonkeyB.png",
+    "image": "./Loot/Ryoshima/MonkeyB.webp",
+    "backupImage": "./Loot/Ryoshima/MonkeyB.jpeg",
     "mapID": 3850,
     "coords": [-3075, 255, 3609]
   },
@@ -1183,7 +1283,8 @@
     "praise": 2,
     "types": "Hare (Patchwork) (1)",
     "notes": "After clearing Devil Gate. Note that the patchwork hare must be fed separately.",
-    "image": "./Ryoshima/Inaba.png",
+    "image": "./Loot/Ryoshima/Inaba.webp",
+    "backupImage": "./Loot/Ryoshima/Inaba.jpeg",
     "mapID": 3850,
     "coords": [-1560, 538, 622]
   },
@@ -1193,7 +1294,8 @@
     "praise": 3,
     "types": "Boar Piglet (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/BoarPigletB.png",
+    "image": "./Loot/Ryoshima/BoarPigletB.webp",
+    "backupImage": "./Loot/Ryoshima/BoarPigletB.jpeg",
     "mapID": 3850,
     "coords": [-1444, 198, 2516]
   },
@@ -1203,7 +1305,8 @@
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./Ryoshima/CowB.png",
+    "image": "./Loot/Ryoshima/CowB.webp",
+    "backupImage": "./Loot/Ryoshima/CowB.jpeg",
     "mapID": 3850,
     "coords": [-808, 406, -459]
   },
@@ -1213,7 +1316,8 @@
     "praise": 6,
     "types": "Cat (3)",
     "notes": "",
-    "image": "./Ryoshima/CatB_DragonflyBeadA.png",
+    "image": "./Loot/Ryoshima/CatB_DragonflyBeadA.webp",
+    "backupImage": "./Loot/Ryoshima/CatB_DragonflyBeadA.jpeg",
     "mapID": 3850,
     "coords": [-4300, 339, 1715]
   },
@@ -1223,7 +1327,8 @@
     "praise": 4,
     "types": "Nightingale (4)",
     "notes": "",
-    "image": "./Ryoshima/Nightingale.png",
+    "image": "./Loot/Ryoshima/Nightingale.webp",
+    "backupImage": "./Loot/Ryoshima/Nightingale.jpeg",
     "mapID": 3850,
     "coords": [2513, 922, -1165]
   },
@@ -1233,7 +1338,8 @@
     "praise": 3,
     "types": "Pig (1)",
     "notes": "After Bloooming cursed patch",
-    "image": "./Ryoshima/Pig.png",
+    "image": "./Loot/Ryoshima/Pig.webp",
+    "backupImage": "./Loot/Ryoshima/Pig.jpeg",
     "mapID": 3850,
     "coords": [-1638, 202, 2267]
   },
@@ -1252,7 +1358,8 @@
     "praise": 6,
     "types": "Hare (3)",
     "notes": "After clearing Devil Gate",
-    "image": "./NorthRyo/HareB.png",
+    "image": "./Loot/NorthRyo/HareB.webp",
+    "backupImage": "./Loot/NorthRyo/HareB.jpeg",
     "mapID": 3852,
     "coords": [4660, -200, -3610]
   },
@@ -1262,7 +1369,8 @@
     "praise": 8,
     "types": "Cat (4)",
     "notes": "",
-    "image": "./NorthRyo/CatB_PotHerbsA.png",
+    "image": "./Loot/NorthRyo/CatB_PotHerbsA.webp",
+    "backupImage": "./Loot/NorthRyo/CatB_PotHerbsA.jpeg",
     "mapID": 3852,
     "coords": [632, -334, -5110]
   },
@@ -1272,7 +1380,8 @@
     "praise": 12,
     "types": "Cow (3)",
     "notes": "",
-    "image": "./NorthRyo/Cow.png",
+    "image": "./Loot/NorthRyo/Cow.webp",
+    "backupImage": "./Loot/NorthRyo/Cow.jpeg",
     "mapID": 3852,
     "coords": [3664, -135, -4231]
   },
@@ -1282,7 +1391,8 @@
     "praise": 9,
     "types": "Dog (3)",
     "notes": "",
-    "image": "./NorthRyo/Dog.png",
+    "image": "./Loot/NorthRyo/Dog.webp",
+    "backupImage": "./Loot/NorthRyo/Dog.jpeg",
     "mapID": 3852,
     "coords": [2249, -273, -3749]
   },
@@ -1292,7 +1402,8 @@
     "praise": 15,
     "types": "Pig (5)",
     "notes": "",
-    "image": "./NorthRyo/Pig.png",
+    "image": "./Loot/NorthRyo/Pig.webp",
+    "backupImage": "./Loot/NorthRyo/Pig.jpeg",
     "mapID": 3852,
     "coords": [2680, -322, -5015]
   },
@@ -1302,7 +1413,8 @@
     "praise": 12,
     "types": "Fox (4)",
     "notes": "",
-    "image": "./NorthRyo/Fox.png",
+    "image": "./Loot/NorthRyo/Fox.webp",
+    "backupImage": "./Loot/NorthRyo/Fox.jpeg",
     "mapID": 3852,
     "coords": [316, -328, -4121]
   },
@@ -1312,7 +1424,8 @@
     "praise": 15,
     "types": "Tiger (3)",
     "notes": "On Watcher's Cape. Requires Catwalk.",
-    "image": "./NorthRyo/Tiger.png",
+    "image": "./Loot/NorthRyo/Tiger.webp",
+    "backupImage": "./Loot/NorthRyo/Tiger.jpeg",
     "mapID": 3852,
     "coords": [-356, 24, -3695]
   },
@@ -1322,7 +1435,8 @@
     "praise": 6,
     "types": "Cat (3)",
     "notes": "",
-    "image": "./NorthRyo/CatA.png",
+    "image": "./Loot/NorthRyo/CatA.webp",
+    "backupImage": "./Loot/NorthRyo/CatA.jpeg",
     "mapID": 3852,
     "coords": [-1038, -330, -2645]
   },
@@ -1332,7 +1446,8 @@
     "praise": 6,
     "types": "Cat (3)",
     "notes": "On Catcall Island",
-    "image": "./NorthRyo/CatC.png",
+    "image": "./Loot/NorthRyo/CatC.webp",
+    "backupImage": "./Loot/NorthRyo/CatC.jpeg",
     "mapID": 3852,
     "coords": [10859, -180, -4348]
   },
@@ -1369,7 +1484,8 @@
     "praise": 12,
     "types": "Sheep (3)",
     "notes": "",
-    "image": "./Kamui/SheepA.png",
+    "image": "./Loot/Kamui/SheepA.webp",
+    "backupImage": "./Loot/Kamui/SheepA.jpeg",
     "mapID": 3858,
     "coords": [-540, -60, -2076]
   },
@@ -1379,7 +1495,8 @@
     "praise": 12,
     "types": "Crane (4)",
     "notes": "",
-    "image": "./Kamui/CraneA.png",
+    "image": "./Loot/Kamui/CraneA.webp",
+    "backupImage": "./Loot/Kamui/CraneA.jpeg",
     "mapID": 3858,
     "coords": [1751, -79, -1900]
   },
@@ -1389,7 +1506,8 @@
     "praise": 9,
     "types": "Fox (3)",
     "notes": "",
-    "image": "./Kamui/Fox.png",
+    "image": "./Loot/Kamui/Fox.webp",
+    "backupImage": "./Loot/Kamui/Fox.jpeg",
     "mapID": 3858,
     "coords": [881, -14, -1566]
   },
@@ -1399,7 +1517,8 @@
     "praise": 12,
     "types": "Sheep (3)",
     "notes": "",
-    "image": "./Kamui/SheepB.png",
+    "image": "./Loot/Kamui/SheepB.webp",
+    "backupImage": "./Loot/Kamui/SheepB.jpeg",
     "mapID": 3858,
     "coords": [-1742, -122, -4633]
   },
@@ -1409,7 +1528,8 @@
     "praise": 5,
     "types": "Bear (1)",
     "notes": "",
-    "image": "./Kamui/BearE.png",
+    "image": "./Loot/Kamui/BearE.webp",
+    "backupImage": "./Loot/Kamui/BearE.jpeg",
     "mapID": 3858,
     "coords": [-267, -57, -3394]
   },
@@ -1419,7 +1539,8 @@
     "praise": 10,
     "types": "Bear (2)",
     "notes": "",
-    "image": "./Kamui/BearB.png",
+    "image": "./Loot/Kamui/BearB.webp",
+    "backupImage": "./Loot/Kamui/BearB.jpeg",
     "mapID": 3858,
     "coords": [43, -102, -5815]
   },
@@ -1429,7 +1550,8 @@
     "praise": 9,
     "types": "Crane (3)",
     "notes": "",
-    "image": "./Kamui/CraneB_AmethystTassels.png",
+    "image": "./Loot/Kamui/CraneB_AmethystTassels.webp",
+    "backupImage": "./Loot/Kamui/CraneB_AmethystTassels.jpeg",
     "mapID": 3858,
     "coords": [-830, -47, -6717]
   },
@@ -1439,7 +1561,8 @@
     "praise": 5,
     "types": "Bear (1)",
     "notes": "",
-    "image": "./Kamui/sb75_BearD.png",
+    "image": "./Loot/Kamui/sb75_BearD.webp",
+    "backupImage": "./Loot/Kamui/sb75_BearD.jpeg",
     "mapID": 3858,
     "coords": [-2339, -92, -6827]
   },
@@ -1449,7 +1572,8 @@
     "praise": 5,
     "types": "Bear (1)",
     "notes": "",
-    "image": "./Kamui/BearC.png",
+    "image": "./Loot/Kamui/BearC.webp",
+    "backupImage": "./Loot/Kamui/BearC.jpeg",
     "mapID": 3858,
     "coords": [-3570, -89, -6663]
   },
@@ -1459,7 +1583,8 @@
     "praise": 4,
     "types": "Hare (2)",
     "notes": "",
-    "image": "./Kamui/Hare.png",
+    "image": "./Loot/Kamui/Hare.webp",
+    "backupImage": "./Loot/Kamui/Hare.jpeg",
     "mapID": 3858,
     "coords": [-1131, -149, -5565]
   },
