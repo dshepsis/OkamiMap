@@ -5,12 +5,12 @@ const DATA = (()=>{
   const basePath = /[^#?@]+[^/]\//.exec(location.href)[0];
   return {
     animals: {
-      configPath: `${basePath}animalDataConfig.js`,
-      jsonPath: `${basePath}animalData.json`,
+      configPath: `${basePath}Animals/config.js`,
+      jsonPath: `${basePath}Animals/data.json`,
     },
     loot: {
-      configPath: `${basePath}Loot/lootDataConfig.js`,
-      jsonPath: `${basePath}Loot/lootData.json`,
+      configPath: `${basePath}Loot/config.js`,
+      jsonPath: `${basePath}Loot/data.json`,
     },
   };
 })();
