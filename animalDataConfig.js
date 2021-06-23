@@ -1,7 +1,7 @@
 export default {
   rowIdGenerator: animal =>
     `Map_${animal.mapID}_at_${animal.coords?.join('_') || 'UNKNOWN'}`,
-  header: [
+  headers: [
     { text: 'Map', key: 'mapId', style: { width: '23%' } },
     { text: 'Bestiary', key: 'bestiary', style: { width: '10%' } },
     { text: 'Availability', key: 'availability', style: { width: '10%' } },
