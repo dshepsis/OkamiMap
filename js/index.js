@@ -101,16 +101,5 @@ function viewAnchoredRow() {
     })
 })()
 
-function initDarkMode() {
-  const button = document.querySelector('#dark-mode')
-  const darkMode = localStorage.getItem('dark-mode')
-  button.textContent = darkMode === 'true' ? '☼' : '☾'
-  button.addEventListener('click', e => {
-    localStorage.setItem('dark-mode', darkMode === 'true' ? 'false' : 'true')
-  })
-}
-
-// initDarkMode()
-
 // window.addEventListener('hashchange', viewAnchoredRow);
 window.addEventListener('popstate', viewAnchoredRow)
