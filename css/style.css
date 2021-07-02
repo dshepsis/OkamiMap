@@ -9,18 +9,27 @@ html {
 }
 
 body {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  margin: 0px;
   height: 100%;
-  width: 100%;
+}
+
+main {
+  display: flex;
   flex-flow: column nowrap;
   align-items: center;
   margin: 0;
   overflow: hidden;
 }
+
+#separator::before {
+  content: '|';
+}
+
 #preview {
   display: block;
-  width: 100%;
-  max-height: 50%;
   object-fit: contain;
   flex: 0 0 auto;
   position: relative;
@@ -37,31 +46,16 @@ body {
 
 #table-cont {
   flex: 1 1 auto;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 
 #table-cont[data-type='animals'] {
   max-width: 100%;
 }
 
-/* @media (min-aspect-ratio: 4/1) {
-  body {
-    flex-flow: row wrap;
-  }
-  #table-cont {
-    flex: 1 0 auto;
-  }
-  #preview {
-    width: 25%;
-    height: 100%;
-    max-height: none;
-  }
-} */
-
 table {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 1500px;
 }
 
 #table-cont[data-type='animals'] table {
@@ -105,10 +99,49 @@ th {
 }
 
 footer {
-  flex: 0 0 auto;
+  /* flex: 0 0 auto; */
   background-color: #ccc;
   padding: 3px;
   width: 100%;
   text-align: center;
   border-top: 1px solid #aaa;
+}
+
+@media screen and (max-height: 400px) and (orientation: landscape) {
+  body {
+    grid-template-columns: 1fr 40px;
+  }
+  #separator::before {
+    content: '⎻';
+  }
+  footer a {
+    text-decoration: none;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #preview {
+    max-height: 40%;
+  }
+  table {
+    width: 100%;
+  }
+  table * {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #preview {
+    max-height: 50%;
+  }
+  table {
+    width: 1500px;
+  }
+  table * {
+    font-size: 1rem;
+  }
 }
