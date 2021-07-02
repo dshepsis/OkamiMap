@@ -17,9 +17,27 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: azure;
+  }
+  #dark-mode {
+    content: '☾';
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+  }
+  #dark-mode {
+    content: '☼';
+  }
+}
+
 #preview {
   display: block;
-  width: 100%;
   max-height: 50%;
   object-fit: contain;
   flex: 0 0 auto;
@@ -37,6 +55,7 @@ body {
 
 #table-cont {
   flex: 1 1 auto;
+  max-height: 50%;
   overflow-y: scroll;
 }
 
@@ -57,6 +76,12 @@ body {
     max-height: none;
   }
 } */
+
+#dark-mode {
+  position: fixed;
+  top: 0px;
+  right: 24px;
+}
 
 table {
   border-collapse: collapse;
