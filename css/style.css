@@ -17,6 +17,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
 #preview {
   display: block;
   width: 100%;
@@ -40,10 +41,6 @@ body {
   overflow-y: scroll;
 }
 
-#table-cont[data-type='animals'] {
-  max-width: 100%;
-}
-
 /* @media (min-aspect-ratio: 4/1) {
   body {
     flex-flow: row wrap;
@@ -64,12 +61,10 @@ table {
   width: 1500px;
 }
 
-#table-cont[data-type='animals'] table {
-  max-width: 100%;
-}
-
 tr.current-pv-row {
   background-color: #ddf;
+  /* Prevent preview-row highlighting from being made invisible by darkmode library: */
+  isolation: isolate;
 }
 
 td,
@@ -86,6 +81,9 @@ th {
   font-weight: bold;
   position: sticky;
   top: 0;
+  /* Make sure header is shown above rows, including .current-pv-row: */
+  /* This is necessary because isolation: isolate; creates a stacking context. */
+  z-index: 1;
 }
 
 #table-cont[data-type='animals'] th {
