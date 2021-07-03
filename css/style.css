@@ -63,6 +63,8 @@ table {
 
 tr.current-pv-row {
   background-color: #ddf;
+  /* Prevent preview-row highlighting from being made invisible by darkmode library: */
+  isolation: isolate;
 }
 
 td,
@@ -79,6 +81,9 @@ th {
   font-weight: bold;
   position: sticky;
   top: 0;
+  /* Make sure header is shown above rows, including .current-pv-row: */
+  /* This is necessary because isolation: isolate; creates a stacking context. */
+  z-index: 1;
 }
 
 #table-cont[data-type='animals'] th {
