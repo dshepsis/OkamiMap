@@ -101,5 +101,16 @@ function viewAnchoredRow() {
     })
 })()
 
+const menuButton = document.getElementById('left-menu-toggle')
+menuButton.addEventListener('click', () => {
+  document.getElementById('left-menu').classList.toggle('open')
+  document.getElementById('icon-menu').classList.toggle('hidden')
+  document.getElementById('icon-close').classList.toggle('hidden')
+})
+menuButton.addEventListener('dblclick', e => {
+  e.preventDefault()
+  return false
+})
+
 // window.addEventListener('hashchange', viewAnchoredRow);
 window.addEventListener('popstate', viewAnchoredRow)
