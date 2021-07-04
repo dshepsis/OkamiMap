@@ -58,7 +58,7 @@ body {
 table {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 1500px;
+  /* width: 1500px; briefly removing cuz this sux*/
 }
 
 tr.current-pv-row {
