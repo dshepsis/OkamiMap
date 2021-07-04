@@ -5,6 +5,8 @@
     "praise": 0,
     "types": "Hawk (8)",
     "notes": "",
+    "image": "./Animals/Kamiki/Hawk.webp",
+    "backupImage": "./Animals/Kamiki/Hawk.jpeg",
     "mapID": 258,
     "coords": [-185, -279, 711]
   },
@@ -168,6 +170,8 @@
     "praise": 0,
     "types": "Hawk (6)",
     "notes": "",
+    "image": "./Animals/GaleShrine/Hawk.webp",
+    "backupImage": "./Animals/GaleShrine/Hawk.jpeg",
     "mapID": 263,
     "coords": [638, 2281, -538]
   },
@@ -210,6 +214,8 @@
     "praise": 0,
     "types": "Hawk (5)",
     "notes": "",
+    "image": "./Animals/Kusa/Hawk.webp",
+    "backupImage": "./Animals/Kusa/Hawk.jpeg",
     "mapID": 264,
     "coords": [-3987, 977, 1631]
   },
