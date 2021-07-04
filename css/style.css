@@ -1,4 +1,4 @@
-* {
+:root {
   font: 20px/1.5 sans-serif;
   color: #222;
   box-sizing: border-box;
@@ -24,12 +24,9 @@ main {
   overflow: hidden;
 }
 
-#separator::before {
-  content: '|';
-}
-
 #preview {
   display: block;
+  max-height: 50%;
   object-fit: contain;
   flex: 0 0 auto;
   position: relative;
@@ -46,20 +43,14 @@ main {
 
 #table-cont {
   flex: 1 1 auto;
-  overflow: scroll;
-}
-
-#table-cont[data-type='animals'] {
   max-width: 100%;
+  overflow: scroll;
 }
 
 table {
   border-collapse: collapse;
   table-layout: fixed;
-}
-
-#table-cont[data-type='animals'] table {
-  max-width: 100%;
+  width: 1500px;
 }
 
 tr.current-pv-row {
@@ -99,48 +90,25 @@ th {
 }
 
 footer {
-  /* flex: 0 0 auto; */
   background-color: #ccc;
   padding: 3px;
-  width: 100%;
   text-align: center;
   border-top: 1px solid #aaa;
 }
 
 @media screen and (max-height: 400px) and (orientation: landscape) {
-  body {
-    grid-template-columns: 1fr 40px;
-  }
-  #separator::before {
-    content: '⎻';
-  }
-  footer a {
-    text-decoration: none;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    font-size: 0.7rem;
+  footer {
+    display: none;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  #preview {
-    max-height: 40%;
-  }
-  table {
-    width: 100%;
-  }
-  table * {
-    font-size: 0.7rem;
+  :root {
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  #preview {
-    max-height: 50%;
-  }
-  table {
-    width: 1500px;
-  }
   table * {
     font-size: 1rem;
   }
