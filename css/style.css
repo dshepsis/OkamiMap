@@ -1,5 +1,5 @@
 :root {
-  font: 20px/1.5 sans-serif;
+  font: 16px/1.5 sans-serif;
   color: #222;
   box-sizing: border-box;
 }
@@ -29,8 +29,7 @@ main {
   display: block;
   max-height: 50%;
   object-fit: contain;
-  flex: 0 0 auto;
-  position: relative;
+  max-width: 100%;
   opacity: 1;
   filter: none;
   transition-property: opacity, filter;
@@ -108,13 +107,15 @@ footer {
   }
 }
 
-@media screen and (max-width: 1200px) {
-  :root {
-    font-size: 16px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
+  :root {
+    font: 20px/1.5 sans-serif;
+  }
+
+  #preview {
+    max-width: unset;
+  }
+
   table * {
     font-size: 1rem;
   }
