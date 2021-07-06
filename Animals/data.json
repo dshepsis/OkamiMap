@@ -1553,6 +1553,8 @@
     "praise": 15,
     "types": "Bear (3)",
     "notes": "Beside the entrance to Blockhead Grande Grotto.",
+    "image": "./Animals/Kamui/BearA.webp",
+    "backupImage": "./Animals/Kamui/BearA.jpeg",
     "mapID": 3858,
     "coords": [-1421, -149, -3382]
   },
@@ -1616,7 +1618,7 @@
     "availability": "Always",
     "praise": 10,
     "types": "Bear (2)",
-    "notes": "In the middle of the path leading to the Yoshpet LZ, in between the first two pairs of lampposts.",
+    "notes": "In the middle of the path leading to Yoshpet, in between the first two pairs of lampposts.",
     "image": "./Animals/Kamui/BearB.webp",
     "backupImage": "./Animals/Kamui/BearB.jpeg",
     "mapID": 3858,
