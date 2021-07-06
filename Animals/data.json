@@ -604,7 +604,6 @@
     "mapID": 522,
     "coords": [0, 10485, 668]
   },
-  // Add screenshots START
   {
     "bestiary": "None",
     "availability": "Always",
@@ -699,8 +698,8 @@
     "praise": 0,
     "types": "100 Year Old Dog (1)",
     "notes": "Not alive anymore. 😔",
-    "image": "./Animals/Kamiki100YitP/Dog.webp",
-    "backupImage": "./Animals/Kamiki100YitP/Dog.jpeg",
+    "image": "./Animals/KamikiPast/Dog.webp",
+    "backupImage": "./Animals/KamikiPast/Dog.jpeg",
     "mapID": 770,
     "coords": [1083, -475, 1898]
   },
@@ -710,8 +709,8 @@
     "praise": 0,
     "types": "Deer (3)",
     "notes": "Left of entrance to Ponc'tan.",
-    "image": "./Animals/Yoshpet/Deer.webp",
-    "backupImage": "./Animals/Yoshpet/Deer.jpeg",
+    "image": "./Animals/Yoshpet/Deer_Hare_Boar.webp",
+    "backupImage": "./Animals/Yoshpet/Deer_Hare_Boar.jpeg",
     "mapID": 784,
     "coords": [-1024, 792, -15575]
   },
@@ -721,8 +720,8 @@
     "praise": 0,
     "types": "Hare (3)",
     "notes": "Right of entrance to Ponc'tan. Naughty boys.",
-    "image": "./Animals/Yoshpet/Hare.webp",
-    "backupImage": "./Animals/Yoshpet/Hare.jpeg",
+    "image": "./Animals/Yoshpet/Deer_Hare_Boar.webp",
+    "backupImage": "./Animals/Yoshpet/Deer_Hare_Boar.jpeg",
     "mapID": 784,
     "coords": [-783, 792, -15658]
   },
@@ -731,9 +730,9 @@
     "availability": "Always",
     "praise": 0,
     "types": "Boar (2), Boar Piglet (1)",
-    "notes": "Behind entrance to Ponc'tan. Near LZ to Inner Yoshpet.",
-    "image": "./Animals/Yoshpet/Boar.webp",
-    "backupImage": "./Animals/Yoshpet/Boar.jpeg",
+    "notes": "Behind entrance to Ponc'tan. Near path to Inner Yoshpet.",
+    "image": "./Animals/Yoshpet/Deer_Hare_Boar.webp",
+    "backupImage": "./Animals/Yoshpet/Deer_Hare_Boar.jpeg",
     "mapID": 784,
     "coords": [-792, 798, -15838]
   },
@@ -1718,8 +1717,8 @@
     "praise": 0,
     "types": "Monkey (3)",
     "notes": "By the entrance to the PS3 Grotto and a PS3 rock.",
-    "image": "./Animals/KamuiEzofuji/Clover50_MonkeyB.webp",
-    "backupImage": "./Animals/KamuiEzofuji/Clover50_MonkeyB.jpeg",
+    "image": "./Animals/KamuiEzofuji/Clover50_Monkey.webp",
+    "backupImage": "./Animals/KamuiEzofuji/Clover50_Monkey.jpeg",
     "mapID": 3859,
     "coords": [-2766, 378, -3602]
   },
