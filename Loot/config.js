@@ -11,18 +11,18 @@ export default {
   ],
   mapStr: [
     'default',
-    (loot, mapIDMap) => {
+    (loot, mapInfo) => {
       const { contents, mapID, type } = loot
       if (mapID === undefined) {
         console.error(`Loot ${contents} in ${type} found with no Map ID.`)
         return 'Unknown map'
-      } else if (mapIDMap[mapID] === undefined) {
+      } else if (mapInfo[mapID].name === undefined) {
         console.error(
           `Loot ${contents} in ${type} found with invalid Map ID ${mapID}.`,
         )
         return `Unknown map (r${mapID.toString(16)})`
       } else {
-        return `${mapIDMap[mapID]} (r${mapID.toString(16)})`
+        return `${mapInfo[mapID].name} (r${mapID.toString(16)})`
       }
     },
   ],
