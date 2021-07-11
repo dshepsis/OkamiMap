@@ -83,12 +83,12 @@ const createDataRow = (config, jsonRow) => {
   return tr
 }
 
-const createDataCell = (config, key, jsonRow, mapIDMap, hasWebp) => {
+const createDataCell = (config, key, jsonRow, mapInfo, hasWebp) => {
   if (Array.isArray(config[key])) {
     const [elType, textGenerator] = config[key]
 
     return createDataCell({ [key]: elType }, key, {
-      [key]: textGenerator(jsonRow, mapIDMap),
+      [key]: textGenerator(jsonRow, mapInfo),
     })
   }
   switch (config[key]) {
@@ -107,7 +107,7 @@ const getPathsForType = type => {
 
 export default async type => {
   const { configPath, jsonPath } = getPathsForType(type)
-  const [json, mapIDMap] = await paraFetchJSON(jsonPath, './mapIDMap.json')
+  const [json, mapInfo] = await paraFetchJSON(jsonPath, './mapInfo.json')
   try {
     const config = (await import(configPath)).default
     const hasWebp = await checkWebp()
@@ -117,7 +117,7 @@ export default async type => {
         const dataRow = createDataRow(config, jsonRow)
         dataRow.append(
           ...config.headers.map(({ key }) =>
-            createDataCell(config, key, jsonRow, mapIDMap, hasWebp),
+            createDataCell(config, key, jsonRow, mapInfo, hasWebp),
           ),
         )
         return dataRow

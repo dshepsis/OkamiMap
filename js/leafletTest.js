@@ -40,13 +40,11 @@ async function paraFetchJSON(...URLs) {
 }
 
 let lootData;
-// let mapIDMap;
 let mapInfo
 (async ()=>{
   let response;
   [lootData, mapInfo] = await paraFetchJSON(
-    // './lootData.json', './mapIDMap.json', './mapInfo.json'
-    './lootData.json', './mapInfo.json'
+    './Loot/data.json', './mapInfo.json'
   );
 
   map.lootLayer = L.featureGroup().addTo(map);

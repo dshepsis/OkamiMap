@@ -12,20 +12,20 @@ export default {
   ],
   mapStr: [
     'default',
-    (animal, mapIDMap) => {
+    (animal, mapInfo) => {
       const { bestiary, mapID, types } = animal
       if (mapID === undefined) {
         console.error(
           `Animal ${bestiary} with types ${types} found with no Map ID.`,
         )
         return 'Unknown map'
-      } else if (mapIDMap[mapID] === undefined) {
+      } else if (mapInfo[mapID].name === undefined) {
         console.error(
           `Animal ${bestiary} with types ${types} found with invalid Map ID ${mapID}.`,
         )
         return `Unknown map (r${mapID.toString(16)})`
       } else {
-        return `${mapIDMap[mapID]} (r${mapID.toString(16)})`
+        return `${mapInfo[mapID].name} (r${mapID.toString(16)})`
       }
     },
   ],
