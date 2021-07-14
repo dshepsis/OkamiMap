@@ -19,19 +19,38 @@
 </head>
 
 <body>
-  <img id="preview" alt="Preview Image" src="./Animals/Kamiki/Chicken.jpeg" />
-  <div id="table-cont" data-type="animals">
-    <table>
-    <thead id="th">
-    </thead>
-    <tbody id="tb">
-    </tbody>
-    </table>
+  <div id="left-menu-cont">
+    <div id="left-menu">
+      <div id="buffer"></div>
+      <a href="./">Treasures/Clovers</a>
+      <a href="https://github.com/dshepsis/OkamiMap"><img class="left-menu-item-icon" src="./GitHub-Mark.svg" alt="Github logo" />Repository</a>
+    </div>
+    <button id="left-menu-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="left-menu-toggle-icon" id="icon-menu">
+        <path class="secondary" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="left-menu-toggle-icon hidden" id="icon-close">
+        <path class="secondary" fill-rule="evenodd" d="M15.78 14.36a1 1 0 0 1-1.42 1.42l-2.82-2.83-2.83 2.83a1 1 0 1 1-1.42-1.42l2.83-2.82L7.3 8.7a1 1 0 0 1 1.42-1.42l2.83 2.83 2.82-2.83a1 1 0 0 1 1.42 1.42l-2.83 2.83 2.83 2.82z"></path>
+      </svg>
+    </button>
   </div>
-  <footer>
-    <a href="./">Treasures/Clovers</a>
-    | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
-  </footer>
+  <main>
+    <img id="preview" alt="Preview Image" src="./Animals/Kamiki/Chicken.jpeg" />
+    <div id="table-cont" data-type="animals">
+      <table>
+      <thead id="th">
+      </thead>
+      <tbody id="tb">
+      </tbody>
+      </table>
+    </div>
+  </main>
+  <nav>
+    <footer>
+      <a href="./">Treasures/Clovers</a>
+      | <a href="https://github.com/dshepsis/OkamiMap">Repository</a>
+    </footer>
+  </nav>
   <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
   <script>
     function addDarkmodeWidget() {
