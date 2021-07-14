@@ -81,6 +81,19 @@ function viewAnchoredRow() {
   }
 }
 
+function reOrganiseElements() {
+  const { height, width } = document.body.getBoundingClientRect()
+  if (height <= 400 && height < width) {
+    const footer = document.querySelector('footer')
+    const nav = document.querySelector('nav')
+    footer.removeChild(nav)
+    const main = document.querySelector('main')
+    main.replaceChildren(nav, ...main.children)
+  }
+}
+
+reOrganiseElements()
+
 ;(async () => {
   buildTable(document.getElementById('table-cont').dataset.type)
     .then(rows => {
@@ -100,17 +113,6 @@ function viewAnchoredRow() {
       console.error({ err })
     })
 })()
-
-const menuButton = document.getElementById('left-menu-toggle')
-menuButton.addEventListener('click', () => {
-  document.getElementById('left-menu').classList.toggle('open')
-  document.getElementById('icon-menu').classList.toggle('hidden')
-  document.getElementById('icon-close').classList.toggle('hidden')
-})
-menuButton.addEventListener('dblclick', e => {
-  e.preventDefault()
-  return false
-})
 
 // window.addEventListener('hashchange', viewAnchoredRow);
 window.addEventListener('popstate', viewAnchoredRow)

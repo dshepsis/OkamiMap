@@ -2,7 +2,7 @@ export default {
   rowIdGenerator: loot =>
     `Map_${loot.mapID}_at_${loot.coords?.join('_') || 'UNKNOWN'}`,
   headers: [
-    { text: 'Map', key: 'mapStr', style: { width: '20%' } },
+    { text: 'Map', key: 'mapStr', style: { width: '20%' }, icon: './assets/map-32x32.png' },
     { text: 'Type', key: 'type', style: { width: '10%' } },
     { text: 'Terrain', key: 'terrain', style: { width: '10%' } },
     { text: 'Contents', key: 'contents', style: { width: '15%' } },
