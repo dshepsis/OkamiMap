@@ -1,8 +1,8 @@
 import { paraFetchJSON } from './util.js'
 
-const DATA = (()=>{
+const DATA = (() => {
   /* Take the current URL and remove everything after the last slash which isn't part of the hash or query: */
-  const basePath = /[^#?@]+[^/]\//.exec(location.href)[0];
+  const basePath = /[^#?@]+[^/]\//.exec(location.href)[0]
   return {
     animals: {
       configPath: `${basePath}Animals/config.js`,
@@ -12,8 +12,8 @@ const DATA = (()=>{
       configPath: `${basePath}Loot/config.js`,
       jsonPath: `${basePath}Loot/data.json`,
     },
-  };
-})();
+  }
+})()
 
 /**
  * Modified from https://stackoverflow.com/a/54631141.
@@ -58,14 +58,33 @@ function tdImageEl(src, backupSrc, hasWebp) {
   return td
 }
 
+const createThWithIcon = headerDatum => {
+  const container = document.createElement('div')
+  container.classList.add('th-cont')
+  container.append(
+    Object.assign(new Image(), {
+      src: headerDatum.icon,
+      alt: `${headerDatum.text} icon.`,
+    }),
+    Object.assign(document.createElement('span'), {
+      textContent: headerDatum.text,
+    }),
+  )
+  return container
+}
+
 const createHeaderRow = config => {
   const tr = document.createElement('tr')
 
   tr.append(
     ...config.headers.map(h => {
       const th = document.createElement('th')
-      th.textContent = h.text
       if (h.style) Object.assign(th.style, h.style)
+      if (!h.icon) {
+        th.textContent = h.text
+        return th
+      }
+      th.appendChild(createThWithIcon(h))
       return th
     }),
   )

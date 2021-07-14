@@ -1,7 +1,13 @@
-* {
-  font: 20px/1.5 sans-serif;
-  color: #222;
+:root {
+  font: 16px/1.5 sans-serif;
+  color: var(--black);
   box-sizing: border-box;
+
+  --white: hsl(0, 0%, 97%);
+  --grey-1: hsl(0, 0%, 95%);
+  --grey-2: hsl(0, 0%, 90%);
+  --grey-3: hsl(0, 0%, 80%);
+  --black: hsl(0, 0%, 10%);
 }
 
 html {
@@ -10,36 +16,41 @@ html {
 }
 
 body {
-  display: flex;
   height: 100%;
-  width: 100%;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 0;
-  overflow: hidden;
+  margin: 0px;
+}
+
+main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas: '. preview .' '. table .' 'footer footer footer';
 }
 
 #preview {
   display: block;
-  width: 100%;
-  max-height: 50%;
   object-fit: contain;
-  flex: 0 0 auto;
-  position: relative;
+  grid-area: preview;
   opacity: 1;
   filter: none;
-  transition-property: opacity, filter;
+  justify-self: center;
+  transition-property: opacity;
   transition-duration: 0.2s;
   transition-delay: 0s;
 }
+
 #preview.loading {
   opacity: 0.5;
   transition-delay: 0.2s;
 }
 
 #table-cont {
-  flex: 1 1 auto;
-  overflow-y: scroll;
+  grid-area: table;
+  justify-self: center;
+  max-width: 100%;
+  height: 100%;
+  overflow: scroll;
 }
 
 /* @media (min-aspect-ratio: 4/1) {
@@ -66,6 +77,12 @@ tr.current-pv-row {
   background-color: #ddf;
   /* Prevent preview-row highlighting from being made invisible by darkmode library: */
   isolation: isolate;
+}
+
+.th-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 td,
@@ -104,10 +121,73 @@ th {
 }
 
 footer {
-  flex: 0 0 auto;
-  background-color: #ccc;
+  grid-area: footer;
+  background-color: var(--grey-3);
   padding: 3px;
   width: 100%;
   text-align: center;
   border-top: 1px solid #aaa;
+}
+
+nav > #separator {
+  visibility: visible;
+}
+
+@media screen and (max-height: 400px) and (orientation: landscape) {
+  main {
+    grid-template-columns: unset;
+    grid-template-areas: 'nav preview .' 'table table table';
+  }
+
+  #preview {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* TODO: Unused for now. Used for icons to the left of menu items (Animals/Repository) */
+  /* .left-menu-item-icon {
+    width: 14px;
+    margin-right: 4px;
+  } */
+  footer {
+    visibility: hidden;
+  }
+
+  nav {
+    background-color: var(--grey-3);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    grid-area: nav;
+    height: 100%;
+    width: 100%;
+  }
+
+  nav > a {
+    padding: 0.5rem;
+    z-index: 2;
+  }
+
+  nav > #separator {
+    visibility: collapse;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    font: 20px/1.5 sans-serif;
+  }
+
+  .icon-menu {
+    height: 40px;
+  }
+
+  #preview {
+    max-width: unset;
+  }
+
+  table * {
+    font-size: 1rem;
+  }
 }
