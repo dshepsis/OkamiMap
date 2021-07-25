@@ -1,440 +1,577 @@
 {
+  "6": {
+    "name": "Endless load screen",
+    "category": "Developer"
+  },
+  "7": {
+    "name": "2005 Prototype Intro Cutscene Waka Lake",
+    "category": "Developer"
+  },
+  "16": {
+    "name": "Item Test Map - Items 0x00-0x7F",
+    "category": "Developer"
+  },
+  "17": {
+    "name": "Item Test Map - Items 0x80-0xFF",
+    "category": "Developer"
+  },
+  "32": {
+    "name": "Brush Interaction Test Map 1 - Large Animals",
+    "category": "Developer"
+  },
+  "33": {
+    "name": "Brush Interaction Test Map 2 - Small Animals",
+    "category": "Developer"
+  },
+  "48": {
+    "name": "Brush Interaction Test Map 3 - Wheel Enemies",
+    "category": "Developer"
+  },
+  "49": {
+    "name": "Brush Interaction Test Map 4 - Bull Enemies",
+    "category": "Developer"
+  },
+  "50": {
+    "name": "Brush Interaction Test Map 5 - Empty",
+    "category": "Developer"
+  },
+  "51": {
+    "name": "Brush Interaction Test Map 6 - Empty",
+    "category": "Developer"
+  },
+  "52": {
+    "name": "Brush Interaction Test Map 7 - Blue Cylinder",
+    "category": "Developer"
+  },
+  "255": {
+    "name": "Collision and Movement Test Map",
+    "category": "Developer"
+  },
   "256": {
-    "name": "Kamiki Village (Game Start)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamiki Village - Game Start",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, 5000]
   },
   "257": {
     "name": "Cave of Nagi",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [1300, -8500]
   },
   "258": {
     "name": "Kamiki Village",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [1500, 500]
   },
   "259": {
     "name": "Hana Valley",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [-1300, -3000]
   },
   "260": {
     "name": "Tsuta Ruins",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Dungeon"
   },
   "261": {
     "name": "City Checkpoint",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [-2400, -1000],
+    "layers": ["Bridge up", "Bridge lowered"]
   },
   "262": {
-    "name": "Spider Queen Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Tsuta Ruins - Spider Queen Arena",
+    "category": "Dungeon"
   },
   "263": {
     "name": "Gale Shrine",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Dungeon"
   },
   "264": {
     "name": "Kusa Village",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [-1700, 2000],
+    "layers": ["Ground level", "Lower level", "Upper level"]
   },
   "265": {
     "name": "Sasa Sanctuary",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [1000, -3500]
   },
   "266": {
-    "name": "Agata Forest - Madame Fawn's",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Agata Forest - Madame Fawn's House",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-1000, 5500]
   },
   "267": {
-    "name": "Digging Game",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Digging Minigame",
+    "category": "Minigame"
   },
   "268": {
-    "name": "Dojo Learning Room",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Onigiri Dojo Lesson Room",
+    "category": "Minigame"
   },
   "269": {
-    "name": "Crimson Helm Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Gale Shrine - Crimson Helm Arena",
+    "category": "Dungeon"
   },
   "270": {
     "name": "Calcified Cavern",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [800, 3200]
   },
   "272": {
-    "name": "Moon Cavern",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Moon Cave - Interior",
+    "category": "Dungeon"
   },
   "273": {
-    "name": "Orochi Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Moon Cave - Staircase and Orochi Arena",
+    "category": "Dungeon"
+  },
+  "274": {
+    "name": "Kamiki Village - After fighting Tei",
+    "category": "Normal",
+    "scale": 2,
+    "center": [1500, 500]
   },
   "275": {
-    "name": "Ryoshima Coast Bandit Spider Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ryoshima Coast - Bandit Spider Arena",
+    "category": "Subarea",
+    "scale": 3,
+    "center": [500, 3500]
   },
   "276": {
-    "name": "Taka Pass - Moley's Treasure Trove",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Taka Pass - Stray Bead #26 Cave",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-4500, 4000]
   },
   "277": {
-    "name": "Kamui - Cherry Bomb 3 Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamui - Cherry Bomb 3 Cave",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "278": {
-    "name": "North Ryoshima Coast - Power Slash 2 Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "N. Ryoshima Coast - Power Slash 2 Cave",
+    "category": "Subarea",
+    "scale": 6,
+    "center": [1200, -5500]
   },
   "279": {
-    "name": "North Ryoshima Coast - Cherry Bomb 2 Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "N. Ryoshima Coast - Cherry Bomb 2 Cave",
+    "category": "Subarea",
+    "scale": 6,
+    "center": [1200, -5500]
   },
   "280": {
-    "name": "Kamui (Ezofuji) - Power Slash 3 Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamui (Ezofuji) - Power Slash 3 Cave",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [500, -1500]
   },
   "281": {
-    "name": "Kamui - Blockhead Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamui - Blockhead Grande Cave",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "282": {
-    "name": "North Ryoshima Coast Bandit Spider Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "N. Ryoshima Coast - Bandit Spider Arena",
+    "category": "Subarea",
+    "scale": 6,
+    "center": [1200, -5500]
   },
   "283": {
-    "name": "Kamui Bandit Spider Grotto",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamui - Bandit Spider Arena",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "284": {
-    "name": "Dragon Palace Grotto Under Stairs",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Dragon Palace - Stray Bead #70 Cave",
+    "category": "Subarea",
+    "scale": 1,
+    "center": [200, -700]
   },
   "285": {
-    "name": "North Ryoshima Coast Grotto Near Yoichi",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "N. Ryoshima Coast - Stray Bead #63 Cave",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [1500, -3500]
+  },
+  "288": {
+    "name": "New Game Intro Cutscene Map",
+    "category": "Developer"
+  },
+  "289": {
+    "name": "Beta Kamiki",
+    "category": "Developer"
   },
   "290": {
     "name": "River of the Heavens",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [0, -2500]
   },
   "512": {
-    "name": "Sei'an Aristocratic Quarter",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Sei-an City (Aristocratic Qtr.)",
+    "category": "Normal",
+    "scale": 2,
+    "center": [0, -1800],
+    "layers": ["Bridge connected", "Bridge separated"]
   },
   "513": {
-    "name": "Sei'an Commoner's Quarter",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Sei-an City (Commoners' Qtr.)",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, -500]
   },
   "514": {
-    "name": "Himiko's Palace",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Sei-an City (Aristocratic Qtr.) - Himiko's Palace",
+    "category": "Subarea",
+    "scale": 2,
+    "center": [0, -1800]
   },
   "515": {
     "name": "Dragon Palace",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [200, -700]
   },
   "516": {
     "name": "Inside the Dragon",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [0, -2500]
   },
   "517": {
     "name": "Sunken Ship",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, -1200]
   },
   "518": {
-    "name": "Imperial Palace Entry",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Imperial Palace - Ammy Size",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, -500]
   },
   "519": {
-    "name": "Imperial Palace",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Imperial Palace - Issun Size",
+    "category": "Dungeon"
   },
   "520": {
-    "name": "Lower Oni Island (Before Platforming)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Oni Island - Lower Interior",
+    "category": "Dungeon"
   },
   "521": {
-    "name": "Ninetails Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Oni Island - Ninetales Arena",
+    "category": "Dungeon"
   },
   "522": {
     "name": "Catcall Tower",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Dungeon",
+    "scale": 1,
+    "center": [0, 0]
   },
   "523": {
-    "name": "Inside the Emperor",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Imperial Palace - Blight Arena",
+    "category": "Dungeon"
   },
   "524": {
-    "name": "Sei'an Commoner's Quarter - Kimono Shop",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Sei-an City (Commoners' Qtr.) - Kimono Shop",
+    "category": "Subarea",
+    "scale": 1,
+    "center": [0, -500]
   },
   "525": {
-    "name": "Oni Island Entry",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Oni Island - Exterior",
+    "category": "Normal, Dungeon",
+    "scale": 2,
+    "center": [0, 3500]
   },
   "526": {
-    "name": "Upper Oni Island (After Platforming)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Oni Island - Upper Interior",
+    "category": "Dungeon"
   },
   "527": {
-    "name": "Oni Island Platforming",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Oni Island - Sidescroller",
+    "category": "Dungeon"
   },
   "769": {
     "name": "Wep'keer",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [789, -1693],
+    "layers": ["Gate closed", "Gate open"]
   },
   "770": {
-    "name": "Kamiki Village (Past)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamiki Village - 100 years ago",
+    "category": "Normal",
+    "scale": 2,
+    "center": [1500, 500]
   },
   "771": {
     "name": "Wawku Shrine",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Dungeon"
   },
   "772": {
-    "name": "Nechku Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Wawku Shrine - Nechku Arena",
+    "category": "Dungeon"
   },
   "773": {
     "name": "Ponc'tan",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [-100, 1400]
   },
   "774": {
-    "name": "Moon Cave Entry (Past)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Moon Cave - 100 years ago",
+    "category": "Normal",
+    "scale": 2,
+    "center": [0, 1500]
   },
   "775": {
     "name": "Ark of Yamato",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [0, 800]
   },
   "776": {
-    "name": "Spider Queen Arena (Ark)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Spider Queen Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [-1000, -9000]
   },
   "777": {
-    "name": "Orochi Arena (Ark)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Orochi Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, 0]
   },
   "778": {
-    "name": "Blight Arena (Ark)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Blight Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, 0]
   },
   "779": {
-    "name": "Ninetails Arena (Ark)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Ninetales Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, 0]
   },
   "780": {
-    "name": "Crimson Helm Arena (Ark)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Crimson Helm Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [-4500, -1300]
   },
   "781": {
-    "name": "Ponc'tan - Mrs. Seal's Home",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ponc'tan - Mrs. Seal's House",
+    "category": "Subarea",
+    "scale": 1,
+    "center": [-100, 1400]
   },
   "784": {
     "name": "Yoshpet",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "785": {
     "name": "Inner Yoshpet",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Subarea",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "786": {
-    "name": "Yami Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ark of Yamato - Yami Arena",
+    "category": "Normal",
+    "scale": 1,
+    "center": [0, 0]
   },
   "787": {
     "name": "Wep'keer Square",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [-500, 1200]
   },
   "788": {
-    "name": "Lechku and Nechku Arena",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Wawku Shrine - Lechku & Nechku Arena",
+    "category": "Dungeon"
+  },
+  "3072": {
+    "name": "Return to Title Screen",
+    "category": "Menu"
+  },
+  "3074": {
+    "name": "Presents from Issun",
+    "category": "Menu"
+  },
+  "3328": {
+    "name": "Beta Shinshu",
+    "category": "Developer"
+  },
+  "3329": {
+    "name": "Beta Hana",
+    "category": "Developer"
+  },
+  "3330": {
+    "name": "Beta Tsuta",
+    "category": "Developer"
+  },
+  "3331": {
+    "name": "Beta Agata",
+    "category": "Developer"
+  },
+  "3332": {
+    "name": "Beta Ryoshima",
+    "category": "Developer"
+  },
+  "3333": {
+    "name": "Beta Kamui",
+    "category": "Developer"
+  },
+  "3334": {
+    "name": "Beta Taka",
+    "category": "Developer"
+  },
+  "3335": {
+    "name": "Title Screen Demo Cutscene Village",
+    "category": "Developer"
+  },
+  "3584": {
+    "name": "Fishing with Benkei on Sei-an Bridge",
+    "category": "Fishing"
+  },
+  "3585": {
+    "name": "Fishing with Benkei next to Himiko's Palace",
+    "category": "Fishing"
+  },
+  "3586": {
+    "name": "Fishing with Kokari in Agata",
+    "category": "Fishing"
+  },
+  "3587": {
+    "name": "Fishing with Kokari in Kamui",
+    "category": "Fishing"
+  },
+  "3588": {
+    "name": "Fishing with Fisherman in NRyo",
+    "category": "Fishing"
+  },
+  "3841": {
+    "name": "Shinshu Field - Cursed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [1000, -1000]
   },
   "3842": {
-    "name": "Shinshu Field (Healed)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Shinshu Field - Healed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [1000, -1000]
+  },
+  "3843": {
+    "name": "Agata Forest - Cursed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-1000, 5500],
+    "layers": ["Lower level", "Upper level"]
   },
   "3844": {
-    "name": "Agata Forest (Healed)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Agata Forest - Healed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-1000, 5500],
+    "layers": ["Lower level", "Upper level"]
   },
   "3846": {
     "name": "Moon Cave Entrance",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 1,
+    "center": [1600, 7900]
+  },
+  "3847": {
+    "name": "Taka Pass - Cursed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-4500, 4000]
   },
   "3848": {
-    "name": "Taka Pass (Healed)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Taka Pass - Healed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-4500, 4000]
+  },
+  "3849": {
+    "name": "Ryoshima Coast - Cursed",
+    "category": "Normal",
+    "scale": 3,
+    "center": [500, 3500]
   },
   "3850": {
-    "name": "Ryoshima Coast (Healed)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Ryoshima Coast - Healed",
+    "category": "Normal",
+    "scale": 3,
+    "center": [500, 3500]
   },
   "3852": {
-    "name": "North Ryoshima Coast",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "N. Ryoshima Coast",
+    "category": "Normal",
+    "layerGroups": {
+      "Inner": {
+        "imageID": 3852,
+        "scale": 2,
+        "center": [1500, -3500],
+        "layers":  ["Inner", "Inner with Whirlpool", "Inner with Oni Island", "Inner with Otohime Bridge"]
+      },
+      "Outer": {
+        "imageID": 3920,
+        "scale": 6,
+        "center": [1200, -5500],
+        "layers": ["Outer", "Outer with Whirlpool", "Outer with Oni Island", "Outer with Otohime Bridge and Oni Island"]
+      }
+    }
+  },
+  "3857": {
+    "name": "Kamui - Cursed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "3858": {
-    "name": "Kamui (Healed)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Kamui - Healed",
+    "category": "Normal",
+    "scale": 2,
+    "center": [-500, -4100]
   },
   "3859": {
     "name": "Kamui (Ezofuji)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "category": "Normal",
+    "scale": 2,
+    "center": [500, -1500],
+    "layers": ["Laochi Lake frozen", "Laochi Lake thawed"]
   },
   "3872": {
-    "name": "Shinshu Field (Past)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Shinshu Field - 100 years ago",
+    "category": "Normal",
+    "scale": 2,
+    "center": [800, -300]
   },
   "3873": {
-    "name": "Moon Cave Entrance (Past)",
-    "layers": ["Normal"],
-    "leafletScale": 5200,
-    "leafletNEOffset": [1000, 1000]
+    "name": "Moon Cave Entrance - 100 years ago",
+    "category": "Normal",
+    "scale": 1,
+    "center": [1600, 7900]
   }
 }
