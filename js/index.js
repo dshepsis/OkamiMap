@@ -81,19 +81,6 @@ function viewAnchoredRow() {
   }
 }
 
-function reOrganiseElements() {
-  const { height, width } = document.body.getBoundingClientRect()
-  if (height <= 400 && height < width) {
-    const footer = document.querySelector('footer')
-    const nav = document.querySelector('nav')
-    footer.removeChild(nav)
-    const main = document.querySelector('main')
-    main.replaceChildren(nav, ...main.children)
-  }
-}
-
-reOrganiseElements()
-
 ;(async () => {
   buildTable(document.getElementById('table-cont').dataset.type)
     .then(rows => {

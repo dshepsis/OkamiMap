@@ -11,7 +11,7 @@
 }
 
 html {
-  background: #f8f8f8;
+  background: var(--white);
   height: 100%;
 }
 
@@ -29,8 +29,7 @@ main {
 }
 
 #preview {
-  display: block;
-  object-fit: contain;
+  height: 100%;
   grid-area: preview;
   opacity: 1;
   filter: none;
@@ -52,20 +51,6 @@ main {
   height: 100%;
   overflow: scroll;
 }
-
-/* @media (min-aspect-ratio: 4/1) {
-  body {
-    flex-flow: row wrap;
-  }
-  #table-cont {
-    flex: 1 0 auto;
-  }
-  #preview {
-    width: 25%;
-    height: 100%;
-    max-height: none;
-  }
-} */
 
 table {
   border-collapse: collapse;
@@ -126,7 +111,7 @@ footer {
   padding: 3px;
   width: 100%;
   text-align: center;
-  border-top: 1px solid #aaa;
+  border-top: 1px solid var(--grey-3);
 }
 
 nav > #separator {
@@ -136,7 +121,7 @@ nav > #separator {
 @media screen and (max-height: 400px) and (orientation: landscape) {
   main {
     grid-template-columns: unset;
-    grid-template-areas: 'nav preview .' 'table table table';
+    grid-template-areas: 'footer preview .' 'table table table';
   }
 
   #preview {
@@ -144,22 +129,11 @@ nav > #separator {
     width: 100%;
   }
 
-  /* TODO: Unused for now. Used for icons to the left of menu items (Animals/Repository) */
-  /* .left-menu-item-icon {
-    width: 14px;
-    margin-right: 4px;
-  } */
-  footer {
-    visibility: hidden;
-  }
-
   nav {
-    background-color: var(--grey-3);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
-    grid-area: nav;
     height: 100%;
     width: 100%;
   }
@@ -179,15 +153,16 @@ nav > #separator {
     font: 20px/1.5 sans-serif;
   }
 
-  .icon-menu {
-    height: 40px;
-  }
-
   #preview {
     max-width: unset;
   }
 
   table * {
     font-size: 1rem;
+  }
+
+  #table-cont {
+    border: solid 1px var(--grey-3);
+    max-width: 1500px;
   }
 }
